@@ -79,6 +79,9 @@ EIGRP Query <------> EIGRP Reply
 
 - `AD < FD`인 대체 경로의 Next-hop Router
 - Successor 장애 시 추가 계산 없이 바로 사용됨
+### AS
+- ISP에서 전달해주는 번호
+- EIGRP 설정에 필요하다.
 ## EIGRP Topology의 관리
 - `FS`를 통해 빠른 수렴이 가능하다.
 - `Successor`는 `FD`가 같은 경우 두 개 이상 선출 가능하다.
@@ -98,9 +101,12 @@ EIGRP Query <------> EIGRP Reply
 >  ![img7](image-7.png)
 >  4. 모든 `Query`에 대한 `Reply`가 도착하면 `D`는 새 `Successor`인 `C`, `E`를 선출한다.
 >  ![img8](image-8.png)
-## K Value
+## EIGRP의 Metric
 
-| K   | Value | Mean                     |
+- 대역폭과 지연시간을 합한 값
+### K Value
+
+| K   | Value |                          |
 | --- | ----- | ------------------------ |
 | K1  | 1     | 송-수신지 사이 가장 작은 bandwidth |
 | K2  | 0     | Load                     |
@@ -109,7 +115,31 @@ EIGRP Query <------> EIGRP Reply
 | K5  | 0     | MTU                      |
 
 `K Value`가 모두 동일하며 `AS`가 같은 경우, 인접하다고 판단 가능하다.
-### AS
-- ISP에서 전달해주는 번호
-### Metric
-- `Metric = (경로 상의 가장 낮은 대역폭) + (누적 지연)`
+
+> [!예시]
+> ![[Pasted image 20241202161246.png]]
+> - A-B-C-D : 가장 낮은 대역폭 64kbps, 총 지연 6,000
+> - A-E-F-G-D : 가장 낮은 대역폭 256Kbps, 총 지연 8,000
+#### 1) A-B-C-D의 EIGRP Metric 계산 
+ 
+> 	$대역폭 = (10^7 / kbps\,단위의\,가장\,낮은\,대역폭 ) * 256$
+>	$\qquad\qquad= (10,000,000 / 64 ) * 256 = 40,000,000$
+		
+> 	$지연 = 모든\;지연 * 256$
+>		 $\quad= 6,000 * 256 =1,536,000$
+
+> 	 $Metric = 대역폭 + 지연$ 
+> 	 $\qquad\qquad= 40,000,000 + 1,536,000$ 
+> 	 $\qquad\qquad= 41,536,000$
+#### 2)  A-E-F-G-D의 EIGRP Metric 계산
+
+> 	$대역폭 = (10,000,000 / 256) * 256$ 
+> 	$\qquad\qquad= 10,000,000$ 
+
+> 	$지연 = 8,000 * 256$
+> 	 $\qquad= 2,048,000$
+
+> 	 $Metric = 10,000,000 + 2,048,000$ 
+> 	 $\qquad\qquad= 12,048,000$
+
+- A-B-C-D보다 A-E-F-G-D의 $Metric$이 더 작으므로 A-E-F-G-D 경로를 사용해 EIGRP Packet을 전송한다.
