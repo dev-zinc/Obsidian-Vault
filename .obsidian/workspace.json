@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "baed113bb35f8715",
+        "id": "104d2f91b10fc2b1",
         "type": "tabs",
         "children": [
           {
-            "id": "326a93338a8a1e76",
+            "id": "021354d7bffdf390",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "법경제학/14-1 형법 (Criminal Law).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "14-1 형법 (Criminal Law)"
             }
           }
         ]
@@ -152,7 +156,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 273.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,13 +169,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "623666a60896e8a2",
+  "active": "021354d7bffdf390",
   "lastOpenFiles": [
+    "컴퓨터네트워크/Routing Protocol/Routing.md",
+    "법경제학/14-1 형법 (Criminal Law).md",
+    "컴퓨터네트워크/Routing Protocol/Link-State Routing Protocol.md",
+    "컴퓨터네트워크/Routing Protocol/resources/image.png",
+    "컴퓨터네트워크/Routing Protocol/resources",
+    "컴퓨터네트워크/Routing Protocol/resources/image-9.png",
+    "컴퓨터네트워크/Routing Protocol/resources/image-8.png",
+    "컴퓨터네트워크/Routing Protocol/resources/image-7.png",
+    "컴퓨터네트워크/Routing Protocol/resources/image-6.png",
+    "컴퓨터네트워크/Routing Protocol/resources/image-5.png",
+    "컴퓨터네트워크/Routing Protocol/resources/image-4.png",
+    "컴퓨터네트워크/Routing Protocol/resources/image-3.png",
+    "컴퓨터네트워크/Routing Protocol/resources/image-2.png",
+    "컴퓨터네트워크/Routing Protocol/resources/image-1.png",
+    "Untitled.md",
+    "컴퓨터네트워크/Untitled 1",
+    "컴퓨터네트워크/Routing Protocol",
     "법경제학/계약법/계약 체결상의 항변 (Formation Defense).md",
     "README.md",
-    "Untitled.md",
     "Untitled.canvas",
-    "법경제학/계약법/image1.png",
     "법경제학/계약법",
     "컴퓨터네트워크",
     "노동경제학",
