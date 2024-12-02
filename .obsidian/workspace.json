@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "104d2f91b10fc2b1",
+        "id": "009da273f4972549",
         "type": "tabs",
         "children": [
           {
-            "id": "021354d7bffdf390",
+            "id": "293e6e7139c4a5ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "법경제학/14-1 형법 (Criminal Law).md",
+                "file": "컴퓨터네트워크/Routing Protocol/Open Shortest Path First RP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14-1 형법 (Criminal Law)"
+              "title": "Open Shortest Path First RP"
             }
           }
         ]
@@ -93,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "컴퓨터네트워크/Routing Protocol/Open Shortest Path First RP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Open Shortest Path First RP"
             }
           },
           {
@@ -111,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "컴퓨터네트워크/Routing Protocol/Open Shortest Path First RP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Open Shortest Path First RP"
             }
           },
           {
@@ -136,13 +138,15 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "컴퓨터네트워크/Routing Protocol/Open Shortest Path First RP.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Open Shortest Path First RP"
             }
           },
           {
-            "id": "623666a60896e8a2",
+            "id": "bd32b31f93cd6666",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -166,14 +170,23 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "copilot:Copilot Chat": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "021354d7bffdf390",
+  "active": "293e6e7139c4a5ad",
   "lastOpenFiles": [
-    "컴퓨터네트워크/Routing Protocol/Routing.md",
-    "법경제학/14-1 형법 (Criminal Law).md",
+    "2024-12-02.md",
+    "컴퓨터네트워크/Routing Protocol/Enhanced Interior Gateway Routing Protocol.md",
+    "Untitled.canvas",
     "컴퓨터네트워크/Routing Protocol/Link-State Routing Protocol.md",
+    "컴퓨터네트워크/Routing Protocol/Open Shortest Path First RP.md",
+    "컴퓨터네트워크/Routing Protocol/RIP 이후 RP의 공통점.md",
+    "컴퓨터네트워크/다익스트라 알고리즘.md",
+    "컴퓨터네트워크/최단 경로 우선 알고리즘.md",
+    "README.md",
+    "법경제학/14-1 형법 (Criminal Law).md",
+    "컴퓨터네트워크/Routing Protocol/resources/image-3.png",
     "컴퓨터네트워크/Routing Protocol/resources/image.png",
     "컴퓨터네트워크/Routing Protocol/resources",
     "컴퓨터네트워크/Routing Protocol/resources/image-9.png",
@@ -182,15 +195,12 @@
     "컴퓨터네트워크/Routing Protocol/resources/image-6.png",
     "컴퓨터네트워크/Routing Protocol/resources/image-5.png",
     "컴퓨터네트워크/Routing Protocol/resources/image-4.png",
-    "컴퓨터네트워크/Routing Protocol/resources/image-3.png",
     "컴퓨터네트워크/Routing Protocol/resources/image-2.png",
     "컴퓨터네트워크/Routing Protocol/resources/image-1.png",
     "Untitled.md",
     "컴퓨터네트워크/Untitled 1",
     "컴퓨터네트워크/Routing Protocol",
     "법경제학/계약법/계약 체결상의 항변 (Formation Defense).md",
-    "README.md",
-    "Untitled.canvas",
     "법경제학/계약법",
     "컴퓨터네트워크",
     "노동경제학",
