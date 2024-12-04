@@ -15,9 +15,11 @@
 모든 [[Virtual Local Area Network|VLAN]]이 통신할 수 있는 포트.
 큰 네트워크에서는 반드시 Bottle Neck 현상이 생기므로, [[Switch|Asymmetric Switching]]이 필요한 경우가 생긴다.
 
+> [!warning] 
+> TRUNK Port를 지날 때 Snipping 위험 등 보안상 취약점이 존재한다.
+
 다음과 같은 Extended Topology에서 각 Switch 간을 지나는 통신을 위해 필요하다.
 ![alt text](vlan-top.png)
-이 또한 TRUNK Port를 지날 때 Snipping이 가능해 보안상 취약점이 존재한다.
 
 이를 막기 위해 [[Virtual Local Area Network|VLAN]] 수만큼 Switch 사이에 포트를 두는 경우도 있다.
 ![alt text](trunk.png)
@@ -28,15 +30,17 @@
 ![[Pasted image 20241204144952.png]]
 
 위와 같은 네트워크에서 10번 , 20번 VLAN에 대한 Inter-VLAN Routing은 다음과 같이 설정 가능하다.
-> 	# config VLAN 10
-> 	Router(config)# int fa0/0.10
-> 	Router(config-subif)#encapsulation dot1q 10
-> 	Router(config-subif)#ip add 203.230.7.1 255.255.255.0
-> 	
-> 	# config VLAN 20
-> 	Router(config)# int fa0/0.20
-> 	Router(config-subif)#encapsulation dot1q 20
-> 	Router(config-subif)#ip add 203.230.8.1 255.255.255.0
+```router
+# config VLAN 10
+Router(config)# int fa0/0.10
+Router(config-subif)#encapsulation dot1q 10
+Router(config-subif)#ip add 203.230.7.1 255.255.255.0
+
+# config VLAN 20
+Router(config)# int fa0/0.20
+Router(config-subif)#encapsulation dot1q 20
+Router(config-subif)#ip add 203.230.8.1 255.255.255.0
+```
 
  
 
