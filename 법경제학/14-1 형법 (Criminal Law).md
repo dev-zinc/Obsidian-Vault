@@ -62,7 +62,7 @@ careful   negligent   reckless   intention of   cruel
 
 ## 최적의 범죄 억제 정책
 
-``
+
 #### Becker\`s Maximal Punishment Argument
-- 적발확률 `p`보다 형량 `f`를 높이는 것이 더 비용이 적다.
+- 적발확률 $p$보다 형량 $f$를 높이는 것이 더 비용이 적다.
 ## 2. 얼마나 처벌해야 하는가? (양형)
