@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "72e842a1028ebca1",
+        "id": "416dfacf84856c38",
         "type": "tabs",
         "children": [
           {
-            "id": "2dbc2990ead72305",
+            "id": "365e1d958a60f6ee",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "컴퓨터네트워크/Layer 2/Virtual Local Area Network.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Virtual Local Area Network"
+              "title": "New tab"
             }
           }
         ]
@@ -170,30 +166,32 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "canvas:Create new canvas": false
+      "canvas:Create new canvas": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "a97f0ab96a65aefe",
   "lastOpenFiles": [
-    "컴퓨터네트워크/Layer 2/resources/Pasted image 20241204144952.png",
-    "컴퓨터네트워크/Routing Protocol/RIP 이후 RP의 공통점.md",
-    "Untitled.canvas",
-    "컴퓨터네트워크/Layer 2/Virtual Local Area Network.md",
+    "법경제학/형법/형법.md",
+    "법경제학/14-2.md",
+    "법경제학/형법",
+    "법경제학/계약법/계약 체결상의 항변 (Formation Defense).md",
+    "컴퓨터네트워크/Algorithm/다익스트라 알고리즘.md",
+    "컴퓨터네트워크/Algorithm/Diffusing Update Algorithm.md",
+    "컴퓨터네트워크/Algorithm/최단 경로 우선 알고리즘.md",
+    "컴퓨터네트워크/Layer 2/Carrier Sense Multiple Access; Collision Detection.md",
     "컴퓨터네트워크/Layer 2/Switch.md",
+    "컴퓨터네트워크/Layer 2/Virtual Local Area Network.md",
+    "컴퓨터네트워크/Routing Protocol/RIP 이후 RP의 공통점.md",
     "컴퓨터네트워크/Routing Protocol/Open Shortest Path First RP.md",
     "컴퓨터네트워크/Routing Protocol/Link-State Routing Protocol.md",
     "컴퓨터네트워크/Routing Protocol/Enhanced Interior Gateway Routing Protocol.md",
-    "컴퓨터네트워크/Algorithm/Diffusing Update Algorithm.md",
-    "컴퓨터네트워크/Algorithm/최단 경로 우선 알고리즘.md",
-    "컴퓨터네트워크/Algorithm/다익스트라 알고리즘.md",
-    "법경제학/계약법/계약 체결상의 항변 (Formation Defense).md",
-    "법경제학/14-2.md",
-    "법경제학/14-1 형법 (Criminal Law).md",
-    "컴퓨터네트워크/Layer 2/Carrier Sense Multiple Access; Collision Detection.md",
+    "TO-DO.md",
+    "2024-12-05.md",
+    "컴퓨터네트워크/Layer 2/resources/Pasted image 20241204144952.png",
+    "Untitled.canvas",
     "컴퓨터네트워크/Layer 2/resources/show-vlan.png",
     "[Virtual Local Area Network.md",
-    "Untitled.md",
     "컴퓨터네트워크/Layer 2/resources",
     "컴퓨터네트워크/Layer 2",
     "컴퓨터네트워크/Layer 2/resources/Pasted image 20241204135608.png",
@@ -216,7 +214,6 @@
     "컴퓨터네트워크/Untitled 1",
     "컴퓨터네트워크/Routing Protocol",
     "법경제학/계약법",
-    "컴퓨터네트워크",
     "2024-11-25.md",
     "Untitled/Untitled.md",
     "test1.md",

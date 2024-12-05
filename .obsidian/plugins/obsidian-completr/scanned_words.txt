@@ -68,6 +68,9 @@ DT
 Da
 DHH
 DaH
+December
+Daily
+Deterance
 Algorithm
 Area
 Address
@@ -424,6 +427,10 @@ SM
 SKj
 SH
 SoK
+Summary
+Simpson
+Specific
+Self
 or
 ov
 oc
@@ -557,6 +564,7 @@ RR
 RIN
 RPKN
 Röa
+Reporting
 Table
 Topology
 TTf
@@ -693,6 +701,7 @@ tu
 tkU
 tid
 trjG
+type
 Packet
 Partial
 PNG
@@ -895,6 +904,7 @@ ico
 ie
 iP
 iuB
+input
 png
 pI
 pN
@@ -1559,6 +1569,7 @@ Fdq
 FfP
 Fn
 FDF
+Facebook
 hop
 hS
 hbJ
@@ -2101,6 +2112,8 @@ WZ
 WuyR
 WBpZ
 Wk
+Weekly
+Week
 ug
 uq
 ux
@@ -2366,6 +2379,8 @@ GV
 Gk
 Gj
 GqA
+Goal
+General
 fj
 fv
 fu
@@ -2723,6 +2738,7 @@ cjd
 cJt
 cpw
 cV
+checkbox
 YP
 Yj
 Yx

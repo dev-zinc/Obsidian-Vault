@@ -2,7 +2,7 @@
 - [[Distance Vecor RP|DVRP]]와 [[Link-State Routing Protocol|Link-State RP]]의 장점만을 가지므로 "Advanced Distance Vector RP"라고 불리기도 한다.
 - Cisco 전용(이었던 것)이며, `224.0.0.10`의 `Multicast Address`를 사용한다.
 ### Classless RP
--  - `Subnetting`과 `VLSM`을 지원한다.
+- `Subnetting`과 `VLSM`을 지원한다.
 ## Partial Update
 -  경로의 변화가 있을 때만 Update를 한다.
 - MD5 알고리즘을 통해 서로 간 인증이 가능
@@ -15,7 +15,7 @@
 ## EIGRP Packet의 종류
 ### 1. Hello Packet
 - 인접 라우터와 주고받으며 서로 같은 프로토콜을 사용하는 경우 `neighbor` 관계 형성
-- `neighbor`시 `Topology Table`을 공유하고 이를 `DUAL`하여 최적 경로 설정
+- `neighbor`시 `Topology Table`을 공유하고 [[Diffusing Update Algorithm|DUAL]]을 통하여 최적 경로 설정
 - 기간마다 다시 보냄
 	![alt text](image-2.png)
 - 해당 `Hello Interval`의 3배의 시간인 `Hold Time(유지 시간)`동안 주고받지 않으면 `neighbor` 해제
@@ -62,7 +62,7 @@
 - `FS`를 통해 빠른 수렴이 가능하다.
 - `Successor`는 `FD`가 같은 경우 두 개 이상 선출 가능하다.
 
-> [!EIGRP 절차 예시]
+> [!example]- EIGRP 절차 예시
 > 0. 기본 상태 
 > ![img3](image-3.png)
 > 1. `D`와 인접한 네트워크 링크에 문제가 생겨 `D`가 `Successor`를 삭제
@@ -92,7 +92,7 @@
 
 `K Value`가 모두 동일하며 `AS`가 같은 경우, 인접하다고 판단 가능하다.
 
-> [!예시]
+> [!example]  Metric 계산 예시
 > ![[Pasted image 20241202161246.png]]
 > - A-B-C-D : 가장 낮은 대역폭 64kbps, 총 지연 6,000
 > - A-E-F-G-D : 가장 낮은 대역폭 256Kbps, 총 지연 8,000
