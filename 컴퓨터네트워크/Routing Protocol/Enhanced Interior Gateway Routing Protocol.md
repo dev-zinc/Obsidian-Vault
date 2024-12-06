@@ -9,13 +9,13 @@
 - [[Diffusing Update Algorithm|DUAL]]을 통해 (경로 오류 시 등 업데이트 시)최적 경로를 선출한다.
 - 첫 연산 시에는 기본 알고리즘 쓰고 이후 업데이트로 유지보수 시에만 [[Diffusing Update Algorithm|DUAL]]이 사용됨.
 ### EIGRP의 대략적인 작동 절차
-1. `Hello Packet`을 통한 `Neighbor` 형성 및 `Neighbor Table` 생성
-2. `Update Packet`을 통한 정보 공유 및 `Topology Table` 생성
-3. `Topology Table`을 통해 라우팅 경로 계산
+1. [[Enhanced Interior Gateway Routing Protocol#1. Hello Packet|Hello Packet]]을 통한 `Neighbor` 형성 및 [[Enhanced Interior Gateway Routing Protocol#Neighbor Table|Neighbor Table]] 생성
+2. [[Enhanced Interior Gateway Routing Protocol#2. Update Packet|Update Packet]]을 통한 정보 공유 및 [[Enhanced Interior Gateway Routing Protocol#Topology Table|Topology Table]] 생성
+3. [[Enhanced Interior Gateway Routing Protocol#Topology Table|Topology Table]]을 통해 라우팅 경로 계산
 ## EIGRP Packet의 종류
 ### 1. Hello Packet
 - 인접 라우터와 주고받으며 서로 같은 프로토콜을 사용하는 경우 `neighbor` 관계 형성
-- `neighbor`시 `Topology Table`을 공유하고 [[Diffusing Update Algorithm|DUAL]]을 통하여 최적 경로 설정
+- `neighbor`시  [[Enhanced Interior Gateway Routing Protocol#Topology Table|Topology Table]]을 공유하고 [[Diffusing Update Algorithm|DUAL]]을 통하여 최적 경로 설정
 - 기간마다 다시 보냄
 	![alt text](image-2.png)
 - 해당 `Hello Interval`의 3배의 시간인 `Hold Time(유지 시간)`동안 주고받지 않으면 `neighbor` 해제
@@ -28,18 +28,11 @@
 ### 4. Reply Packet
 - `Query Packet`에 대한 대답
 ### 5. Acknowledgement Packet(`ACK`)
-- `Update Packet`, `Query Packet`, `Reply Packet`의 수신 확인용
-- `ACK`, `Hello`에 대한 대답은 안함
+- [[Enhanced Interior Gateway Routing Protocol#2. Update Packet|Update Packet]], [[Enhanced Interior Gateway Routing Protocol#3. Query Packet|Query Packet]], [[Enhanced Interior Gateway Routing Protocol#4. Reply Packet|Reply Packet]]의 수신 확인용
+-  [[Enhanced Interior Gateway Routing Protocol#1. Hello Packet|Hello Packet]], [[Enhanced Interior Gateway Routing Protocol#5. Acknowledgement Packet(`ACK`)|ACK Packet]]에 대한 대답은 안함
 ## 그 외 EIGRP에서 사용하는 개념
 ### Neighbor Table
 > `# show ip eigrp neighbor`
-
-3) Routing Table (#show ip route eigrp)
-
-4) FD(Feasible Distance)
-
-5) AD(Advertised Distance)
-
 - 출발지 Next-hop 라우터에서 목적지 네트워크까지 계산한 EIGRP Metric
 ### Topology Table
 > `# show ip eigrp topology`
@@ -47,9 +40,9 @@
 - 모든 경로 저장 및 최적 경로 선출
 - 최적 경로에 장애가 생기면 DUAL로 차선(2nd) 경로 선출
 ### Feasible Distance(`FD`)
-- Destination까지의 $EIGRP\;Metric$`(거리)`
+- Destination까지의 [[Enhanced Interior Gateway Routing Protocol#EIGRP Metric|EIGRP Metric]]`(거리)`
 ### Advertised Distance(`AD`) or Reported Distance(`RD`)
-- Next-hop Router로부터 Destination까지의 $EIGRP\;Metric$
+- Next-hop Router로부터 Destination까지의 [[Enhanced Interior Gateway Routing Protocol#EIGRP Metric|EIGRP Metric]]
 ### Successor
 - FD가 최소인 경로의 Next-hop Router
 ### Feasible Successor(`FS`)
@@ -77,7 +70,7 @@
 >  ![img7](image-7.png)
 >  4. 모든 `Query`에 대한 `Reply`가 도착하면 `D`는 새 `Successor`인 `C`, `E`를 선출한다.
 >  ![img8](image-8.png)
-## EIGRP의 Metric
+## EIGRP Metric
 
 - 대역폭과 지연시간을 합한 값
 ### K Value

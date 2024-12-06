@@ -13,7 +13,7 @@
 [[Virtual Local Area Network|VLAN]]을 나누게 되면 보안성이 향상된다.(기본포트 바꾸는 것과 같은 이치)
 ## TRUNK Port
 모든 [[Virtual Local Area Network|VLAN]]이 통신할 수 있는 포트.
-큰 네트워크에서는 반드시 Bottle Neck 현상이 생기므로, [[Switch|Asymmetric Switching]]이 필요한 경우가 생긴다.
+큰 네트워크에서는 반드시 Bottle Neck 현상이 생기므로, [[Switch#Asymmetric Switching|Asymmetric Switching]]이 필요한 경우가 생긴다.
 
 > [!warning] 
 > TRUNK Port를 지날 때 Snipping 위험 등 보안상 취약점이 존재한다.

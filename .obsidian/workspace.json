@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "416dfacf84856c38",
+        "id": "17000ba0006d13fd",
         "type": "tabs",
         "children": [
           {
-            "id": "365e1d958a60f6ee",
+            "id": "e33cc7952f6e3b3a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "컴퓨터네트워크/VPN.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "VPN"
             }
           }
         ]
@@ -172,20 +176,23 @@
   },
   "active": "a97f0ab96a65aefe",
   "lastOpenFiles": [
+    "컴퓨터네트워크/GRE Tunnel.png",
+    "컴퓨터네트워크/WAN.md",
+    "컴퓨터네트워크/VPN.md",
+    "컴퓨터네트워크/Routing Protocol/Algorithm/다익스트라 알고리즘.md",
+    "컴퓨터네트워크/Layer 2/Virtual Local Area Network.md",
+    "컴퓨터네트워크/Routing Protocol/Link-State Routing Protocol.md",
+    "컴퓨터네트워크/Routing Protocol/Open Shortest Path First RP.md",
+    "컴퓨터네트워크/Routing Protocol/Enhanced Interior Gateway Routing Protocol.md",
+    "컴퓨터네트워크/Layer 2/Carrier Sense Multiple Access; Collision Detection.md",
+    "컴퓨터네트워크/Layer 2/Switch.md",
+    "법경제학/계약법/계약 체결상의 항변 (Formation Defense).md",
     "법경제학/형법/형법.md",
     "법경제학/14-2.md",
     "법경제학/형법",
-    "법경제학/계약법/계약 체결상의 항변 (Formation Defense).md",
-    "컴퓨터네트워크/Algorithm/다익스트라 알고리즘.md",
-    "컴퓨터네트워크/Algorithm/Diffusing Update Algorithm.md",
-    "컴퓨터네트워크/Algorithm/최단 경로 우선 알고리즘.md",
-    "컴퓨터네트워크/Layer 2/Carrier Sense Multiple Access; Collision Detection.md",
-    "컴퓨터네트워크/Layer 2/Switch.md",
-    "컴퓨터네트워크/Layer 2/Virtual Local Area Network.md",
+    "컴퓨터네트워크/Routing Protocol/Algorithm/Diffusing Update Algorithm.md",
+    "컴퓨터네트워크/Routing Protocol/Algorithm/최단 경로 우선 알고리즘.md",
     "컴퓨터네트워크/Routing Protocol/RIP 이후 RP의 공통점.md",
-    "컴퓨터네트워크/Routing Protocol/Open Shortest Path First RP.md",
-    "컴퓨터네트워크/Routing Protocol/Link-State Routing Protocol.md",
-    "컴퓨터네트워크/Routing Protocol/Enhanced Interior Gateway Routing Protocol.md",
     "TO-DO.md",
     "2024-12-05.md",
     "컴퓨터네트워크/Layer 2/resources/Pasted image 20241204144952.png",
@@ -201,7 +208,7 @@
     "컴퓨터네트워크/VLAN/resources",
     "컴퓨터네트워크/Untitled.canvas",
     "법경제학/계약법/image1.png",
-    "컴퓨터네트워크/Algorithm",
+    "컴퓨터네트워크/Routing Protocol/Algorithm",
     "Distance Vecor RP.md",
     "DVRP.md",
     "컴퓨터네트워크/Routing Protocol/resources/Pasted image 20241202161246.png",
@@ -216,7 +223,6 @@
     "법경제학/계약법",
     "2024-11-25.md",
     "Untitled/Untitled.md",
-    "test1.md",
-    "1234.md"
+    "test1.md"
   ]
 }
