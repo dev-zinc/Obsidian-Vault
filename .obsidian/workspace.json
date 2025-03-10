@@ -4,33 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "5641c9b77de87694",
+        "id": "38f2251fbedb1bf8",
         "type": "tabs",
         "children": [
           {
-            "id": "689c2e4838c4d5b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "25f/운영체제/Chapter 1/Chapter 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Chapter 1"
-            }
-          },
-          {
-            "id": "20bc3678607fc275",
+            "id": "49c1bd1d7250798e",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "25f/운영체제/Chapter 1/[Lec01] Introduction.pdf"
+                "file": "25f/게임그래픽프로그래밍/2주차/1. Vector Algebra.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "[Lec01] Introduction"
+              "title": "1. Vector Algebra"
             }
           }
         ]
@@ -187,13 +173,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bd32b31f93cd6666",
+  "active": "49c1bd1d7250798e",
   "lastOpenFiles": [
+    "25f/게임그래픽프로그래밍/2주차/Vector.md",
+    "25f/게임그래픽프로그래밍/2주차/1. Vector Algebra.pdf",
+    "25f/게임그래픽프로그래밍/2주차/2. Matrix Algebra.pdf",
+    "25f/운영체제/Chapter 1/Chapter 1.md",
     "25f/게임그래픽프로그래밍/2주차",
     "25f/게임그래픽프로그래밍",
     "25f/운영체제/Chapter 1/Sample Code.md",
     "25f/운영체제/Chapter 1/[Lec01] Introduction.pdf",
-    "25f/운영체제/Chapter 1/Chapter 1.md",
     "25f/금융실무특강/1주차/금융.md",
     "25f/운영체제/2주차/Untitled.md",
     "25f/운영체제/2주차",
@@ -207,11 +196,8 @@
     "25f/정보보호/2주차",
     "Untitled.md",
     "25f/정보보호",
-    "25f/운영체제",
     "25f/운영체제/Chapter 1/Syllabus.md",
     "25f/Untitled.md",
-    "25f/운영체제/Chapter 1",
-    "25f",
     "AnimalFarm2/Guides/튜토_체험 기획.md",
     "AnimalFarm2/Guides/요리.md",
     "AnimalFarm2/Guides/낚시 + 룬.md",
@@ -224,7 +210,6 @@
     "AnimalFarm2/quest/domain/QuestProcess Logic.md",
     "Untitled 1.md",
     "AnimalFarm2/quest/domain/QuestProcess.md",
-    "Excalidraw/Drawing 2024-12-27 03.59.11.excalidraw.md",
     "AnimalFarm2/Quest.canvas",
     "24s/컴퓨터네트워크/Pasted image 20241206112307.png",
     "24s/컴퓨터네트워크/GRE Tunnel.png",
