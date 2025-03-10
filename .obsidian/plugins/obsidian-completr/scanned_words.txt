@@ -330,6 +330,10 @@ AAAACN
 Arial
 Abraham
 AGP
+Assembly
+ADT
+ALU
+Arithmetic
 OSPF
 OSFP
 OT
@@ -789,6 +793,7 @@ Liv
 Leading
 LKi
 Linux
+Logical
 SPF
 State
 Successor
@@ -958,6 +963,11 @@ SaX
 Silberschatz
 System
 Sons
+Status
+Stack
+Space
+Startup
+Sum
 or
 ov
 oc
@@ -1273,6 +1283,10 @@ RGj
 Rwa
 ROk
 Root
+Rate
+Register
+Registers
+Routine
 Table
 Topology
 TTf
@@ -1606,6 +1620,7 @@ tjC
 trfIxr
 trailer
 template
+time
 Packet
 Partial
 PNG
@@ -1789,6 +1804,11 @@ PiQ
 Producer
 Peter
 Programming
+Protection
+Program
+PSW
+Pointer
+Purpose
 Hello
 HV
 HK
@@ -1955,6 +1975,7 @@ HBj
 HuU
 Hcu
 HiB
+Heap
 image
 ip
 iCCPICC
@@ -2295,6 +2316,7 @@ ptM
 pdec
 passion
 pdf
+process
 Interface
 ISP
 IHDR
@@ -2484,6 +2506,8 @@ IjH
 IgV
 IJW
 Info
+Index
+Instruction
 Cost
 Cisco
 Classless
@@ -2654,6 +2678,11 @@ Concepts
 Computer
 Controller
 CPU
+Code
+Control
+Counter
+CSR
+Call
 EIGRP
 EP
 Eh
@@ -2986,6 +3015,7 @@ USU
 UlUPn
 UphT
 UCv
+Unit
 Query
 QF
 Qo
@@ -3788,6 +3818,9 @@ FZb
 Fbw
 FEY
 FreeRTOS
+Funds
+Flow
+Function
 hop
 hS
 hbJ
@@ -4129,6 +4162,9 @@ Mas
 Masm
 MjkW
 ModDate
+MMU
+Management
+MPU
 nd
 ns
 nT
@@ -5232,6 +5268,7 @@ WNo
 WEp
 Windows
 Wiley
+Word
 ug
 uq
 ux
@@ -6782,6 +6819,8 @@ cEjizE
 cqg
 campus
 controller
+code
+const
 YP
 Yj
 Yx
@@ -7396,6 +7435,7 @@ BVF
 BspCaG
 BoldMT
 Bus
+Base
 aqlQ
 aY
 ah
@@ -7859,6 +7899,8 @@ mfB
 mVV
 mGGnn
 mailto
+multi
+multiplexing
 wT
 wf
 wi
@@ -8189,6 +8231,7 @@ xkk
 xjx
 xUK
 xref
+xFFFFFFFF
 lE
 ln
 ls
