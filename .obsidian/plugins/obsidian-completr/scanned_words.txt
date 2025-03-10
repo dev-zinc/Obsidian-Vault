@@ -160,6 +160,7 @@ DaTAk
 Dtv
 DIpbrA
 DTPt
+Devices
 Algorithm
 Area
 Address
@@ -334,6 +335,7 @@ Assembly
 ADT
 ALU
 Arithmetic
+Architecture
 OSPF
 OSFP
 OT
@@ -968,6 +970,7 @@ Stack
 Space
 Startup
 Sum
+SRAM
 or
 ov
 oc
@@ -1809,6 +1812,7 @@ Program
 PSW
 Pointer
 Purpose
+Place
 Hello
 HV
 HK
@@ -2508,6 +2512,7 @@ IJW
 Info
 Index
 Instruction
+Instructions
 Cost
 Cisco
 Classless
@@ -3651,6 +3656,7 @@ esv
 eshChU
 eSp
 edition
+eXecution
 FD
 Feasible
 Ff
@@ -3821,6 +3827,7 @@ FreeRTOS
 Funds
 Flow
 Function
+Flash
 hop
 hS
 hbJ
@@ -6157,6 +6164,7 @@ XHeight
 Xfh
 Xwp
 XUk
+XIP
 Zh
 Za
 ZLAYn
