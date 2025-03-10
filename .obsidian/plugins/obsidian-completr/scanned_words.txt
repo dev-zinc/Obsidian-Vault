@@ -1157,6 +1157,8 @@ SZY
 SwKg
 SOH
 SflE
+SIMD
+SSE
 or
 ov
 oc
@@ -2726,6 +2728,7 @@ pZe
 pltls
 phs
 pfr
+pre
 Interface
 ISP
 IHDR
@@ -4277,6 +4280,7 @@ euvY
 eLfg
 eyE
 eyCYC
+extension
 FD
 Feasible
 Ff
@@ -4895,6 +4899,7 @@ MeW
 Mtq
 MNq
 Mgr
+ModelMatrix
 nd
 ns
 nT
@@ -5233,6 +5238,7 @@ VVv
 VVt
 Vob
 VDL
+ViewMatrix
 bandwidth
 bm
 bv
@@ -6877,6 +6883,7 @@ GmnGY
 GCoU
 GPf
 GWD
+GPU
 fj
 fv
 fu
@@ -9297,6 +9304,8 @@ mpo
 mcc
 mZu
 mhy
+method
+multiplication
 wT
 wf
 wi
