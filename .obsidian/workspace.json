@@ -182,13 +182,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
       "canvas:Create new canvas": false,
+      "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "689c2e4838c4d5b7",
+  "active": "bd32b31f93cd6666",
   "lastOpenFiles": [
+    "25f/게임그래픽프로그래밍/2주차",
+    "25f/게임그래픽프로그래밍",
     "25f/운영체제/Chapter 1/Sample Code.md",
     "25f/운영체제/Chapter 1/[Lec01] Introduction.pdf",
     "25f/운영체제/Chapter 1/Chapter 1.md",
@@ -217,7 +219,6 @@
     "AnimalFarm2/Guides/광산 + 감정.md",
     "AnimalFarm2/quest/Generic 타입추론.md",
     "Quest.md",
-    "AnimalFarm2/Guides",
     "AnimalFarm2/quest/view/Drawing.md",
     "AnimalFarm2/quest/domain/Quest.md",
     "AnimalFarm2/quest/domain/QuestProcess Logic.md",
