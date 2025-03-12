@@ -4,41 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e8df11a0e68728c6",
+        "id": "6a57d8b1c7db8e65",
         "type": "tabs",
-        "dimension": 49.7194950911641,
         "children": [
           {
-            "id": "3c66a29c4e480f4e",
+            "id": "0a6a77f9a92bf92c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "25f/운영체제/Chapter 1/Chapter 1.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Chapter 1"
-            }
-          }
-        ]
-      },
-      {
-        "id": "6c0363afca991548",
-        "type": "tabs",
-        "dimension": 50.28050490883591,
-        "children": [
-          {
-            "id": "1b6e8ce815464250",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "25f/운영체제/Chapter 1/[Lec01] Introduction.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "[Lec01] Introduction"
+              "title": "New tab"
             }
           }
         ]
@@ -98,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5,
-    "collapsed": true
+    "width": 227.5
   },
   "right": {
     "id": "26d95bc1bd661cbb",
@@ -196,26 +171,30 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3c66a29c4e480f4e",
+  "active": "0a6a77f9a92bf92c",
   "lastOpenFiles": [
-    "25f/운영체제/Chapter 1/[Lec01] Introduction.pdf",
+    "25f/금융실무특강/1주차/금융.md",
+    "Drawing 2025-03-12 14.30.27.excalidraw.md",
+    "25f/금융실무특강/금융실무특강.md",
+    "25f/게임그래픽프로그래밍/2주차/XMMATRIX.md",
+    "25f/게임그래픽프로그래밍/2주차/Calling Conventions.md",
+    "25f/게임그래픽프로그래밍/2주차/SIMD.md",
+    "25f/게임그래픽프로그래밍/2주차/2. Matrix Algebra.pdf",
+    "24s/컴퓨터네트워크/Layer 2/Virtual Local Area Network.md",
+    "24s/컴퓨터네트워크/Layer 2/Switch.md",
+    "24s/컴퓨터네트워크/Layer 2/Carrier Sense Multiple Access; Collision Detection.md",
+    "25f/게임그래픽프로그래밍/2주차/XMVECTOR, XMFLOAT.md",
     "25f/운영체제/Chapter 1/Chapter 1.md",
+    "25f/운영체제/Chapter 1/[Lec01] Introduction.pdf",
     "25f/정보보호/2주차/Protocol.md",
     "25f/게임그래픽프로그래밍/2주차/1. Vector Algebra.pdf",
     "conflict-files-obsidian-git.md",
-    "25f/게임그래픽프로그래밍/2주차/2. Matrix Algebra.pdf",
-    "25f/게임그래픽프로그래밍/2주차/XMVECTOR, XMFLOAT.md",
-    "25f/게임그래픽프로그래밍/2주차/Calling Conventions.md",
-    "25f/게임그래픽프로그래밍/2주차/XMMATRIX.md",
-    "25f/게임그래픽프로그래밍/2주차/SIMD.md",
     "25f/게임그래픽프로그래밍/HW.md",
     "25f/게임그래픽프로그래밍/2주차",
     "25f/게임그래픽프로그래밍",
     "25f/운영체제/Chapter 1/Sample Code.md",
-    "25f/금융실무특강/1주차/금융.md",
     "25f/운영체제/2주차/Untitled.md",
     "25f/운영체제/2주차",
-    "25f/금융실무특강/금융실무특강.md",
     "2025-03-07.md",
     "25f/정보보호/2주차/2.md",
     "25f/금융실무특강/1주차",
@@ -230,9 +209,6 @@
     "AnimalFarm2/Guides/튜토_체험 기획.md",
     "AnimalFarm2/Guides/요리.md",
     "AnimalFarm2/Guides/낚시 + 룬.md",
-    "AnimalFarm2/Guides/도축.md",
-    "AnimalFarm2/Guides/광산 + 감정.md",
-    "AnimalFarm2/quest/Generic 타입추론.md",
     "AnimalFarm2/Quest.canvas",
     "24s/컴퓨터네트워크/Pasted image 20241206112307.png",
     "24s/컴퓨터네트워크/GRE Tunnel.png",

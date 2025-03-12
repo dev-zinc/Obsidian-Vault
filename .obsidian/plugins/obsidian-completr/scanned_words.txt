@@ -1178,6 +1178,8 @@ Seq
 Signal
 Set
 Superscalar
+SIMD
+SSE
 or
 ov
 oc
@@ -2768,6 +2770,7 @@ pAl
 pMz
 pAQ
 pOi
+pre
 Interface
 ISP
 IHDR
@@ -4346,6 +4349,7 @@ eUGa
 epe
 eHA
 eAAg
+extension
 FD
 Feasible
 Ff
@@ -4972,6 +4976,7 @@ Modulation
 MBR
 Multicore
 Multiprocessing
+ModelMatrix
 nd
 ns
 nT
@@ -5311,6 +5316,7 @@ VhC
 VtC
 VXC
 VLIW
+ViewMatrix
 bandwidth
 bm
 bv
@@ -6963,6 +6969,7 @@ GTe
 GsOe
 Goe
 GRUB
+GPU
 fj
 fv
 fu
@@ -7139,6 +7146,7 @@ ffD
 fcM
 fZjKjg
 fAOz
+float
 Xg
 XA
 XNA
@@ -7331,6 +7339,7 @@ XXZJ
 Xol
 XML
 XRef
+XMMATRIX
 Zh
 Za
 ZLAYn
@@ -9403,6 +9412,8 @@ moe
 mtY
 mfU
 meta
+method
+multiplication
 wT
 wf
 wi
