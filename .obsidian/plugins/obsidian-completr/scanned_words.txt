@@ -196,6 +196,7 @@ DSC
 Description
 DocumentID
 DisplayDocTitle
+Demodulation
 Algorithm
 Area
 Address
@@ -393,6 +394,9 @@ Anz
 Atd
 Alt
 ACBAA
+Amplitude
+ARM
+AMD
 OSPF
 OSFP
 OT
@@ -584,6 +588,7 @@ OaE
 ONq
 Oww
 OZdbuL
+OSI
 Neighbor
 Next
 NI
@@ -768,6 +773,7 @@ Nuw
 Nkc
 NHII
 NCFq
+NUMA
 LSA
 LSDB
 LSR
@@ -943,6 +949,9 @@ LOKM
 Lee
 LyW
 LTSC
+Layer
+LILO
+Level
 SPF
 State
 Successor
@@ -1026,7 +1035,6 @@ SKj
 SH
 SoK
 Summary
-Simpson
 Specific
 Self
 Static
@@ -1167,6 +1175,9 @@ SxK
 SDJ
 Sqbxb
 Seq
+Signal
+Set
+Superscalar
 or
 ov
 oc
@@ -1547,6 +1558,9 @@ RRB
 RRR
 RQO
 RDF
+RSIC
+Reduced
+RISC
 Table
 Topology
 TTf
@@ -1750,6 +1764,7 @@ TRO
 Tul
 ToH
 TTpkTd
+Test
 table
 tC
 tFXvz
@@ -2167,6 +2182,12 @@ Pug
 Pqd
 PAy
 PowerPoint
+Physical
+Phase
+POST
+Power
+Pipelining
+Parallelism
 Hello
 HV
 HK
@@ -2963,6 +2984,9 @@ IMI
 ItH
 ItD
 InstanceID
+ICMP
+ISA
+ILP
 Cost
 Cisco
 Classless
@@ -3165,6 +3189,12 @@ CDT
 CqO
 CreatorTool
 CreateDate
+Connection
+Cable
+Connector
+Communication
+CISC
+Complex
 EIGRP
 EP
 Eh
@@ -3391,6 +3421,10 @@ ETMTN
 EOE
 Emk
 EHVAA
+Encapsulation
+Ethernet
+ESP
+Execute
 Update
 UCk
 UX
@@ -3567,6 +3601,8 @@ UcnD
 UsS
 UTM
 UlF
+UART
+UEFI
 Query
 QF
 Qo
@@ -4515,6 +4551,8 @@ Fuv
 Fä
 Fjm
 Fix
+Frequency
+Fetch
 hop
 hS
 hbJ
@@ -4930,6 +4968,10 @@ MKZ
 MpCehiHzreSzNTczkc
 Microsoft
 ModifyDate
+Modulation
+MBR
+Multicore
+Multiprocessing
 nd
 ns
 nT
@@ -5268,6 +5310,7 @@ Vaq
 VhC
 VtC
 VXC
+VLIW
 bandwidth
 bm
 bv
@@ -6221,6 +6264,7 @@ WeE
 WWd
 Wpx
 WNH
+Write
 ug
 uq
 ux
@@ -6918,6 +6962,7 @@ GAA
 GTe
 GsOe
 Goe
+GRUB
 fj
 fv
 fu
@@ -8798,6 +8843,9 @@ BXIk
 BFu
 Bwa
 BcZ
+Baseband
+BIOS
+Back
 aqlQ
 aY
 ah
