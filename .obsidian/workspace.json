@@ -11,12 +11,24 @@
             "id": "d451e18d727b2c96",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "25f/게임그래픽프로그래밍/2주차/resources/1. Vector Algebra.pdf"
+                "file": "25f/게임그래픽프로그래밍/2주차/SIMD.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "1. Vector Algebra"
+              "icon": "lucide-file",
+              "title": "SIMD"
+            }
+          },
+          {
+            "id": "3f192419def7e816",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -92,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "25f/게임그래픽프로그래밍/2주차/resources/1. Vector Algebra.pdf",
+                "file": "25f/게임그래픽프로그래밍/2주차/SIMD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 1. Vector Algebra"
+              "title": "Backlinks for SIMD"
             }
           },
           {
@@ -111,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "25f/게임그래픽프로그래밍/2주차/resources/1. Vector Algebra.pdf",
+                "file": "25f/게임그래픽프로그래밍/2주차/SIMD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 1. Vector Algebra"
+              "title": "Outgoing links from SIMD"
             }
           },
           {
@@ -140,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "25f/게임그래픽프로그래밍/2주차/resources/1. Vector Algebra.pdf",
+                "file": "25f/게임그래픽프로그래밍/2주차/SIMD.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1. Vector Algebra"
+              "title": "Outline of SIMD"
             }
           },
           {
@@ -177,23 +189,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "06d6d07ed8018497",
+  "active": "d451e18d727b2c96",
   "lastOpenFiles": [
-    "25f/게임그래픽프로그래밍/2주차/resources/3. Transformations.pdf",
-    "25f/게임그래픽프로그래밍/2주차/resources/3. Transformations-1.pdf",
-    "25f/게임그래픽프로그래밍/2주차/resources/2. Matrix Algebra.pdf",
+    "25f/게임그래픽프로그래밍/실습1.docx",
+    "25f/게임그래픽프로그래밍/2주차/XMMATRIX.md",
+    "25f/게임그래픽프로그래밍/2주차/SIMD.md",
     "25f/게임그래픽프로그래밍/2주차/resources/1. Vector Algebra.pdf",
+    "25f/게임그래픽프로그래밍/2주차/resources/2. Matrix Algebra.pdf",
+    "25f/게임그래픽프로그래밍/2주차/resources/3. Transformations.pdf",
+    "25f/게임그래픽프로그래밍/HW.md",
+    "AnimalFarm2/quest/Generic 타입추론.md",
+    "25f/게임그래픽프로그래밍/2주차/resources/3. Transformations-1.pdf",
     "25f/게임그래픽프로그래밍/2주차/resources",
     "25f/게임그래픽프로그래밍/2주차/Calling Conventions.md",
     "25f/게임그래픽프로그래밍/2주차/XMVECTOR, XMFLOAT.md",
-    "25f/게임그래픽프로그래밍/2주차/XMMATRIX.md",
-    "25f/게임그래픽프로그래밍/2주차/SIMD.md",
     "AnimalFarm2/Guides/튜토_체험 기획.md",
     "AnimalFarm2/Guides/도축.md",
     "AnimalFarm2/Guides/낚시 + 룬.md",
     "AnimalFarm2/Guides/요리.md",
     "AnimalFarm2/Guides/광산 + 감정.md",
-    "AnimalFarm2/quest/Generic 타입추론.md",
     "AnimalFarm2/Guides",
     "AnimalFarm2/quest",
     "AnimalFarm2",
@@ -205,9 +219,7 @@
     "25f/금융실무특강/1주차/금융.md",
     "25f/정보보호/정보보호.md",
     "25f/운영체제/Chapter 1",
-    "25f/정보보호/2주차",
     "25f/금융실무특강/금융실무특강.md",
-    "25f/게임그래픽프로그래밍/HW.md",
     "24s/컴퓨터네트워크/Routing Protocol/resources/image-7.png",
     "24s/컴퓨터네트워크/Layer 2/resources/trunk.png",
     "24s/컴퓨터네트워크/Layer 2/resources/vlan-top.png",
