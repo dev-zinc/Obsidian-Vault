@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6a57d8b1c7db8e65",
+        "id": "1e3a39e7e14a1eff",
         "type": "tabs",
         "children": [
           {
-            "id": "0a6a77f9a92bf92c",
+            "id": "27256c09c83612dc",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -171,8 +171,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0a6a77f9a92bf92c",
+  "active": "bd32b31f93cd6666",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "25f/게임그래픽프로그래밍/실습1.docx",
+    "25f/게임그래픽프로그래밍/2주차/resources/3. Transformations.pdf",
+    "25f/게임그래픽프로그래밍/2주차/resources/2. Matrix Algebra.pdf",
+    "25f/게임그래픽프로그래밍/2주차/resources/1. Vector Algebra.pdf",
+    "25f/게임그래픽프로그래밍/2주차/resources",
     "25f/금융실무특강/1주차/금융.md",
     "Drawing 2025-03-12 14.30.27.excalidraw.md",
     "25f/금융실무특강/금융실무특강.md",
@@ -188,27 +194,20 @@
     "25f/운영체제/Chapter 1/[Lec01] Introduction.pdf",
     "25f/정보보호/2주차/Protocol.md",
     "25f/게임그래픽프로그래밍/2주차/1. Vector Algebra.pdf",
-    "conflict-files-obsidian-git.md",
     "25f/게임그래픽프로그래밍/HW.md",
     "25f/게임그래픽프로그래밍/2주차",
     "25f/게임그래픽프로그래밍",
     "25f/운영체제/Chapter 1/Sample Code.md",
     "25f/운영체제/2주차/Untitled.md",
-    "25f/운영체제/2주차",
     "2025-03-07.md",
     "25f/정보보호/2주차/2.md",
-    "25f/금융실무특강/1주차",
-    "25f/금융실무특강",
     "25f/정보보호/정보보호.md",
     "25f/정보보호/2주차.md",
-    "25f/정보보호/2주차",
     "Untitled.md",
-    "25f/정보보호",
     "25f/운영체제/Chapter 1/Syllabus.md",
     "25f/Untitled.md",
     "AnimalFarm2/Guides/튜토_체험 기획.md",
     "AnimalFarm2/Guides/요리.md",
-    "AnimalFarm2/Guides/낚시 + 룬.md",
     "AnimalFarm2/Quest.canvas",
     "24s/컴퓨터네트워크/Pasted image 20241206112307.png",
     "24s/컴퓨터네트워크/GRE Tunnel.png",
