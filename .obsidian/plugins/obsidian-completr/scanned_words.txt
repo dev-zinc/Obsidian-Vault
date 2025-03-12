@@ -150,6 +150,7 @@ AW
 AL
 ABJ
 All
+Additional
 OSPF
 OSFP
 OT
@@ -290,6 +291,7 @@ NsY
 Nxz
 Nc
 Network
+Not
 LSA
 LSDB
 LSR
@@ -440,6 +442,7 @@ Self
 Static
 Saving
 Start
+Source
 or
 ov
 oc
@@ -501,6 +504,8 @@ oHf
 opu
 osfm
 of
+obsidian
+occurrence
 Routing
 RP
 Reply
@@ -658,6 +663,7 @@ Tee
 Tunneling
 Text
 Trigger
+This
 table
 tC
 tFXvz
@@ -720,6 +726,9 @@ tags
 to
 the
 this
+them
+txt
+text
 Packet
 Partial
 PNG
@@ -794,6 +803,7 @@ POT
 Private
 Press
 PLAYING
+Please
 Hello
 HV
 HK
@@ -1004,6 +1014,7 @@ plugin
 parsed
 palette
 players
+plugins
 Interface
 ISP
 IHDR
@@ -1079,6 +1090,7 @@ IN
 IrY
 Ixp
 InitialBetting
+Instructions
 Cost
 Cisco
 Classless
@@ -1163,6 +1175,7 @@ ControlManager
 Change
 Ckx
 CheckInitialBetting
+Conflicts
 EIGRP
 EP
 Eh
@@ -1437,6 +1450,9 @@ sync
 settings
 state
 ssxYT
+scanned
+strongly
+simple
 route
 rlp
 rl
@@ -1499,6 +1515,9 @@ rTDi
 rb
 rzR
 roct
+resolve
+recommend
+replace
 eigrp
 eXIfMM
 eWJ
@@ -1560,6 +1579,8 @@ exCj
 enum
 edges
 excalidraw
+each
+every
 FD
 Feasible
 Ff
@@ -1927,6 +1948,10 @@ bB
 bi
 biE
 bb
+by
+before
+below
+blocks
 kbps
 kW
 kPpd
@@ -2116,6 +2141,7 @@ vlX
 vGSj
 vsm
 vä
+viewing
 Wy
 WU
 WTYp
@@ -2235,6 +2261,8 @@ uHCt
 uWX
 uc
 under
+using
+use
 qrK
 qht
 qT
@@ -2505,6 +2533,10 @@ fxa
 fhR
 fpc
 file
+followed
+for
+files
+following
 Xg
 XA
 XNA
@@ -2683,6 +2715,8 @@ ddE
 document
 decompress
 data
+deleted
+desired
 yDc
 yr
 yO
@@ -2812,6 +2846,11 @@ can
 command
 current
 check
+commit
+commands
+completr
+conflicted
+conflicts
 YP
 Yj
 Yx
@@ -3116,6 +3155,10 @@ acS
 aAJB
 aQv
 all
+and
+automatically
+available
+above
 jNG
 jh
 jC
@@ -3173,6 +3216,7 @@ jN
 jm
 jwJBiIK
 joLhC
+json
 mu
 mEm
 msl
@@ -3236,6 +3280,7 @@ mdX
 mwa
 menu
 more
+mode
 wT
 wf
 wi
@@ -3299,6 +3344,9 @@ weM
 wV
 wFo
 with
+will
+words
+workspace
 xS
 xI
 xE
@@ -3423,4 +3471,6 @@ lr
 lp
 lYr
 ljHuL
+list
+listed
 äI
