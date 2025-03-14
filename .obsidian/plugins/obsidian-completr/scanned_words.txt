@@ -268,6 +268,7 @@ DEp
 DLe
 DjFz
 DgWyYik
+DJIA
 Algorithm
 Area
 Address
@@ -1070,6 +1071,7 @@ NIH
 NFM
 NtV
 NUq
+NASDAQ
 LSA
 LSDB
 LSR
@@ -1082,7 +1084,6 @@ Load
 LQ
 Lev
 Ld
-LAN
 Lc
 Ln
 Le
@@ -6533,6 +6534,7 @@ FCP
 FUJF
 FwH
 FKo
+FTSE
 hop
 hS
 hbJ
@@ -7126,6 +7128,7 @@ MAk
 MqW
 MRfU
 MVS
+MSCI
 nd
 ns
 nT
@@ -8489,6 +8492,9 @@ KTpj
 Krc
 Khjl
 KPC
+KOSPI
+KOSDAQ
+KRX
 vpp
 vN
 vU
@@ -12874,6 +12880,8 @@ Beb
 BMsM
 Byte
 Bytes
+Bull
+Bear
 aqlQ
 aY
 ah
@@ -13699,6 +13707,7 @@ mNI
 mLY
 mUV
 mAt
+mkt
 wT
 wf
 wi
