@@ -83,17 +83,18 @@ N 브릿지에서는 대역폭이 큰 그래픽, 메모리 통신을, S 브릿�
 	[0x00000000]
 ```
 ---
-# * [?]
-컴퓨터 부팅 시:
+### 컴퓨터 부팅 절차 [?]
 1. CPU의 상태 확인, 비정상인 경우 부팅 불가능
 2. 이후 고정된 위치로 포인터를 옮겨(Program Counter 이동) 바이오스(현 UEFI)를 실행
+	- 0xfffffff0, 바이오스 코드의 첫 라인의 주소
 3. 컴퓨터의 동작을 위해 필수적인 인터페이스와 메모리의 상태를 확인
 	- POST(Power On Self-Test)
-	- 이 테스트를 통해 하드웨어의 검증 종료
+	- 이 테스트를 통해 하드웨어와 이외 장비의 검증 종료
 4. 디스크에서 (멀티OS의 경우, 선택된) 운영체제의 시작 포인터 위치를 읽어오기 위해 부트 디바이스 (MBR)실행, 이후 부트로더(LILO, GRUB) 실행, 이후 부트로더는 메모리에 OS를 올림
 	- MBR - BIOS
 	- ESP - UEFI
 		- LILO의 경우, 리눅스 부트로더로서 운영체제의 설치 위치가 바뀌면 항상 위치를 업데이트해줘야 하는 반면, GRUB은 논리적으로 실행되므로 편하다.
+	- MBR에서 미리 설정된 OS를 실행한다. 미리 설정된 것이 없는 경우, 사용자에게 어떤 OS를 실행할지 묻는다. 이후 부트로더에 압축된 OS 이미지의 첫 주소를 전달하고, 부트로더는 압축풀고 OS를 메모리에 올려 실행한다.
 
 ### CPU 
 - __Instruction Set Architecture__ (ISA)
@@ -104,7 +105,7 @@ N 브릿지에서는 대역폭이 큰 그래픽, 메모리 통신을, S 브릿�
 		- RSIC: ARM
 		- CISC: Inter, AMD
 - __Pipelining__
-	- 기본적인 RSIC의 연산과정은 다음과 같다.
+	- 기본적인 RSIC의 연산과정(사이클)은 다음과 같다.
 		- Fetch: 프로그램 카운터의 다음 실행될 명령을 IR에 등록하는 과정
 		- Decode: IR에 저장된 명령을 전기적 명령으로 변환하는 과정
 		- Execute: CPU 실행
@@ -122,17 +123,93 @@ N 브릿지에서는 대역폭이 큰 그래픽, 메모리 통신을, S 브릿�
 	- 따라서 RISC는 CISC의 4배가 아닌 약 2.1배의 성능 향상을 가진다.
 - __Instruction-Level Parallelism__(ILP)
 	- 독립적인 명령의 경우, HW레벨에서 명령을 병렬처리
-	- Superscalar, VLIW
-		- __Multicore Architecture:__ n-Core
-		- __Symmetric Multiprocessing Architecture__: CPU 여러 개 사용
-			- __NUMA__: CPU 1개당 메모리 1개
-		- __Clustered System Architecture__: 컴퓨터를 묶어 사용
-			- __Distributed System__
+		- Superscalar - 인텔, 두 연산이 의존관계가 없으면 HW레벨에서 병렬수행
+		- VLIW: - [??]
+	- __Multicore Architecture:__ n-Core
+	- __Symmetric Multiprocessing Architecture__: 한 Memory가 CPU 여러 개 사용, Bus가 1개 => 병목이 생기긴함
+		- __NUMA__: CPU 1개당 메모리 1개
+	- __Clustered System Architecture__: 컴퓨터를 묶어 사용
+		- __Distributed System__
+		- Storage Area Network (SAN)
 ### I/O Operation
 - 기본적으로 IO장치는 느리다. 따라서 CPU가 외부장치를 처리하는 경우 병목현상이 발생하기 매우 쉽다. 
 - 따라서, IO장치에는 그를 위한 IO Controller가 필요하다.
-##### I/O Method
+#### I/O Method
 - Interrupt
 	- CPU가 I/O 작업이 진행되고 있는지, 끝났는지 확인하는 데는 두 가지 방법이 있다.
 		- Polling: 주기적으로 작업상태를 체크하는 기법
-		- Interrupt: I/O Controller가 Interrupt Signal을 전송하면 CPU가 즉시 작업을 중단하고 I/O 처리를 이어 하는 것 
+		- Interrupt: I/O Controller가 Interrupt Signal을 전송하면 CPU가 즉시 작업을 중단하고 I/O 처리를 이어 하는 것
+			- Interrupt Signal에는 task의 성공, 실패 여부와 결과가 담겨 있다.
+		- DMA(Direct Memory Access)
+			- 인터럽트도 결국에는 병목이 걸리게 된다. 이를 해결하기 위해 나온 방법.
+			- 데이터가 큰 경우, DMA controller가 메모리에 다이렉트로 버퍼의 형태로 데이터를 전송하게 된다. 
+			- __이 과정에서 메모리에 엑세스할 수 있는 권한을 CPU에게 위임받는다.__
+			- 이후, 전송이 완료되었을 때 disk controller가 한 번 인터럽트를 CPU에 쏜다.
+
+---
+#### I/O mode
+##### Synchronous/Blocking
+##### Asynchronous/Non-Blocking
+
+#### Interrupt
+- async
+- HW device에 의하여 생김
+#### Trap
+- sync
+- 어플리케이션 레벨에서의 System Call(OS Interface의 사용)
+#### Falut(Exception)
+- sync
+- CPU 연산 도중 예외발생 시 스스로 Interrupt를 걸고 예외를 반환 (HW 레벨)
+- 커널 코드의 메모리 주소에 Write를 거는 경우 등 (App 레벨)
+
+**어플리케이션 레벨인지 하드웨어 레벨인지를 구분하는 것이 중요함**
+### ROM
+- read-only Memory
+- 휘발성이 없음
+- 한번 쓰면 다시 덮어쓸 수 없음
+### RAM
+- Random Access Memory
+- 액세스 시간이 O(1)
+- 전기가 끊기면 뒤짐
+#### SRAM
+- Static RAM
+- 재료가 좋아 데이터의 변형이 일어나지 않는다
+- 따라서 Register와 Cache는 SRAM을 사용한다.
+
+> [!quote] Temporal Locality
+> *가장 최근에 사용된 데이터는 다시 사용될 확률이 가장 높다.*
+*c.f Spacial Locality*
+
+캐싱 정책은 위 법칙을 따른다.
+- Cache Hit : 찾는 데이터가 캐시에 존재하는 경우
+- Cache Cold: 없어서 메모리에 액세스해야하는 경우
+이렇게 아래 레이어(더 느리고 더 비싼!)에 대한 접근을 최소화하는 것이 캐싱의 의의이다.
+#### Cache Coherency의 관리
+##### Write-Through
+- 캐싱된 데이터가 변하는 경우 아래 레이어에 데이터를 전파하는 것
+- 느리지만 정합성을 지킬 수 있다.
+##### Write-Back
+- 메모리가 한산할 때마다 Sync를 맞추는 방법
+- 빠르지만 정합성이 망가질 가능성이 있다.
+#### DRAM
+- Dynamic RAM
+- 소자가 상대적으로 저렴하여 전기신호가 약해져 왜곡이 생긴다.
+- 이를 해결하기 위하여 일정 시간이 지나면 전기신호를 증폭시켜준다.
+- 해당 시간 동안에는 메모리 접근이 불가능하여 DRAM이 더 저렴하다.
+- Main Memory에서는 DRAM을 사용한다.
+### HDD
+- 여러 장의 platter로 구성되며 platter 끝의 head 부분에 arm이 움직여 접촉하여 데이터를 읽는다.
+- 여러 장의 platter를 cylinder라고 한다.
+- 읽을 수 있는 데이터의 최소 단위 sector, 섹터가 한 장의 platter를 채우면 track, 플래터 묶음이 실린더
+### SSD
+- solid state disk
+- 고장이 잘 안남
+#### NAND Flash Memory
+- 블록 단위로 구성됨
+- SSD 내의 Flash Controller에 의해 조작된다.
+- 한 블록에 여러 데이터를 쓸 수 있다. 
+- 블록 내 데이터에 덮어씌우지 않고 해당 데이터를 읽기 금지 시킨다.
+- 그렇게 블록 내 모든 데이터가 읽기 금지가 되면 비로소 해당 블록을 clear한다.
+- ware-leveling
+	- 데이터를 최대한 고르게 블록에 할당시켜 블록을 고르게 aging시키는 것
+

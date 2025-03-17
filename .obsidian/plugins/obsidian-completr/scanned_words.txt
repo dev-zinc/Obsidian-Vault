@@ -269,6 +269,9 @@ DLe
 DjFz
 DgWyYik
 DJIA
+Distributed
+DMA
+Direct
 Algorithm
 Area
 Address
@@ -544,6 +547,7 @@ AwFC
 APf
 ABD
 ARP
+Asynchronous
 OSPF
 OSFP
 OT
@@ -806,6 +810,7 @@ OBC
 OclS
 OUlbH
 OOx
+Operation
 Neighbor
 Next
 NI
@@ -1072,6 +1077,7 @@ NFM
 NtV
 NUq
 NASDAQ
+Non
 LSA
 LSDB
 LSR
@@ -1654,6 +1660,11 @@ SdR
 SBer
 SzECdjs
 Spoofing
+South
+Sea
+Storage
+SAN
+Synchronous
 or
 ov
 oc
@@ -2784,6 +2795,7 @@ tUz
 tOXO
 taH
 tracert
+task
 Packet
 Partial
 PNG
@@ -3092,6 +3104,7 @@ Pka
 PbH
 POv
 Protocol
+Polling
 Hello
 HV
 HK
@@ -4227,6 +4240,7 @@ IbbN
 Ixf
 IzA
 IPv
+Interrupt
 Cost
 Cisco
 Classless
@@ -4518,6 +4532,8 @@ CcoM
 CoG
 CRC
 Checksum
+Core
+Clustered
 EIGRP
 EP
 Eh
@@ -7129,6 +7145,7 @@ MqW
 MRfU
 MVS
 MSCI
+Method
 nd
 ns
 nT
@@ -11224,6 +11241,7 @@ dGyMyEyAyNyByLyH
 dmog
 dfS
 dQH
+disk
 yDc
 yr
 yO
@@ -12882,6 +12900,7 @@ Byte
 Bytes
 Bull
 Bear
+Blocking
 aqlQ
 aY
 ah
@@ -14302,6 +14321,7 @@ xJY
 xTE
 xmk
 xUh
+xfffffff
 lE
 ln
 ls
