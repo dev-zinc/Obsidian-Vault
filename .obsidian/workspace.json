@@ -11,10 +11,32 @@
             "id": "3b30d145f7718cb2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "25f/게임그래픽프로그래밍/3주차/workspace/실습 2.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "실습 2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "275cbd31ce134a38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "315543a405ff652a",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "25f/게임그래픽프로그래밍/3주차/resources/3. Transformations.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "3. Transformations"
             }
           }
         ]
@@ -170,13 +192,16 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "a97f0ab96a65aefe",
+  "active": "3b30d145f7718cb2",
   "lastOpenFiles": [
+    "25f/게임그래픽프로그래밍/3주차/resources/3. Transformations.pdf",
+    "25f/게임그래픽프로그래밍/3주차/workspace/실습 2.md",
+    "25f/게임그래픽프로그래밍/2주차/resources/2. Matrix Algebra.pdf",
+    "25f/게임그래픽프로그래밍/2주차/resources/1. Vector Algebra.pdf",
     "25f/게임그래픽프로그래밍/3주차/workspace/transformation/transformation.cpp",
     "25f/게임그래픽프로그래밍/3주차/workspace/transformation",
     "25f/게임그래픽프로그래밍/3주차/workspace/새 폴더",
     "25f/게임그래픽프로그래밍/3주차/workspace/transformation.cpp",
-    "25f/게임그래픽프로그래밍/3주차/resources/3. Transformations.pdf",
     "25f/게임그래픽프로그래밍/3주차/resources/3. Transformations-2.pdf",
     "25f/운영체제/Chapter 1/Chapter 1.md",
     "conflict-files-obsidian-git.md",
@@ -185,10 +210,7 @@
     "25f/금융실무특강/1주차/금융.md",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Listeners/GameListner.md",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Listeners",
-    "AnimalFarm2/KoreanPoker/Sequence Diagrams",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Untitled.canvas",
-    "AnimalFarm2/KoreanPoker/Sequence Diagrams",
-    "AnimalFarm2/KoreanPoker",
     "25f/금융실무특강/2주차/지수.md",
     "25f/금융실무특강/2주차/환율.md",
     "25f/금융실무특강/금융실무특강.md",
@@ -209,7 +231,6 @@
     "25f/정보보호/2주차/2.md",
     "25f/정보보호/정보보호.md",
     "25f/정보보호/2주차.md",
-    "Untitled.md",
     "AnimalFarm2/Quest.canvas",
     "24s/컴퓨터네트워크/Pasted image 20241206112307.png",
     "24s/컴퓨터네트워크/GRE Tunnel.png",
