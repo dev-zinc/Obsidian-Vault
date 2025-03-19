@@ -272,6 +272,10 @@ DJIA
 Distributed
 DMA
 Direct
+DRAM
+Dynamic
+Dual
+DOS
 Algorithm
 Area
 Address
@@ -548,6 +552,7 @@ APf
 ABD
 ARP
 Asynchronous
+Aniac
 OSPF
 OSFP
 OT
@@ -1078,6 +1083,7 @@ NtV
 NUq
 NASDAQ
 Non
+NAND
 LSA
 LSDB
 LSR
@@ -1337,6 +1343,7 @@ LSVF
 LOj
 LNv
 Live
+Locality
 SPF
 State
 Successor
@@ -1665,6 +1672,9 @@ Sea
 Storage
 SAN
 Synchronous
+Spacial
+Sync
+SSD
 or
 ov
 oc
@@ -1920,6 +1930,7 @@ oGE
 oNfj
 opl
 olk
+only
 Routing
 RP
 Reply
@@ -2226,6 +2237,10 @@ RXC
 Rzv
 RfnG
 Resolution
+ROM
+RAM
+Random
+Residant
 Table
 Topology
 TTf
@@ -2519,6 +2534,10 @@ TRB
 TTk
 TvC
 TTL
+Trap
+Temporal
+Through
+Timer
 table
 tC
 tFXvz
@@ -2796,6 +2815,8 @@ tOXO
 taH
 tracert
 task
+track
+trap
 Packet
 Partial
 PNG
@@ -3370,6 +3391,9 @@ HTr
 HGy
 Header
 Hash
+Hit
+HDD
+Handler
 image
 ip
 iCCPICC
@@ -3932,6 +3956,7 @@ pYb
 pjb
 pspqg
 ping
+platter
 Interface
 ISP
 IHDR
@@ -4534,6 +4559,9 @@ CRC
 Checksum
 Core
 Clustered
+Cache
+Cold
+Coherency
 EIGRP
 EP
 Eh
@@ -4869,6 +4897,7 @@ EPT
 EyC
 EKE
 EZH
+Exception
 Update
 UCk
 UX
@@ -5744,6 +5773,11 @@ sYg
 sAHh
 suIq
 sVQ
+sync
+sector
+solid
+state
+save
 route
 rlp
 rl
@@ -6012,6 +6046,8 @@ rIg
 rxT
 rNAP
 rOD
+read
+restore
 eigrp
 eXIfMM
 eWJ
@@ -6551,6 +6587,8 @@ FUJF
 FwH
 FKo
 FTSE
+Falut
+FTL
 hop
 hS
 hbJ
@@ -6823,6 +6861,7 @@ hyI
 hgv
 heZ
 hvx
+head
 Metric
 MTU
 MD
@@ -7146,6 +7185,10 @@ MRfU
 MVS
 MSCI
 Method
+Main
+Mode
+Mainframe
+Monitor
 nd
 ns
 nT
@@ -8512,6 +8555,7 @@ KPC
 KOSPI
 KOSDAQ
 KRX
+Kernal
 vpp
 vN
 vU
@@ -10387,6 +10431,7 @@ flS
 fCM
 ftN
 fzf
+foo
 Xg
 XA
 XNA
@@ -11242,6 +11287,7 @@ dmog
 dfS
 dQH
 disk
+device
 yDc
 yr
 yO
@@ -11802,6 +11848,9 @@ cxB
 cvQq
 cBy
 cgS
+cylinder
+clear
+call
 YP
 Yj
 Yx
@@ -12901,6 +12950,8 @@ Bytes
 Bull
 Bear
 Blocking
+Bootstrapping
+Batch
 aqlQ
 aY
 ah
@@ -13156,6 +13207,10 @@ aOH
 aHk
 aRiX
 agu
+async
+arm
+aging
+app
 jNG
 jh
 jC
@@ -14006,6 +14061,7 @@ wwu
 wjX
 wWz
 waRY
+ware
 xS
 xI
 xE
@@ -14593,6 +14649,7 @@ lte
 lvo
 lus
 ladK
+leveling
 äI
 äk
 äZz

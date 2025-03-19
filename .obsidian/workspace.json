@@ -20,6 +20,18 @@
               "icon": "lucide-file",
               "title": "Chapter 1"
             }
+          },
+          {
+            "id": "62003ed685aed780",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "25f/운영체제/Chapter 1/[Lec01] Introduction.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "[Lec01] Introduction"
+            }
           }
         ]
       }
@@ -177,28 +189,30 @@
   },
   "active": "9bba8e8cb5107e94",
   "lastOpenFiles": [
-    "25f/운영체제/Chapter 1/Sample Code.md",
     "25f/운영체제/Chapter 1/[Lec01] Introduction.pdf",
     "25f/운영체제/Chapter 1/Chapter 1.md",
+    "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/transformation.cpp",
+    "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/affine.vcxproj.user",
+    "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/affine.vcxproj.filters",
+    "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/affine.vcxproj",
+    "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine.sln",
+    "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine",
+    "25f/게임그래픽프로그래밍/3주차/workspace/affine",
+    "25f/게임그래픽프로그래밍/3주차/resources/Slide 66p.md",
+    "25f/게임그래픽프로그래밍/3주차/resources/3. Transformations.pdf",
+    "25f/게임그래픽프로그래밍/3주차/workspace",
+    "25f/게임그래픽프로그래밍/3주차/3주차.md",
+    "25f/운영체제/Chapter 1/Sample Code.md",
     "25f/금융실무특강/1주차/금융.md",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Listeners/GameListner.md",
-    "AnimalFarm2/KoreanPoker/Sequence Diagrams/Listeners",
-    "AnimalFarm2/KoreanPoker/Sequence Diagrams",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Untitled.canvas",
-    "AnimalFarm2/KoreanPoker/Sequence Diagrams",
-    "AnimalFarm2/KoreanPoker",
     "25f/금융실무특강/2주차/지수.md",
     "25f/금융실무특강/2주차/환율.md",
     "25f/금융실무특강/금융실무특강.md",
-    "25f/금융실무특강/2주차",
     "25f/정보보호/2주차/OSI 7 Layer.md",
-    "25f/정보보호/2주차/정보보호-2. Network and Security - Theory v2.pdf",
     "25f/정보보호/2주차/Pasted image 20250312153156.png",
-    "25f/정보보호/정보보호-2. Network and Security - Theory v2.pdf",
     "25f/정보보호/2주차/Protocol.md",
     "conflict-files-obsidian-git.md",
-    "25f/게임그래픽프로그래밍/실습1.docx",
-    "25f/게임그래픽프로그래밍/2주차/resources/3. Transformations.pdf",
     "Drawing 2025-03-12 14.30.27.excalidraw.md",
     "25f/게임그래픽프로그래밍/2주차/XMMATRIX.md",
     "25f/게임그래픽프로그래밍/2주차/Calling Conventions.md",
@@ -212,8 +226,6 @@
     "2025-03-07.md",
     "25f/정보보호/2주차/2.md",
     "25f/정보보호/정보보호.md",
-    "25f/정보보호/2주차.md",
-    "Untitled.md",
     "AnimalFarm2/Quest.canvas",
     "24s/컴퓨터네트워크/Pasted image 20241206112307.png",
     "24s/컴퓨터네트워크/GRE Tunnel.png",
