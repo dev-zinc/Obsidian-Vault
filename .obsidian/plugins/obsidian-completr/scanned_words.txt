@@ -276,6 +276,8 @@ DRAM
 Dynamic
 Dual
 DOS
+Desktop
+Drive
 Algorithm
 Area
 Address
@@ -553,6 +555,7 @@ ABD
 ARP
 Asynchronous
 Aniac
+AWS
 OSPF
 OSFP
 OT
@@ -1344,6 +1347,7 @@ LOj
 LNv
 Live
 Locality
+LSI
 SPF
 State
 Successor
@@ -1675,6 +1679,12 @@ Synchronous
 Spacial
 Sync
 SSD
+SOC
+Sharing
+Soft
+Service
+SaaS
+Software
 or
 ov
 oc
@@ -2241,6 +2251,8 @@ ROM
 RAM
 Random
 Residant
+Resident
+Real
 Table
 Topology
 TTf
@@ -2538,6 +2550,8 @@ Trap
 Temporal
 Through
 Timer
+Traditional
+Task
 table
 tC
 tFXvz
@@ -3126,6 +3140,8 @@ PbH
 POv
 Protocol
 Polling
+PaaS
+Platform
 Hello
 HV
 HK
@@ -3394,6 +3410,9 @@ Hash
 Hit
 HDD
 Handler
+Hand
+Hard
+Hypervisor
 image
 ip
 iCCPICC
@@ -4266,6 +4285,8 @@ Ixf
 IzA
 IPv
 Interrupt
+IaaS
+Infrastructure
 Cost
 Cisco
 Classless
@@ -4562,6 +4583,7 @@ Clustered
 Cache
 Cold
 Coherency
+Cloud
 EIGRP
 EP
 Eh
@@ -4898,6 +4920,7 @@ EyC
 EKE
 EZH
 Exception
+Embedded
 Update
 UCk
 UX
@@ -5778,6 +5801,7 @@ sector
 solid
 state
 save
+sharing
 route
 rlp
 rl
@@ -6862,6 +6886,7 @@ hgv
 heZ
 hvx
 head
+held
 Metric
 MTU
 MD
@@ -7189,6 +7214,9 @@ Main
 Mode
 Mainframe
 Monitor
+Multiprogramming
+Mobile
+Manager
 nd
 ns
 nT
@@ -7696,6 +7724,8 @@ VsQ
 VgO
 Vtt
 VXR
+VLSI
+VMM
 bandwidth
 bm
 bv
@@ -10156,6 +10186,7 @@ GWL
 GEu
 GIt
 GpU
+Google
 fj
 fv
 fu
