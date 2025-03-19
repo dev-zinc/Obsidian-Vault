@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "25f/운영체제/Chapter 1/Chapter 1.md",
+                "file": "25f/정보보호/3주차/실습 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 1"
+              "title": "실습 1"
             }
           },
           {
@@ -186,11 +186,13 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "bd32b31f93cd6666",
+  "active": "9bba8e8cb5107e94",
   "lastOpenFiles": [
+    "25f/운영체제/Chapter 1/Chapter 1.md",
+    "25f/정보보호/3주차/실습 1.md",
+    "25f/정보보호/3주차",
     "conflict-files-obsidian-git.md",
     "25f/게임그래픽프로그래밍/3주차/workspace/실습 2.md",
-    "25f/운영체제/Chapter 1/Chapter 1.md",
     "25f/운영체제/Chapter 1/[Lec01] Introduction.pdf",
     "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/transformation.cpp",
     "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/affine.vcxproj.user",
@@ -201,7 +203,6 @@
     "25f/게임그래픽프로그래밍/3주차/workspace/affine",
     "25f/게임그래픽프로그래밍/3주차/resources/Slide 66p.md",
     "25f/게임그래픽프로그래밍/3주차/resources/3. Transformations.pdf",
-    "25f/게임그래픽프로그래밍/3주차/workspace",
     "25f/게임그래픽프로그래밍/3주차/3주차.md",
     "25f/운영체제/Chapter 1/Sample Code.md",
     "25f/금융실무특강/1주차/금융.md",
@@ -225,7 +226,6 @@
     "25f/운영체제/2주차/Untitled.md",
     "2025-03-07.md",
     "25f/정보보호/2주차/2.md",
-    "25f/정보보호/정보보호.md",
     "AnimalFarm2/Quest.canvas",
     "24s/컴퓨터네트워크/Pasted image 20241206112307.png",
     "24s/컴퓨터네트워크/GRE Tunnel.png",
