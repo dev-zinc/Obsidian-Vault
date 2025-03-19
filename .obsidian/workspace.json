@@ -11,14 +11,15 @@
             "id": "9bba8e8cb5107e94",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "25f/운영체제/Chapter 1/Chapter 1.md",
-                "mode": "source",
-                "source": false
+                "aFile": "25f/운영체제/Chapter 1/Chapter 1.md",
+                "bFile": "25f/운영체제/Chapter 1/Chapter 1.md",
+                "aRef": "HEAD",
+                "bRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Chapter 1"
+              "icon": "diff",
+              "title": "Diff: Chapter 1"
             }
           }
         ]
