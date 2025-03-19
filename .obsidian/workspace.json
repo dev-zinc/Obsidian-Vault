@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "065a76630e8b6c60",
+        "id": "a284b074a57d5ef5",
         "type": "tabs",
         "children": [
           {
-            "id": "9bba8e8cb5107e94",
+            "id": "3b30d145f7718cb2",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "25f/운영체제/Chapter 1/Chapter 1.md",
-                "bFile": "25f/운영체제/Chapter 1/Chapter 1.md",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: Chapter 1"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -175,8 +170,14 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "9bba8e8cb5107e94",
+  "active": "a97f0ab96a65aefe",
   "lastOpenFiles": [
+    "25f/게임그래픽프로그래밍/3주차/workspace/transformation/transformation.cpp",
+    "25f/게임그래픽프로그래밍/3주차/workspace/transformation",
+    "25f/게임그래픽프로그래밍/3주차/workspace/새 폴더",
+    "25f/게임그래픽프로그래밍/3주차/workspace/transformation.cpp",
+    "25f/게임그래픽프로그래밍/3주차/resources/3. Transformations.pdf",
+    "25f/게임그래픽프로그래밍/3주차/resources/3. Transformations-2.pdf",
     "25f/운영체제/Chapter 1/Chapter 1.md",
     "conflict-files-obsidian-git.md",
     "25f/운영체제/Chapter 1/Sample Code.md",
@@ -191,14 +192,9 @@
     "25f/금융실무특강/2주차/지수.md",
     "25f/금융실무특강/2주차/환율.md",
     "25f/금융실무특강/금융실무특강.md",
-    "25f/금융실무특강/2주차",
     "25f/정보보호/2주차/OSI 7 Layer.md",
-    "25f/정보보호/2주차/정보보호-2. Network and Security - Theory v2.pdf",
     "25f/정보보호/2주차/Pasted image 20250312153156.png",
-    "25f/정보보호/정보보호-2. Network and Security - Theory v2.pdf",
     "25f/정보보호/2주차/Protocol.md",
-    "25f/게임그래픽프로그래밍/실습1.docx",
-    "25f/게임그래픽프로그래밍/2주차/resources/3. Transformations.pdf",
     "Drawing 2025-03-12 14.30.27.excalidraw.md",
     "25f/게임그래픽프로그래밍/2주차/XMMATRIX.md",
     "25f/게임그래픽프로그래밍/2주차/Calling Conventions.md",
