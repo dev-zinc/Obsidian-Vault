@@ -274,6 +274,10 @@ DMA
 Direct
 DRAM
 Dynamic
+Dual
+DOS
+Desktop
+Drive
 Algorithm
 Area
 Address
@@ -550,6 +554,8 @@ APf
 ABD
 ARP
 Asynchronous
+Aniac
+AWS
 OSPF
 OSFP
 OT
@@ -1341,6 +1347,7 @@ LOj
 LNv
 Live
 Locality
+LSI
 SPF
 State
 Successor
@@ -1672,6 +1679,12 @@ Synchronous
 Spacial
 Sync
 SSD
+SOC
+Sharing
+Soft
+Service
+SaaS
+Software
 or
 ov
 oc
@@ -2237,6 +2250,8 @@ Resolution
 ROM
 RAM
 Random
+Resident
+Real
 Table
 Topology
 TTf
@@ -2533,6 +2548,9 @@ TTL
 Trap
 Temporal
 Through
+Timer
+Traditional
+Task
 table
 tC
 tFXvz
@@ -2811,6 +2829,7 @@ taH
 tracert
 task
 track
+trap
 Packet
 Partial
 PNG
@@ -3120,6 +3139,8 @@ PbH
 POv
 Protocol
 Polling
+PaaS
+Platform
 Hello
 HV
 HK
@@ -3387,6 +3408,10 @@ Header
 Hash
 Hit
 HDD
+Handler
+Hand
+Hard
+Hypervisor
 image
 ip
 iCCPICC
@@ -4259,6 +4284,8 @@ Ixf
 IzA
 IPv
 Interrupt
+IaaS
+Infrastructure
 Cost
 Cisco
 Classless
@@ -4555,6 +4582,7 @@ Clustered
 Cache
 Cold
 Coherency
+Cloud
 EIGRP
 EP
 Eh
@@ -4891,6 +4919,7 @@ EyC
 EKE
 EZH
 Exception
+Embedded
 Update
 UCk
 UX
@@ -5770,6 +5799,8 @@ sync
 sector
 solid
 state
+save
+sharing
 route
 rlp
 rl
@@ -6039,6 +6070,7 @@ rxT
 rNAP
 rOD
 read
+restore
 eigrp
 eXIfMM
 eWJ
@@ -6579,6 +6611,7 @@ FwH
 FKo
 FTSE
 Falut
+FTL
 hop
 hS
 hbJ
@@ -6852,6 +6885,7 @@ hgv
 heZ
 hvx
 head
+held
 Metric
 MTU
 MD
@@ -7176,6 +7210,12 @@ MVS
 MSCI
 Method
 Main
+Mode
+Mainframe
+Monitor
+Multiprogramming
+Mobile
+Manager
 nd
 ns
 nT
@@ -7683,6 +7723,8 @@ VsQ
 VgO
 Vtt
 VXR
+VLSI
+VMM
 bandwidth
 bm
 bv
@@ -8542,6 +8584,7 @@ KPC
 KOSPI
 KOSDAQ
 KRX
+Kernal
 vpp
 vN
 vU
@@ -10142,6 +10185,7 @@ GWL
 GEu
 GIt
 GpU
+Google
 fj
 fv
 fu
@@ -11835,6 +11879,7 @@ cBy
 cgS
 cylinder
 clear
+call
 YP
 Yj
 Yx
@@ -12934,6 +12979,8 @@ Bytes
 Bull
 Bear
 Blocking
+Bootstrapping
+Batch
 aqlQ
 aY
 ah
@@ -13192,6 +13239,7 @@ agu
 async
 arm
 aging
+app
 jNG
 jh
 jC
