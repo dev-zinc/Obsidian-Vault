@@ -186,10 +186,12 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "9bba8e8cb5107e94",
+  "active": "a97f0ab96a65aefe",
   "lastOpenFiles": [
-    "25f/운영체제/Chapter 1/[Lec01] Introduction.pdf",
+    "25f/게임그래픽프로그래밍/3주차/workspace/실습 2.md",
     "25f/운영체제/Chapter 1/Chapter 1.md",
+    "conflict-files-obsidian-git.md",
+    "25f/운영체제/Chapter 1/[Lec01] Introduction.pdf",
     "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/transformation.cpp",
     "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/affine.vcxproj.user",
     "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/affine.vcxproj.filters",
@@ -211,7 +213,6 @@
     "25f/정보보호/2주차/OSI 7 Layer.md",
     "25f/정보보호/2주차/Pasted image 20250312153156.png",
     "25f/정보보호/2주차/Protocol.md",
-    "conflict-files-obsidian-git.md",
     "Drawing 2025-03-12 14.30.27.excalidraw.md",
     "25f/게임그래픽프로그래밍/2주차/XMMATRIX.md",
     "25f/게임그래픽프로그래밍/2주차/Calling Conventions.md",
