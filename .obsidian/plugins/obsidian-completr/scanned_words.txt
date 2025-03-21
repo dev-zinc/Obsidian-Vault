@@ -278,6 +278,7 @@ Dual
 DOS
 Desktop
 Drive
+Dodd
 Algorithm
 Area
 Address
@@ -557,6 +558,7 @@ Asynchronous
 Aniac
 AWS
 Agent
+Act
 OSPF
 OSFP
 OT
@@ -1686,6 +1688,8 @@ Soft
 Service
 SaaS
 Software
+SIFI
+Systemically
 or
 ov
 oc
@@ -3977,6 +3981,7 @@ pjb
 pspqg
 ping
 platter
+pooling
 Interface
 ISP
 IHDR
@@ -4288,6 +4293,8 @@ IPv
 Interrupt
 IaaS
 Infrastructure
+Important
+Institutions
 Cost
 Cisco
 Classless
@@ -4585,6 +4592,7 @@ Cache
 Cold
 Coherency
 Cloud
+CFPB
 EIGRP
 EP
 Eh
@@ -6614,6 +6622,9 @@ FKo
 FTSE
 Falut
 FTL
+Financial
+FCA
+Frank
 hop
 hS
 hbJ
@@ -10188,6 +10199,7 @@ GEu
 GIt
 GpU
 Google
+GET
 fj
 fv
 fu
@@ -10746,6 +10758,7 @@ XWhh
 XeMiUSYe
 XvC
 Xot
+XOR
 Zh
 Za
 ZLAYn
