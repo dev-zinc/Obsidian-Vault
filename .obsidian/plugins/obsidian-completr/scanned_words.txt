@@ -74,8 +74,6 @@ Deterance
 Drawing
 Decompress
 Data
-<<<<<<< HEAD
-=======
 DfH
 DCTDecode
 DeA
@@ -236,6 +234,8 @@ DLe
 DjFz
 DgWyYik
 DJIA
+<<<<<<< HEAD
+=======
 >>>>>>> origin/main
 Algorithm
 Area
@@ -455,8 +455,6 @@ Nxz
 Nc
 Network
 Not
-<<<<<<< HEAD
-=======
 Normal
 NZy
 NbM
@@ -569,7 +567,6 @@ NFM
 NtV
 NUq
 NASDAQ
->>>>>>> origin/main
 LSA
 LSDB
 LSR
@@ -713,7 +710,6 @@ SKj
 SH
 SoK
 Summary
-Simpson
 Specific
 Self
 Static
@@ -1081,6 +1077,7 @@ Private
 Press
 PLAYING
 Please
+Pasted
 Hello
 HV
 HK
@@ -1920,8 +1917,6 @@ Fn
 FDF
 Facebook
 For
-<<<<<<< HEAD
-=======
 FBQi
 FY
 Fg
@@ -2147,7 +2142,6 @@ FUJF
 FwH
 FKo
 FTSE
->>>>>>> origin/main
 hop
 hS
 hbJ
@@ -2269,9 +2263,7 @@ MuL
 MLaZ
 MJ
 MORE
-<<<<<<< HEAD
 MoCR
-=======
 MFc
 Msz
 Mm
@@ -2503,7 +2495,6 @@ MqW
 MRfU
 MVS
 MSCI
->>>>>>> origin/main
 nd
 ns
 nT
@@ -2813,8 +2804,6 @@ KPg
 KBFF
 KLBTF
 Kaf
-<<<<<<< HEAD
-=======
 Kz
 KgW
 KNj
@@ -3042,7 +3031,6 @@ KPC
 KOSPI
 KOSDAQ
 KRX
->>>>>>> origin/main
 vpp
 vN
 vU
@@ -4058,12 +4046,10 @@ BM
 Bzzh
 BPa
 BVJ
-<<<<<<< HEAD
 Button
 Buttons
 BCzSi
 BETTING
-=======
 BC
 By
 Br
@@ -4303,7 +4289,6 @@ Byte
 Bytes
 Bull
 Bear
->>>>>>> origin/main
 aqlQ
 aY
 ah
@@ -4492,8 +4477,6 @@ mwa
 menu
 more
 mode
-<<<<<<< HEAD
-=======
 mZmf
 mWs
 mBO
@@ -4633,7 +4616,6 @@ mLY
 mUV
 mAt
 mkt
->>>>>>> origin/main
 wT
 wf
 wi
@@ -4757,6 +4739,8 @@ xqq
 xW
 xu
 xss
+xmvector
+xmmatrix
 lE
 ln
 ls
