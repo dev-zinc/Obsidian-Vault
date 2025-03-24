@@ -4,17 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "2c7e66082c977edb",
+        "id": "d676f365ca713e47",
         "type": "tabs",
         "children": [
           {
-            "id": "fa8515aeff0368c4",
+            "id": "a21d13c8708ba358",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "25f/운영체제/Chapter 1/Chapter 1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Chapter 1"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2c0afd34e26d1f89",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9aa6b7fe5215cd4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "25f/운영체제/Chapter 1/resources/[Lec01] Introduction.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "[Lec01] Introduction"
             }
           }
         ]
@@ -74,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 227.5,
+    "collapsed": true
   },
   "right": {
     "id": "26d95bc1bd661cbb",
@@ -90,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "컴퓨터네트워크/Routing Protocol/Enhanced Interior Gateway Routing Protocol.md",
+                "file": "25f/1주차/Chapter 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +123,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Enhanced Interior Gateway Routing Protocol"
+              "title": "Backlinks for Chapter 1"
             }
           },
           {
@@ -136,10 +159,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "anif_item_manager/개요.md"
+                "file": "컴퓨터네트워크/Routing Protocol/Enhanced Interior Gateway Routing Protocol.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 개요"
+              "title": "Outline of Enhanced Interior Gateway Routing Protocol"
             }
           },
           {
@@ -166,60 +189,60 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "canvas:Create new canvas": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "canvas:Create new canvas": false
     }
   },
-  "active": "a97f0ab96a65aefe",
+  "active": "a21d13c8708ba358",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "25f/게임그래픽프로그래밍/HW.md",
-    "AnimalFarm2/KoreanPoker/Sequence Diagrams/Listeners/GameListner.md",
-    "AnimalFarm2/KoreanPoker/Sequence Diagrams/Listeners",
-    "AnimalFarm2/KoreanPoker/Sequence Diagrams",
-    "AnimalFarm2/KoreanPoker",
+    "25f/운영체제/Chapter 1/resources/[Lec01] Introduction.pdf",
+    "25f/운영체제/Chapter 1/Chapter 1.md",
+    "25f/금융실무특강/금융시장.md",
+    "anif_item_manager/개요.md",
+    "anif_item_manager",
+    "25f/정보보호/2주차/resources/Pasted image 20250312153156.png",
+    "25f/정보보호/2주차/resources",
+    "25f/금융실무특강/금융상품.md",
+    "25f/금융실무특강/Untitled",
+    "25f/금융실무특강/금융실무특강.md",
+    "25f/금융실무특강/금융.md",
+    "fine.fss.or.kr.md",
+    "25f/운영체제/Syllabus.md",
+    "25f/운영체제/Chapter 1/resources",
+    "25f/금융실무특강/금융제도.md",
+    "25f/금융실무특강/3주차",
     "25f/정보보호/3주차/실습 1.md",
     "25f/정보보호/3주차",
-    "25f/정보보호/2주차/Pasted image 20250312153156.png",
-    "25f/운영체제/Syllabus.md",
-    "25f/운영체제/Chapter 1/resources/[Lec01] Introduction.pdf",
-    "25f/운영체제/Chapter 1/resources/Sample Code.md",
-    "25f/운영체제/Chapter 1/resources",
-    "25f/금융실무특강/환율.md",
-    "25f/금융실무특강/지수.md",
-    "25f/금융실무특강/금융제도.md",
-    "25f/금융실무특강/금융시장.md",
-    "25f/금융실무특강/금융상품.md",
-    "25f/금융실무특강/금융.md",
-    "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/transformation.cpp",
-    "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/affine.vcxproj.filters",
-    "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/affine.vcxproj.user",
-    "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/affine.vcxproj",
+    "conflict-files-obsidian-git.md",
     "25f/게임그래픽프로그래밍/3주차/workspace/실습 2.md",
+    "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/transformation.cpp",
+    "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/affine.vcxproj.user",
+    "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/affine.vcxproj.filters",
     "25f/게임그래픽프로그래밍/3주차/resources/Slide 66p.md",
     "25f/게임그래픽프로그래밍/3주차/3주차.md",
+    "25f/운영체제/Chapter 1/resources/Sample Code.md",
+    "AnimalFarm2/KoreanPoker/Sequence Diagrams/Listeners/GameListner.md",
+    "AnimalFarm2/KoreanPoker/Sequence Diagrams/Untitled.canvas",
+    "25f/금융실무특강/지수.md",
+    "25f/금융실무특강/환율.md",
     "25f/정보보호/2주차/OSI 7 Layer.md",
-    "25f/정보보호/2주차/resources/Pasted image 20250312153156.png",
-    "25f/금융실무특강/2주차/환율.md",
-    "25f/금융실무특강/2주차/지수.md",
-    "AnimalFarm2/Guides/도축.md",
-    "AnimalFarm2/Guides/튜토_체험 기획.md",
-    "AnimalFarm2/Guides/낚시 + 룬.md",
-    "AnimalFarm2/Guides/요리.md",
-    "AnimalFarm2/Guides/광산 + 감정.md",
-    "AnimalFarm2/quest/Generic 타입추론.md",
+    "25f/정보보호/2주차/Pasted image 20250312153156.png",
     "25f/정보보호/2주차/Protocol.md",
-    "25f/운영체제/Chapter 1/Syllabus.md",
-    "24s/컴퓨터네트워크/Routing Protocol/resources/Pasted image 20241202161246.png",
-    "24s/컴퓨터네트워크/Routing Protocol/resources/image-9.png",
-    "24s/컴퓨터네트워크/Routing Protocol/resources/image.png",
-    "24s/컴퓨터네트워크/Routing Protocol/resources/image-8.png",
-    "24s/컴퓨터네트워크/Routing Protocol/resources/image-7.png",
-    "24s/컴퓨터네트워크/Routing Protocol/resources/image-3.png",
-    "24s/컴퓨터네트워크/Routing Protocol/resources/image-6.png",
-    "24s/컴퓨터네트워크/Routing Protocol/resources/image-5.png",
-    "KoreanPoker/Untitled.canvas",
+    "Drawing 2025-03-12 14.30.27.excalidraw.md",
+    "25f/게임그래픽프로그래밍/2주차/XMMATRIX.md",
+    "25f/게임그래픽프로그래밍/2주차/Calling Conventions.md",
+    "25f/게임그래픽프로그래밍/2주차/SIMD.md",
+    "24s/컴퓨터네트워크/Layer 2/Virtual Local Area Network.md",
+    "AnimalFarm2/Quest.canvas",
+    "24s/컴퓨터네트워크/Pasted image 20241206112307.png",
+    "24s/컴퓨터네트워크/GRE Tunnel.png",
+    "24s/법경제학/계약법/image1.png",
+    "24s/컴퓨터네트워크/Layer 2/resources/Pasted image 20241204144952.png",
     "Untitled.canvas",
+    "24s/컴퓨터네트워크/Layer 2/resources/show-vlan.png",
+    "24s/컴퓨터네트워크/Layer 2/resources/Pasted image 20241204135608.png",
+    "24s/컴퓨터네트워크/Layer 2/resources/trunk.png",
+    "24s/컴퓨터네트워크/Layer 2/resources/vlan-top.png",
     "컴퓨터네트워크/Untitled.canvas"
   ]
 }
