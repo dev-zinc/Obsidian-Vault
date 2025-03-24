@@ -319,7 +319,6 @@ Task가 동작하는 데 걸리는 시간을 보장하는 시스템
 - Software as a Service
 - 원격 자원을 소프트웨어 형태로 제공하는 서비스
 - Google Drive 등
-
 ### 가상화
 - VMM(VM Manager)
 	- VMM이 여러 VM의 자원 관리
@@ -329,11 +328,10 @@ Task가 동작하는 데 걸리는 시간을 보장하는 시스템
 	- 어떤 OS이든 Java를 실행 가능하게 해줌
 - Distributed Computing
 	- Hadoop
-
+---
 ### UNIX
 - MACH -(steve jobs)-> Next Step -> macOS
 - Linux는 오픈소스 모임의 이름이었음
-
 #### 현행 UNIX 서버 OS
 - Sun Solaris -> 서버 시장의 60% 차지
 - HP HP-UX 
@@ -343,7 +341,6 @@ Task가 동작하는 데 걸리는 시간을 보장하는 시스템
 
 이후 UNIX계열 제품끼리 호환이 되지 않아 System Call에 대한 표준을 정의함
 - POSIX
-
 #### Embedded System
 - VxWorks
 	- Hard Real-Time System
