@@ -11,10 +11,14 @@
             "id": "cec64302b5aaafd9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "25f/정보보호/4주차/DNS.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DNS"
             }
           }
         ]
@@ -170,10 +174,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a97f0ab96a65aefe",
+  "active": "cec64302b5aaafd9",
   "lastOpenFiles": [
-    "25f/게임그래픽프로그래밍/3주차/workspace/실습 2.md",
+    "{0F5105F1-D557-4146-93E7-02A3824AF16E}.png",
+    "25f/정보보호/2주차/OSI 7 Layer.md",
+    "25f/정보보호/2주차/Protocol.md",
+    "25f/정보보호/2주차/resources/정보보호-2. Network and Security - Theory v2.pdf",
+    "25f/정보보호/4주차/DNS.md",
+    "25f/정보보호/4주차",
     "conflict-files-obsidian-git.md",
+    "25f/게임그래픽프로그래밍/3주차/workspace/실습 2.md",
     "25f/게임그래픽프로그래밍/4주차/resources/Stair-step.png",
     "25f/게임그래픽프로그래밍/4주차/resources/Aliasing.png",
     "25f/게임그래픽프로그래밍/4주차/resources/4. Direct3D Initialization.pdf",
@@ -200,16 +210,11 @@
     "AnimalFarm2/KoreanPoker/Sequence Diagrams",
     "AnimalFarm2/KoreanPoker",
     "25f/정보보호/3주차/실습 1.md",
-    "25f/정보보호/3주차",
-    "25f/정보보호/2주차/Pasted image 20250312153156.png",
+    "25f/정보보호/2주차/resources/Pasted image 20250312153156 1.png",
     "25f/운영체제/Syllabus.md",
-    "25f/운영체제/Chapter 1/resources/[Lec01] Introduction.pdf",
     "25f/운영체제/Chapter 1/resources/Sample Code.md",
     "25f/금융실무특강/환율.md",
     "25f/금융실무특강/지수.md",
-    "25f/금융실무특강/금융시장.md",
-    "25f/금융실무특강/금융상품.md",
-    "25f/금융실무특강/금융.md",
     "25f/정보보호/2주차/resources/Pasted image 20250312153156.png",
     "24s/컴퓨터네트워크/Routing Protocol/resources/Pasted image 20241202161246.png",
     "24s/컴퓨터네트워크/Routing Protocol/resources/image-9.png",
