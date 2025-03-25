@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2c7e66082c977edb",
+        "id": "e7eaf9080021e62b",
         "type": "tabs",
         "children": [
           {
-            "id": "fa8515aeff0368c4",
+            "id": "3c47993ad832d64d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "25f/게임그래픽프로그래밍/3주차/workspace/실습 2.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "실습 2"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 279.5,
+    "collapsed": true
   },
   "right": {
     "id": "26d95bc1bd661cbb",
@@ -170,8 +175,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a97f0ab96a65aefe",
+  "active": "3c47993ad832d64d",
   "lastOpenFiles": [
+    "25f/게임그래픽프로그래밍/~$실습1.docx",
+    "25f/게임그래픽프로그래밍/3주차/workspace/실습 2.md",
+    "25f/게임그래픽프로그래밍/3주차/3주차.md",
+    "AnimalFarm2/ETC/Animal Party.md",
+    "AnimalFarm2/ETC/Yacht Dice.md",
+    "Untitled.md",
+    "25f/금융실무특강/금융제도.md",
+    "AnimalFarm2/ETC",
+    "KoreanPoker/Drawing 2025-03-05 03.53.52.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "25f/게임그래픽프로그래밍/HW.md",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Listeners/GameListner.md",
@@ -187,17 +201,13 @@
     "25f/운영체제/Chapter 1/resources",
     "25f/금융실무특강/환율.md",
     "25f/금융실무특강/지수.md",
-    "25f/금융실무특강/금융제도.md",
     "25f/금융실무특강/금융시장.md",
     "25f/금융실무특강/금융상품.md",
     "25f/금융실무특강/금융.md",
     "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/transformation.cpp",
     "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/affine.vcxproj.filters",
     "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/affine.vcxproj.user",
-    "25f/게임그래픽프로그래밍/3주차/workspace/affine/affine/affine.vcxproj",
-    "25f/게임그래픽프로그래밍/3주차/workspace/실습 2.md",
     "25f/게임그래픽프로그래밍/3주차/resources/Slide 66p.md",
-    "25f/게임그래픽프로그래밍/3주차/3주차.md",
     "25f/정보보호/2주차/OSI 7 Layer.md",
     "25f/정보보호/2주차/resources/Pasted image 20250312153156.png",
     "25f/금융실무특강/2주차/환율.md",
@@ -205,11 +215,6 @@
     "AnimalFarm2/Guides/도축.md",
     "AnimalFarm2/Guides/튜토_체험 기획.md",
     "AnimalFarm2/Guides/낚시 + 룬.md",
-    "AnimalFarm2/Guides/요리.md",
-    "AnimalFarm2/Guides/광산 + 감정.md",
-    "AnimalFarm2/quest/Generic 타입추론.md",
-    "25f/정보보호/2주차/Protocol.md",
-    "25f/운영체제/Chapter 1/Syllabus.md",
     "24s/컴퓨터네트워크/Routing Protocol/resources/Pasted image 20241202161246.png",
     "24s/컴퓨터네트워크/Routing Protocol/resources/image-9.png",
     "24s/컴퓨터네트워크/Routing Protocol/resources/image.png",

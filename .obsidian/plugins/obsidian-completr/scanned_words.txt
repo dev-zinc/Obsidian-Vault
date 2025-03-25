@@ -234,6 +234,13 @@ DLe
 DjFz
 DgWyYik
 DJIA
+Dodd
+Dues
+DirectX
+DOF
+Determinant
+DefWindowProc
+DispatchMessage
 <<<<<<< HEAD
 =======
 >>>>>>> origin/main
@@ -314,6 +321,13 @@ AL
 ABJ
 All
 Additional
+Act
+Aces
+Affine
+Angle
+Axis
+API
+ARROR
 OSPF
 OSFP
 OT
@@ -567,6 +581,7 @@ NFM
 NtV
 NUq
 NASDAQ
+NULL
 LSA
 LSDB
 LSR
@@ -627,6 +642,11 @@ LDt
 LvR
 Ls
 LLA
+LoadCursor
+LineTo
+LBUTTONDOWN
+LOWORD
+LBUTTONUP
 SPF
 State
 Successor
@@ -716,6 +736,14 @@ Static
 Saving
 Start
 Source
+SIFI
+Systemically
+Straight
+Straighj
+Scaling
+SSE
+ShowWindow
+SelectObject
 or
 ov
 oc
@@ -779,6 +807,7 @@ osfm
 of
 obsidian
 occurrence
+orthogonal
 Routing
 RP
 Reply
@@ -854,6 +883,10 @@ RPKN
 Röa
 Reporting
 Remove
+Rotation
+RotationOrigin
+RotationQuaternion
+RegisterClass
 Table
 Topology
 TTf
@@ -937,6 +970,14 @@ Tunneling
 Text
 Trigger
 This
+Transformation
+Transformations
+TransformNormal
+Transform
+Translation
+TransformCoord
+Title
+TranslateMessage
 table
 tC
 tFXvz
@@ -1002,6 +1043,10 @@ this
 them
 txt
 text
+transformation
+theta
+translation
+true
 Packet
 Partial
 PNG
@@ -1078,6 +1123,11 @@ Press
 PLAYING
 Please
 Pasted
+Point
+PostQuitMessage
+PeekMessage
+PAINT
+PAINTSTRUCT
 Hello
 HV
 HK
@@ -1144,6 +1194,10 @@ HQa
 HANk
 Hz
 HUv
+House
+HREDRAW
+HDC
+HIWORD
 image
 ip
 iCCPICC
@@ -1289,6 +1343,11 @@ parsed
 palette
 players
 plugins
+pooling
+pre
+parameter
+point
+pointer
 Interface
 ISP
 IHDR
@@ -1365,6 +1424,10 @@ IrY
 Ixp
 InitialBetting
 Instructions
+Important
+Institutions
+IDC
+InvalidateRect
 Cost
 Cisco
 Classless
@@ -1450,6 +1513,14 @@ Change
 Ckx
 CheckInitialBetting
 Conflicts
+CFPB
+Choice
+Call
+CALLBACK
+CLOSE
+CS
+CreateWindow
+CreatePen
 EIGRP
 EP
 Eh
@@ -1526,6 +1597,8 @@ Excalidraw
 Elements
 EVItBNfl
 EhweF
+Euler
+EndPaint
 Update
 UCk
 UX
@@ -1591,6 +1664,7 @@ Ue
 UG
 Uh
 UN
+Unit
 Query
 QF
 Qo
@@ -1655,6 +1729,7 @@ QuestProcess
 QuestReward
 QuestObjective
 Quest
+QUIT
 show
 sn
 sP
@@ -1727,6 +1802,9 @@ ssxYT
 scanned
 strongly
 simple
+setprecision
+stack
+style
 route
 rlp
 rl
@@ -2142,6 +2220,10 @@ FUJF
 FwH
 FKo
 FTSE
+Financial
+FCA
+Frank
+Full
 hop
 hS
 hbJ
@@ -2199,6 +2281,12 @@ he
 hfS
 hJ
 ho
+handle
+hWnd
+hInstance
+hIcon
+hCursor
+hbrBackground
 Metric
 MTU
 MD
@@ -2495,6 +2583,10 @@ MqW
 MRfU
 MVS
 MSCI
+MessageBox
+Msg
+MoveToEx
+MOUSEMOVE
 nd
 ns
 nT
@@ -2614,6 +2706,7 @@ VoN
 VT
 Virtual
 VIEW
+VREDRAW
 bandwidth
 bm
 bv
@@ -2682,6 +2775,8 @@ by
 before
 below
 blocks
+box
+bLButtonDown
 kbps
 kW
 kPpd
@@ -3031,6 +3126,8 @@ KPC
 KOSPI
 KOSDAQ
 KRX
+Kind
+KEYDOWN
 vpp
 vN
 vU
@@ -3154,6 +3251,12 @@ WBpZ
 Wk
 Weekly
 Week
+WinEx
+WinMain
+Windows
+WINAPI
+WndProc
+WNDCLASS
 ug
 uq
 ux
@@ -3301,6 +3404,7 @@ qe
 qjA
 qh
 qiNMfo
+quaternions
 zU
 zn
 ztn
@@ -3430,6 +3534,7 @@ GamePlayers
 GameBoard
 Game
 GameStartEvent
+GetStockObject
 fj
 fv
 fu
@@ -3494,6 +3599,10 @@ followed
 for
 files
 following
+freedom
+fixed
+floating
+false
 Xg
 XA
 XNA
@@ -3552,6 +3661,11 @@ Xe
 XU
 XhL
 XgSKAreT
+XMVECTOR
+XMMATRIX
+XMMatrixAffineTransformation
+XMVector
+XMMatrixInverse
 Zh
 Za
 ZLAYn
@@ -3674,6 +3788,8 @@ decompress
 data
 deleted
 desired
+degrees
+docs
 yDc
 yr
 yO
@@ -3808,6 +3924,11 @@ commands
 completr
 conflicted
 conflicts
+cpp
+call
+class
+cbClsExtra
+cbWndExtra
 YP
 Yj
 Yx
@@ -3867,6 +3988,7 @@ Yq
 YHE
 You
 Yl
+Yacht
 Jq
 Jn
 JsQM
@@ -4289,6 +4411,8 @@ Byte
 Bytes
 Bull
 Bear
+BRUSH
+BeginPaint
 aqlQ
 aY
 ah
@@ -4355,6 +4479,7 @@ and
 automatically
 available
 above
+angle
 jNG
 jh
 jC
@@ -4616,6 +4741,10 @@ mLY
 mUV
 mAt
 mkt
+matrices
+matrix
+msg
+modal
 wT
 wf
 wi
@@ -4682,6 +4811,9 @@ with
 will
 words
 workspace
+wnd
+window
+wParam
 xS
 xI
 xE
@@ -4741,6 +4873,8 @@ xu
 xss
 xmvector
 xmmatrix
+xxxxo
+xxxoo
 lE
 ln
 ls
@@ -4810,4 +4944,6 @@ lYr
 ljHuL
 list
 listed
+line
+lpfnWndProc
 äI
