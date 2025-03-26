@@ -55,7 +55,7 @@ RF통신에서, 데이터를 전파로 변환하는 것
 ## Network Layer
 - IP Address
 - WAN 범위의 통신
-![[Pasted image 20250312153156.png]]
+![[Pasted image 20250312153156 1.png]]
 
 호스트의 수에 따라 다른 클래스의 대역을 사용할 수 있다.
 
