@@ -26,14 +26,12 @@
             "id": "1b0280f9adb6b2a4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
+                "file": "25f/정보보호/4주차/{0F5105F1-D557-4146-93E7-02A3824AF16E}.png"
               },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "icon": "lucide-image",
+              "title": "{0F5105F1-D557-4146-93E7-02A3824AF16E}"
             }
           }
         ],
@@ -113,8 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5,
-    "collapsed": true
+    "width": 227.5
   },
   "right": {
     "id": "26d95bc1bd661cbb",
@@ -210,11 +207,11 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "1b0280f9adb6b2a4",
+  "active": "bd32b31f93cd6666",
   "lastOpenFiles": [
-    "25f/운영체제/Chapter 2/Chapter 2.md",
     "conflict-files-obsidian-git.md",
-    "{0F5105F1-D557-4146-93E7-02A3824AF16E}.png",
+    "25f/정보보호/4주차/{0F5105F1-D557-4146-93E7-02A3824AF16E}.png",
+    "25f/운영체제/Chapter 2/Chapter 2.md",
     "AnimalFarm2/ETC/Yacht Dice.md",
     "AnimalFarm2/ETC/Animal Party.md",
     "AnimalFarm2/ETC",
