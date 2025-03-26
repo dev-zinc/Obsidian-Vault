@@ -11,10 +11,14 @@
             "id": "42bf90b4c9220b83",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "25f/정보보호/3주차/실습 1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "실습 1"
             }
           }
         ]
@@ -173,6 +177,13 @@
   },
   "active": "42bf90b4c9220b83",
   "lastOpenFiles": [
+    "25f/정보보호/1주차/정보보호.md",
+    "25f/정보보호/1주차/정보보호-1. Introduction.pdf",
+    "25f/정보보호/2주차/resources/정보보호-2. Network and Security - Theory v2.pdf",
+    "25f/정보보호/1주차",
+    "25f/정보보호/정보보호-2. Network and Security - Theory v2.pdf",
+    "25f/정보보호/2주차/resources/정보보호-2. Network and Security - Theory v2.pptx",
+    "25f/정보보호/2주차/resources/정보보호-1. Introduction.pptx",
     "25f/운영체제/Chapter 2/Chapter 2.md",
     "25f/운영체제/Chapter 2/resources/[Lec02] Operating System Structure.pdf",
     "conflict-files-obsidian-git.md",
@@ -195,13 +206,9 @@
     "AnimalFarm2/ETC/Animal Party.md",
     "AnimalFarm2/ETC",
     "25f/정보보호/4주차/DNS.md",
-    "25f/정보보호/4주차",
-    "25f/정보보호/2주차/resources/정보보호-2. Network and Security - Theory v2.pdf",
     "25f/정보보호/2주차/resources/Pasted image 20250312153156 1.png",
     "25f/게임그래픽프로그래밍/4주차/resources/Stair-step.png",
     "25f/게임그래픽프로그래밍/4주차/resources/Aliasing.png",
-    "25f/게임그래픽프로그래밍/4주차/resources/4. Direct3D Initialization.pdf",
-    "25f/게임그래픽프로그래밍/4주차/resources",
     "25f/게임그래픽프로그래밍/4주차/ThrowIfFailed.md",
     "25f/게임그래픽프로그래밍/4주차/Textures.md",
     "25f/게임그래픽프로그래밍/4주차/Multisampling.md",
@@ -209,9 +216,6 @@
     "25f/게임그래픽프로그래밍/4주차/Descriptor.md",
     "25f/게임그래픽프로그래밍/4주차/DXGI.md",
     "25f/게임그래픽프로그래밍/4주차/Component Object Model.md",
-    "25f/게임그래픽프로그래밍/4주차",
-    "25f/운영체제/Syllabus.md",
-    "25f/운영체제/Chapter 2/resources",
     "25f/정보보호/2주차/resources/Pasted image 20250312153156.png",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Untitled.canvas",
     "25f/정보보호/2주차/Pasted image 20250312153156.png",
