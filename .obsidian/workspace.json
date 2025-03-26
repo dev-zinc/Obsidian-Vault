@@ -6,7 +6,7 @@
       {
         "id": "2cb4b361fba646ea",
         "type": "tabs",
-        "dimension": 41.02384291725105,
+        "dimension": 44.88078541374474,
         "children": [
           {
             "id": "0ba54cfe5c9a9d1b",
@@ -21,26 +21,13 @@
               "icon": "lucide-file",
               "title": "Chapter 2"
             }
-          },
-          {
-            "id": "1b0280f9adb6b2a4",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "25f/정보보호/4주차/{0F5105F1-D557-4146-93E7-02A3824AF16E}.png"
-              },
-              "icon": "lucide-image",
-              "title": "{0F5105F1-D557-4146-93E7-02A3824AF16E}"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d9f618b436eaf05d",
         "type": "tabs",
-        "dimension": 58.97615708274895,
+        "dimension": 55.11921458625526,
         "children": [
           {
             "id": "8ff4172f650db69b",
@@ -111,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 227.5,
+    "collapsed": true
   },
   "right": {
     "id": "26d95bc1bd661cbb",
@@ -204,14 +192,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "canvas:Create new canvas": false
+      "canvas:Create new canvas": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bd32b31f93cd6666",
+  "active": "0ba54cfe5c9a9d1b",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "25f/정보보호/4주차/{0F5105F1-D557-4146-93E7-02A3824AF16E}.png",
+    "25f/운영체제/Chapter 2/resources/[Lec02] Operating System Structure.pdf",
     "25f/운영체제/Chapter 2/Chapter 2.md",
+    "25f/정보보호/4주차/{0F5105F1-D557-4146-93E7-02A3824AF16E}.png",
+    "conflict-files-obsidian-git.md",
     "AnimalFarm2/ETC/Yacht Dice.md",
     "AnimalFarm2/ETC/Animal Party.md",
     "AnimalFarm2/ETC",
@@ -231,7 +222,6 @@
     "25f/게임그래픽프로그래밍/4주차/DXGI.md",
     "25f/게임그래픽프로그래밍/4주차/Component Object Model.md",
     "25f/게임그래픽프로그래밍/4주차",
-    "25f/운영체제/Chapter 2/resources/[Lec02] Operating System Structure.pdf",
     "25f/운영체제/Syllabus.md",
     "25f/운영체제/Chapter 2/resources",
     "[Lec02] Operating System Structure.pdf",
