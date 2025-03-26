@@ -1,1 +1,0 @@
-shader model, raytracing, mesh shader, resource binding 등을 지원하는지 범위 설정
