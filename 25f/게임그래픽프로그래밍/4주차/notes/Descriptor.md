@@ -17,3 +17,6 @@
 ### Resources
 - Buffers
 - Textures
+## Descriptor Heap
+`ID3D12Device::CreateDescriptorHeap`를 통해 초기화.
+이후 Descriptor를 가져오기 위해 사용된다.
