@@ -4,41 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c2d52ecdb3b3d0f5",
+        "id": "3fd3d6237b59bb50",
         "type": "tabs",
-        "dimension": 39.27068723702665,
         "children": [
           {
-            "id": "f08c22186da7ef30",
+            "id": "6fcde52c77c6b61b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "25f/운영체제/Chapter 3/Chapter 3.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Chapter 3"
-            }
-          }
-        ]
-      },
-      {
-        "id": "935454705f928e61",
-        "type": "tabs",
-        "dimension": 60.72931276297335,
-        "children": [
-          {
-            "id": "b4b5c21475a2943a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "25f/운영체제/Chapter 3/resources/[Lec03] Processes.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "[Lec03] Processes"
+              "title": "New tab"
             }
           }
         ]
@@ -196,7 +172,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b4b5c21475a2943a",
+  "active": "bd32b31f93cd6666",
   "lastOpenFiles": [
     "25f/운영체제/Chapter 3/Chapter 3.md",
     "25f/운영체제/Chapter 3/resources/[Lec03] Processes.pdf",
