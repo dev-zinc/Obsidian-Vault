@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3fd3d6237b59bb50",
+        "id": "4975fe21013b16ad",
         "type": "tabs",
         "children": [
           {
-            "id": "6fcde52c77c6b61b",
+            "id": "e6f7ff88e02b936d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5,
-    "collapsed": true
+    "width": 227.5
   },
   "right": {
     "id": "26d95bc1bd661cbb",
@@ -172,8 +171,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bd32b31f93cd6666",
+  "active": "e6f7ff88e02b936d",
   "lastOpenFiles": [
+    "2025-03-28.md",
     "25f/운영체제/Chapter 3/Chapter 3.md",
     "25f/운영체제/Chapter 3/resources/[Lec03] Processes.pdf",
     "25f/운영체제/Chapter 3/resources/Pasted image 20250331111429.png",
@@ -192,7 +192,6 @@
     "25f/금융실무특강/환율.md",
     "25f/금융실무특강/금융시장.md",
     "25f/금융실무특강/금융.md",
-    "2025-03-28.md",
     "대학생을 위한 실용금융_제4판_250217.pdf",
     "25f/금융실무특강/resources",
     "25f/정보보호/3주차/실습 1.md",
