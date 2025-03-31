@@ -1,5 +1,8 @@
 {
   "alwaysUpdateLinks": true,
   "promptDelete": false,
-  "spellcheck": false
+  "spellcheck": false,
+  "focusNewTab": true,
+  "showLineNumber": true,
+  "strictLineBreaks": true
 }

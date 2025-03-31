@@ -30,5 +30,8 @@
 - z value에 대한 버퍼 (z-buffering)
 - normalize하여 사용한다.
 - 초기에 1이며, 먼 오브젝트부터 렌더링하며 z buffer의 depth를 해당 오브젝트의 depth로 업데이트한다.
-#### Stencil Buffer
+### Stencil Buffer
 이펙트 표현할 때 픽셀 마스킹에 사용
+#### MIP Levels
+- mip-maps / mip-pyramids
+- 이전 이미지의 낮은 resoultion 
