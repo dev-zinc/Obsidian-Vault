@@ -4,41 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "4975fe21013b16ad",
+        "id": "7b485aac3d5eb507",
         "type": "tabs",
-        "dimension": 37.166900420757365,
+        "dimension": 48.03646563814867,
         "children": [
           {
-            "id": "e6f7ff88e02b936d",
+            "id": "721a726d9b04baf7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "25f/정보보호/5주차/5주차.md",
+                "file": "25f/운영체제/Chapter 3/Chapter 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5주차"
+              "title": "Chapter 3"
             }
           }
         ]
       },
       {
-        "id": "954a47b6c2b8eba8",
+        "id": "766ec46c1362fe40",
         "type": "tabs",
-        "dimension": 62.833099579242635,
+        "dimension": 51.96353436185134,
         "children": [
           {
-            "id": "d2d5c313a48ad305",
+            "id": "edf7fb85cbc7684a",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "25f/정보보호/5주차/정보보호-3. 인터넷 프로토콜과 웹보안.pdf"
+                "file": "25f/운영체제/Chapter 3/resources/[Lec03] Processes.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "정보보호-3. 인터넷 프로토콜과 웹보안"
+              "title": "[Lec03] Processes"
             }
           }
         ]
@@ -196,10 +196,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e6f7ff88e02b936d",
+  "active": "721a726d9b04baf7",
   "lastOpenFiles": [
-    "25f/정보보호/5주차/정보보호-3. 인터넷 프로토콜과 웹보안.pdf",
+    "25f/운영체제/Chapter 3/resources/[Lec03] Processes.pdf",
+    "25f/운영체제/Chapter 3/Chapter 3.md",
     "25f/정보보호/5주차/5주차.md",
+    "25f/정보보호/5주차/정보보호-3. 인터넷 프로토콜과 웹보안.pdf",
     "25f/정보보호/5주차",
     "conflict-files-obsidian-git.md",
     "25f/게임그래픽프로그래밍/5주차/resources/Pipeline and Views.pdf",
@@ -208,8 +210,6 @@
     "25f/게임그래픽프로그래밍/5주차/resources",
     "25f/게임그래픽프로그래밍/5주차",
     "2025-03-28.md",
-    "25f/운영체제/Chapter 3/Chapter 3.md",
-    "25f/운영체제/Chapter 3/resources/[Lec03] Processes.pdf",
     "25f/운영체제/Chapter 3/resources/Pasted image 20250331111429.png",
     "25f/운영체제/Chapter 3/resources/Pasted image 20250331111109.png",
     "25f/금융실무특강/resources/대학생을 위한 실용금융_제4판_250217.pdf",
