@@ -1,0 +1,1 @@
+logical한 polygon을 실제 디지털 pixel로 나타내고 다루기 위한 변환
