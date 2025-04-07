@@ -94,13 +94,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 227.5,
-    "collapsed": true
+    "width": 227.5
   },
   "right": {
     "id": "26d95bc1bd661cbb",
@@ -197,10 +195,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d30c1b78fb86387b",
+  "active": "bd32b31f93cd6666",
   "lastOpenFiles": [
-    "25f/운영체제/Chapter 4/resources/[Lec04] Thread and Concurrency.pdf",
+    "conflict-files-obsidian-git.md",
+    "25f/게임그래픽프로그래밍/5주차/workspace/실습 3.md",
+    "25f/게임그래픽프로그래밍/5주차/workspace",
     "25f/운영체제/Chapter 4/Chapter 4.md",
+    "25f/운영체제/Chapter 4/resources/[Lec04] Thread and Concurrency.pdf",
     "25f/운영체제/Chapter 1/Chapter 1.md",
     "25f/운영체제/Chapter 4/resources/Pasted image 20250407111127.png",
     "25f/운영체제/Chapter 3/resources/[Lec03] Processes.pdf",
@@ -220,8 +221,6 @@
     "25f/게임그래픽프로그래밍/4주차/notes/Component Object Model.md",
     "25f/정보보호/5주차/5주차.md",
     "25f/정보보호/5주차",
-    "conflict-files-obsidian-git.md",
-    "25f/게임그래픽프로그래밍/5주차/resources/Pipeline and Views.pdf",
     "25f/게임그래픽프로그래밍/5주차/Views.md",
     "25f/게임그래픽프로그래밍/5주차/Performance Timer.md",
     "2025-03-28.md",
