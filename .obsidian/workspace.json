@@ -6,7 +6,7 @@
       {
         "id": "ca0d97feaa4ce8f0",
         "type": "tabs",
-        "dimension": 43.82889200561011,
+        "dimension": 39.62131837307153,
         "children": [
           {
             "id": "d30c1b78fb86387b",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "25f/운영체제/Chapter 4/Chapter 4.md",
+                "file": "25f/정보보호/6주차/6주차.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 4"
+              "title": "6주차"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "051358d6e469bfd0",
         "type": "tabs",
-        "dimension": 56.17110799438989,
+        "dimension": 60.378681626928476,
         "children": [
           {
             "id": "4e8cf6f7f258954f",
@@ -35,10 +35,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "25f/운영체제/Chapter 4/resources/[Lec04] Thread and Concurrency.pdf"
+                "file": "25f/정보보호/6주차/resources/정보보호-4. 정보보호와 암호.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "[Lec04] Thread and Concurrency"
+              "title": "정보보호-4. 정보보호와 암호"
             }
           }
         ]
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 227.5,
+    "collapsed": true
   },
   "right": {
     "id": "26d95bc1bd661cbb",
@@ -195,8 +196,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bd32b31f93cd6666",
+  "active": "4e8cf6f7f258954f",
   "lastOpenFiles": [
+    "25f/정보보호/6주차/6주차.md",
+    "25f/정보보호/6주차/resources/정보보호-4. 정보보호와 암호.pdf",
+    "25f/정보보호/6주차/resources/~$정보보호-4. 정보보호와 암호.pptx",
+    "25f/정보보호/5주차/정보보호-3. 인터넷 프로토콜과 웹보안.pdf",
+    "25f/정보보호/6주차/resources/정보보호-4. 정보보호와 암호.pptx",
+    "25f/정보보호/6주차/resources",
+    "25f/정보보호/6주차/무제 폴더",
+    "25f/정보보호/6주차/정보보호-4. 정보보호와 암호.pptx",
+    "25f/운영체제/Chapter 4/resources/[Lec04] Thread and Concurrency.pdf",
+    "25f/운영체제/Chapter 4/Chapter 4.md",
+    "25f/정보보호/6주차",
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250407122847.png",
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250407122153.png",
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250407122113.png",
@@ -204,28 +216,18 @@
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250407122137.png",
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250407122101.png",
     "25f/게임그래픽프로그래밍/6주차/resources/5. The Rendering Pipeline-3.pdf",
-    "25f/게임그래픽프로그래밍/6주차/resources",
     "25f/게임그래픽프로그래밍/6주차/WVP.md",
     "25f/게임그래픽프로그래밍/6주차/Vertices.md",
     "25f/게임그래픽프로그래밍/6주차/Triangle mesh.md",
     "25f/게임그래픽프로그래밍/6주차/Tessellation.md",
     "25f/게임그래픽프로그래밍/6주차/Rasterization.md",
     "25f/게임그래픽프로그래밍/6주차/Color.md",
-    "25f/게임그래픽프로그래밍/6주차",
     "conflict-files-obsidian-git.md",
     "25f/게임그래픽프로그래밍/5주차/workspace/실습 3.md",
-    "25f/게임그래픽프로그래밍/5주차/workspace",
-    "25f/운영체제/Chapter 4/Chapter 4.md",
-    "25f/운영체제/Chapter 4/resources/[Lec04] Thread and Concurrency.pdf",
     "25f/운영체제/Chapter 1/Chapter 1.md",
     "25f/운영체제/Chapter 4/resources/Pasted image 20250407111127.png",
-    "25f/운영체제/Chapter 3/resources/[Lec03] Processes.pdf",
     "25f/운영체제/Chapter 3/Chapter 3.md",
-    "25f/운영체제/Chapter 4/resources",
-    "25f/운영체제/Chapter 4",
     "TCP/IP.md",
-    "TCP",
-    "25f/운영체제/Chapter 2/resources/[Lec02] Operating System Structure.pdf",
     "25f/운영체제/Chapter 2/Chapter 2.md",
     "25f/게임그래픽프로그래밍/4주차/notes/Command Queue & Command List.md",
     "25f/게임그래픽프로그래밍/4주차/notes/Textures.md",
@@ -241,8 +243,6 @@
     "25f/금융실무특강/금융유관기관.md",
     "25f/금융실무특강/resources/Pasted image 20250328151230.png",
     "25f/금융실무특강/금융실무특강.md",
-    "25f/금융실무특강/금융회사.md",
-    "25f/정보보호/4주차/{0F5105F1-D557-4146-93E7-02A3824AF16E}.png",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Untitled.canvas",
     "AnimalFarm2/Quest.canvas",
     "Untitled.canvas",
