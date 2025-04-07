@@ -4,41 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "7b485aac3d5eb507",
+        "id": "ca0d97feaa4ce8f0",
         "type": "tabs",
-        "dimension": 48.03646563814867,
+        "dimension": 43.8288920056101,
         "children": [
           {
-            "id": "721a726d9b04baf7",
+            "id": "d30c1b78fb86387b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "25f/운영체제/Chapter 3/Chapter 3.md",
+                "file": "25f/운영체제/Chapter 4/Chapter 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 3"
+              "title": "Chapter 4"
             }
           }
         ]
       },
       {
-        "id": "766ec46c1362fe40",
+        "id": "051358d6e469bfd0",
         "type": "tabs",
-        "dimension": 51.96353436185134,
+        "dimension": 56.1711079943899,
         "children": [
           {
-            "id": "edf7fb85cbc7684a",
+            "id": "4e8cf6f7f258954f",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "25f/운영체제/Chapter 3/resources/[Lec03] Processes.pdf"
+                "file": "25f/운영체제/Chapter 4/resources/[Lec04] Thread and Concurrency.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "[Lec03] Processes"
+              "title": "[Lec04] Thread and Concurrency"
             }
           }
         ]
@@ -94,7 +94,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -196,26 +197,37 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "721a726d9b04baf7",
+  "active": "d30c1b78fb86387b",
   "lastOpenFiles": [
+    "25f/운영체제/Chapter 4/resources/[Lec04] Thread and Concurrency.pdf",
+    "25f/운영체제/Chapter 4/Chapter 4.md",
+    "25f/운영체제/Chapter 1/Chapter 1.md",
+    "25f/운영체제/Chapter 4/resources/Pasted image 20250407111127.png",
     "25f/운영체제/Chapter 3/resources/[Lec03] Processes.pdf",
     "25f/운영체제/Chapter 3/Chapter 3.md",
-    "25f/정보보호/5주차/5주차.md",
+    "25f/운영체제/Chapter 4/resources",
+    "25f/운영체제/Chapter 4",
+    "TCP/IP.md",
+    "TCP",
+    "25f/운영체제/Chapter 2/resources/[Lec02] Operating System Structure.pdf",
+    "25f/운영체제/Chapter 2/Chapter 2.md",
+    "25f/운영체제/Chapter 1/resources/[Lec01] Introduction.pdf",
+    "25f/게임그래픽프로그래밍/4주차/notes/Command Queue & Command List.md",
     "25f/정보보호/5주차/정보보호-3. 인터넷 프로토콜과 웹보안.pdf",
+    "25f/게임그래픽프로그래밍/4주차/notes/Textures.md",
+    "25f/게임그래픽프로그래밍/4주차/notes/Multisampling.md",
+    "25f/게임그래픽프로그래밍/4주차/notes/Direct3D.md",
+    "25f/게임그래픽프로그래밍/4주차/notes/Component Object Model.md",
+    "25f/정보보호/5주차/5주차.md",
     "25f/정보보호/5주차",
     "conflict-files-obsidian-git.md",
     "25f/게임그래픽프로그래밍/5주차/resources/Pipeline and Views.pdf",
     "25f/게임그래픽프로그래밍/5주차/Views.md",
     "25f/게임그래픽프로그래밍/5주차/Performance Timer.md",
-    "25f/게임그래픽프로그래밍/5주차/resources",
-    "25f/게임그래픽프로그래밍/5주차",
     "2025-03-28.md",
     "25f/운영체제/Chapter 3/resources/Pasted image 20250331111429.png",
     "25f/운영체제/Chapter 3/resources/Pasted image 20250331111109.png",
-    "25f/금융실무특강/resources/대학생을 위한 실용금융_제4판_250217.pdf",
-    "25f/운영체제/Chapter 3/resources",
     "25f/금융실무특강/금융유관기관.md",
-    "25f/운영체제/Chapter 3",
     "25f/금융실무특강/resources/Pasted image 20250328151230.png",
     "25f/금융실무특강/금융실무특강.md",
     "25f/금융실무특강/금융회사.md",
@@ -226,16 +238,6 @@
     "25f/금융실무특강/환율.md",
     "25f/금융실무특강/금융시장.md",
     "25f/금융실무특강/금융.md",
-    "대학생을 위한 실용금융_제4판_250217.pdf",
-    "25f/정보보호/3주차/실습 1.md",
-    "25f/정보보호/1주차/정보보호.md",
-    "25f/운영체제/Chapter 2/Chapter 2.md",
-    "25f/게임그래픽프로그래밍/4주차/workspaces/실습 3.md",
-    "25f/게임그래픽프로그래밍/4주차/workspaces/Drawing 2025-03-26 13.23.25.excalidraw.md",
-    "25f/게임그래픽프로그래밍/4주차/notes/ThrowIfFailed.md",
-    "25f/게임그래픽프로그래밍/4주차/notes/Textures.md",
-    "25f/게임그래픽프로그래밍/4주차/notes/Multisampling.md",
-    "25f/게임그래픽프로그래밍/4주차/notes/Fence & Barrier.md",
     "25f/정보보호/4주차/{0F5105F1-D557-4146-93E7-02A3824AF16E}.png",
     "25f/정보보호/2주차/resources/Pasted image 20250312153156 1.png",
     "25f/게임그래픽프로그래밍/4주차/resources/Stair-step.png",
@@ -244,7 +246,6 @@
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Untitled.canvas",
     "25f/정보보호/2주차/Pasted image 20250312153156.png",
     "AnimalFarm2/Quest.canvas",
-    "24s/컴퓨터네트워크/Pasted image 20241206112307.png",
     "Untitled.canvas",
     "컴퓨터네트워크/Untitled.canvas"
   ]

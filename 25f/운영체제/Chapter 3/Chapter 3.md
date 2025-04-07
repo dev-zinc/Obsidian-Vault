@@ -53,7 +53,6 @@
 ## Process Operations
 #### Creation
 - fork()
-	- 새로운 프로세스 생성
 	- 어떤 프로세스의 clone 작업
 		- 1. PCB 생성 및 초기화
 		- 2. 원본 PCB 내용 deep copy
@@ -70,29 +69,31 @@
 		while (1) {
 			int sock = accept();
 			if ((pid = fork()) == 0) {
-				/* Handle client request */ 
-			} else { 
-				/* Close socket */ 
-			} 
+				/* Handle client request */
+			} else {
+				/* Close socket */
+			}
 		}
 		```
 #### Execution
 - `int exec (char *prog, char *argv[])`
 	- 다른 프로그램 코드를 실행
 	- 현재 프로세스를 중단하고, program counter를 업데이트한다.
+		- 현재 프로세스에 `wait()`을 건다.
 		```c
-		while (1) { 
-			char *cmd = read_command(); 
-			int pid; 
+		while (1) {
+			char *cmd = read_command();
+			int pid;
 			
-			if ((pid = fork()) == 0) { 
-				/* Manipulate stdin/stdout/stderr 
-				for pipes and redirections, etc. */ 
-				exec(cmd); 
-				panic(“exec failed!”); 
-			} else { 
-				wait (pid); 
-			} 
+			if ((pid = fork()) == 0) {
+				/* Manipulate stdin/stdout/stderr
+				for pipes and redirections, etc. */
+				exec(cmd);
+				// if failed
+				panic(“exec failed!”);
+			} else {
+				wait (pid);
+			}
 		}
 		```
 - Windows에서는 `CreateProces`를 사용하는데, 이는 fork와 exec을 합쳐놓은 느낌이다.
@@ -129,4 +130,14 @@
 - 자유도 높지만 개발해야 함
 - Notice가 어려움
 
+- Circular Queue를 이용한 Producer-Consumer 구조
+	- sync issue 존재
+
 [ ? ]둘이 같이 쓰면 ?
+
+##### Socket
+- TCP/IP를 이용한 메세징
+
+##### RPC
+- Remote Procedure Call
+
