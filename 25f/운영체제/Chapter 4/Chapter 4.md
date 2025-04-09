@@ -18,8 +18,9 @@
 - SP(Stack Pointer)
 - register
 
-Thread는 Function 단위로 나누어진다. 이때, Function 수행을 위해 Stack 영역이 필요하다. 따라서 각 Thread에 Stack 영역, 즉 각각의 Stack Pointer가 할당된다.
-
+> Thread는 Function 단위로 나누어진다. 
+> 이때, Function 수행을 위해 Stack 영역이 필요하다. 
+> 따라서 각 Thread에 Stack 영역, 즉 각각의 Stack Pointer가 할당된다.
 ## Concurrency
 ### Parallel Programming
 - 여러 Core를 사용하여 정말 동시에 작업을 수행하는 것
@@ -34,7 +35,6 @@ Thread는 Function 단위로 나누어진다. 이때, Function 수행을 위해 
 - 한 Task 내 작업을 쪼개서 행함
 ##### Task Parallelism
 - 여러 Task를 동시에 행함
-
 ## User-level Thread
 - User Threads
 	- Pthreads(POSIX)
@@ -42,12 +42,31 @@ Thread는 Function 단위로 나누어진다. 이때, Function 수행을 위해 
 	- threads(Solaris)
 - Thread 개념 정립 시기, 모놀리식 OS에 스레드 패치가 어려워 User-level Library로 개발해놓음
 	- Thread Table이 User에 있어 Kernal Shedulling이 망가지는 경우 왕왕 발생
-		- 커널이 Thread에 대한 정보를 모르는 경우 문제 발생
+		- 커널이 Thread에 대한 정보를 모르는 경우 System Call을 호출하는 작업만 wait되며 다른 CPU-bursting한 작업은 스케줄링되지 않을 수 있음
 	- => 결국 커널에 통합
-### Kernal Thread
+### Kernal-level Thread
 - Thread의 생성 및 관리가 System Call에 의존함
 	- Windows 95/98/NT/2000 
 	- Solaris 
 	- Tru64 UNIX
 	- BeOS 
 	- Linux
+
+#Control_Flow_다변화 #Register_값_다변화
+
+`하나의 Control Flow = 하나의 Thread`
+
+## Multithreading Models
+#### Many-to-One
+- User-level Thread
+#### One-to-One
+- Kernal-level Thread
+#### Many-to-Many
+#### Two-level
+- MtM + OtO
+## Fork in Multithreading Enviorment
+- fork가 모든 스레드를 복사, 즉 프로세스 전체를 copy해야 하는가?
+- 아니면 해당 스레드만을 복사해야 하는가?
+	- 구현 환경에 따라 매우 다른 결과가 나타남
+	- fork 이전에 thread 생성을 하지 않는 것이 관습
+
