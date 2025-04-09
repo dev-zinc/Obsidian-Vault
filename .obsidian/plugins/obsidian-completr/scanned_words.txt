@@ -217,6 +217,9 @@ Pou
 PnP
 PacZ
 PBk
+Program
+PID
+Procedure
 obj
 omk
 oL
@@ -398,6 +401,7 @@ oWw
 oEG
 oqA
 ocS
+orphan
 Filter
 FlateDecode
 FX
@@ -762,6 +766,7 @@ LSW
 LPke
 LmSy
 LUG
+Long
 stream
 syD
 sYf
@@ -967,6 +972,13 @@ sTW
 sie
 sGz
 shSB
+system
+scheduler
+shallow
+state
+start
+signal
+sync
 TM
 TI
 Tv
@@ -1155,6 +1167,8 @@ TTt
 Tos
 TqAH
 TimesNewRomanPSMT
+Termination
+TCP
 Xqh
 XObject
 Xm
@@ -1531,6 +1545,7 @@ zOR
 zVt
 zWK
 zvn
+zombie
 xO
 xL
 xp
@@ -2135,6 +2150,7 @@ OEy
 OevM
 Obp
 Oblique
+Operations
 My
 Ma
 Mk
@@ -2332,6 +2348,8 @@ MNx
 MonotypeSorts
 MBv
 MathematicalPi
+Medium
+Memory
 eT
 endobj
 eV
@@ -2536,6 +2554,10 @@ eSb
 eUyT
 epU
 efi
+event
+exit
+exec
+exitCode
 hH
 hZ
 hL
@@ -3140,6 +3162,7 @@ nlaQ
 nwu
 nYljj
 nKCw
+new
 AzP
 AD
 AKH
@@ -3362,6 +3385,7 @@ AAAACT
 AAAACW
 AAAACY
 AAAADA
+Address
 Ib
 IE
 Im
@@ -3550,6 +3574,8 @@ ITJ
 Igi
 IOo
 IkZg
+Interrupt
+Inter
 Ym
 Yq
 YM
@@ -3934,6 +3960,7 @@ Dmvz
 DtdD
 DUR
 Differences
+Diagram
 EB
 Exif
 Er
@@ -4113,6 +4140,7 @@ Encode
 ENd
 Eyt
 EHGY
+Execution
 yC
 yr
 yNAy
@@ -4520,6 +4548,11 @@ tTmC
 tkD
 tnp
 tXVe
+trap
+terminated
+term
+termination
+terminal
 vr
 vq
 vP
@@ -4913,6 +4946,11 @@ cjT
 cjh
 cgcgFE
 cPb
+completion
+call
+ctx
+clone
+counter
 ak
 aF
 aG
@@ -5105,6 +5143,8 @@ akR
 azML
 aLkE
 aFbj
+abort
+abnormal
 UBV
 UT
 UP
@@ -5691,6 +5731,7 @@ mhn
 mor
 mZRs
 mZi
+main
 gf
 gR
 gc
@@ -6241,6 +6282,8 @@ dgo
 dFW
 dTr
 dkx
+dispatch
+deep
 pSp
 pY
 pG
@@ -6428,6 +6471,10 @@ pctL
 pEe
 pth
 pqP
+process
+place
+program
+processes
 qyuk
 qIK
 qu
@@ -6620,6 +6667,7 @@ qVH
 qow
 qhp
 qyMI
+queue
 iSu
 ii
 im
@@ -6810,6 +6858,7 @@ igm
 iSm
 iIq
 iKka
+issue
 ColorSpace
 Cs
 CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -7001,6 +7050,12 @@ CAV
 Chg
 CGi
 Cky
+Creation
+Caller
+Cooperating
+Communication
+Circular
+Consumer
 Subtype
 SH
 SA
@@ -7188,6 +7243,12 @@ SymbolMT
 SFldp
 Srd
 SCx
+Space
+Scheduler
+Short
+Swapper
+Shared
+Socket
 Width
 WW
 WWX
@@ -7808,6 +7869,7 @@ Bcx
 BgP
 BZL
 BPB
+Block
 Qa
 QE
 QQ
@@ -8030,6 +8092,7 @@ Qmt
 QOWQ
 QPD
 QMW
+Queue
 Rq
 RQI
 RP
@@ -8217,6 +8280,10 @@ RoeU
 RtA
 RLT
 RvnA
+Ready
+Routine
+RPC
+Remote
 wI
 wo
 wvw
@@ -8439,6 +8506,8 @@ wuu
 wTq
 wQeA
 wGg
+wating
+waiting
 bkw
 bx
 bX
@@ -9563,6 +9632,7 @@ NPuumueu
 NGw
 Nbr
 Nib
+Notice
 lm
 llT
 lR
@@ -9936,6 +10006,8 @@ rzUP
 rwHn
 rrK
 rqu
+ready
+running
 uf
 unm
 uus
