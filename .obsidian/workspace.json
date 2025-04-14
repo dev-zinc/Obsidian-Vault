@@ -4,39 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "051358d6e469bfd0",
+        "id": "8c00ce7398e9ce24",
         "type": "tabs",
-        "dimension": 42.14586255259467,
+        "dimension": 36.886395511921464,
         "children": [
           {
-            "id": "4e8cf6f7f258954f",
+            "id": "325521ea60e553f5",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "25f/금융실무특강/resources/금융제도_3월21강의자료.pdf"
+                "file": "25f/운영체제/Chapter 5/Chapter 5.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "금융제도_3월21강의자료"
+              "icon": "lucide-file",
+              "title": "Chapter 5"
             }
           }
         ]
       },
       {
-        "id": "91044f76f3578f2e",
+        "id": "2fb4bdc4d84a39e8",
         "type": "tabs",
-        "dimension": 57.85413744740533,
+        "dimension": 63.11360448807854,
         "children": [
           {
-            "id": "d965804ae25ba449",
+            "id": "b08d1bb7e9f61310",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "25f/금융실무특강/resources/대학생을 위한 실용금융_제4판_250217.pdf"
+                "file": "25f/운영체제/Chapter 5/resources/[Lec05] CPU scheduling.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "대학생을 위한 실용금융_제4판_250217"
+              "title": "[Lec05] CPU scheduling"
             }
           }
         ]
@@ -193,10 +195,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bd32b31f93cd6666",
+  "active": "b08d1bb7e9f61310",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "25f/운영체제/Chapter 5/Chapter 5.md",
+    "25f/운영체제/Chapter 5/resources/[Lec05] CPU scheduling.pdf",
+    "25f/lib/Optimal.md",
+    "25f/lib/The Best.md",
+    "25f/lib",
+    "25f/게임그래픽프로그래밍/4주차/notes/Fence & Barrier.md",
     "25f/금융실무특강/resources/금융제도_3월21강의자료.pdf",
+    "conflict-files-obsidian-git.md",
     "25f/게임그래픽프로그래밍/6주차/workspace/실습 4.md",
     "25f/게임그래픽프로그래밍/6주차/workspace",
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250409133119.png",
@@ -213,9 +221,6 @@
     "25f/금융실무특강/resources/4월4일강의자료_예적금저축상품.pdf",
     "25f/금융실무특강/resources/대학생을 위한 실용금융_제4판_250217.pdf",
     "25f/금융실무특강/4장.md",
-    "25f/금융실무특강/resources/적기시정조치_3월25강의자료.pdf",
-    "25f/운영체제/Chapter 5/Chapter 5.md",
-    "25f/운영체제/Chapter 5/resources/[Lec05] CPU scheduling.pdf",
     "25f/운영체제/Chapter 4/Chapter 4.md",
     "25f/운영체제/Chapter 3/Chapter 3.md",
     "25f/정보보호/6주차/6주차.md",
@@ -235,9 +240,6 @@
     "25f/운영체제/Chapter 1/Chapter 1.md",
     "25f/운영체제/Chapter 4/resources/Pasted image 20250407111127.png",
     "TCP/IP.md",
-    "25f/운영체제/Chapter 2/Chapter 2.md",
-    "25f/게임그래픽프로그래밍/4주차/notes/Command Queue & Command List.md",
-    "25f/게임그래픽프로그래밍/4주차/notes/Textures.md",
     "25f/운영체제/Chapter 3/resources/Pasted image 20250331111429.png",
     "25f/운영체제/Chapter 3/resources/Pasted image 20250331111109.png",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Untitled.canvas",
