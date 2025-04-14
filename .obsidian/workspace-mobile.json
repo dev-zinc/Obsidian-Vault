@@ -1,0 +1,178 @@
+{
+  "main": {
+    "id": "c149779e4c570cec",
+    "type": "split",
+    "children": [
+      {
+        "id": "db9f168f3adf5011",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a88b5a48ee048d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "25f/게임그래픽프로그래밍/6주차/workspace/실습 4.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "실습 4"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a5f1801425572a67",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "ff3f73e6b66e1998",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "248f767673e2c544",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "ca93ace1fcde41a5",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "569312405f8a90ad",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "d3cdc6a3242ead56",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a1b71232cb32fe06",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "25f/게임그래픽프로그래밍/4주차/resources/4. Direct3D Initialization.pdf",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "342bdbfcb31cea9f",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "25f/게임그래픽프로그래밍/4주차/resources/4. Direct3D Initialization.pdf",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "8d6f037f952de80e",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "25f/게임그래픽프로그래밍/4주차/resources/4. Direct3D Initialization.pdf",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "27aba24697ee37f4",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
+      }
+    ],
+    "currentTab": 3
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "9a88b5a48ee048d6",
+  "lastOpenFiles": [
+    "25f/게임그래픽프로그래밍/6주차/resources/6. Drawing in Direct3D - II-1.pdf",
+    "25f/게임그래픽프로그래밍/6주차/workspace/실습 4.md",
+    "25f/게임그래픽프로그래밍/6주차/resources/6. Drawing in Direct3D - I.pdf",
+    "25f/게임그래픽프로그래밍/6주차/resources/5. The Rendering Pipeline-3.pdf",
+    "25f/게임그래픽프로그래밍/4주차/resources/4. Direct3D Initialization.pdf",
+    "25f/게임그래픽프로그래밍/5주차/resources/Pipeline and Views.pdf",
+    "25f/게임그래픽프로그래밍/6주차/resources/6. Drawing in Direct3D - II.pdf"
+  ]
+}
