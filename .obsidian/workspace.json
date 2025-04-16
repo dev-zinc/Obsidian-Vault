@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "49b955436004bdf0",
+        "id": "b5ff65aa18622b62",
         "type": "tabs",
         "children": [
           {
-            "id": "d1c140d2ec1ea71c",
+            "id": "13f9c251bf9ce5c7",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".gitignore",
-                "bFile": ".gitignore",
-                "aRef": "HEAD",
-                "bRef": ""
+                "aFile": ".obsidian/types.json",
+                "bFile": ".obsidian/types.json",
+                "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: .gitignore"
+              "title": "Diff: types.json"
             }
           }
         ]
@@ -176,7 +175,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d1c140d2ec1ea71c",
+  "active": "13f9c251bf9ce5c7",
   "lastOpenFiles": [
     "25f/운영체제/Chapter 6/Chapter 6.md",
     "25f/운영체제/Chapter 7/Chapter 7.md",
