@@ -4,41 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8c00ce7398e9ce24",
+        "id": "320f7cd336e06527",
         "type": "tabs",
-        "dimension": 36.886395511921464,
         "children": [
           {
-            "id": "325521ea60e553f5",
+            "id": "b3d914811db71d5b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "25f/게임그래픽프로그래밍/7주차/Untitled.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          }
-        ]
-      },
-      {
-        "id": "2fb4bdc4d84a39e8",
-        "type": "tabs",
-        "dimension": 63.11360448807854,
-        "children": [
-          {
-            "id": "b08d1bb7e9f61310",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "25f/게임그래픽프로그래밍/6주차/resources/6. Drawing in Direct3D - II-1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "6. Drawing in Direct3D - II-1"
+              "title": "New tab"
             }
           }
         ]
@@ -195,32 +171,33 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b08d1bb7e9f61310",
+  "active": "b3d914811db71d5b",
   "lastOpenFiles": [
-    "25f/게임그래픽프로그래밍/5주차/resources/Pipeline and Views.pdf",
-    "25f/게임그래픽프로그래밍/7주차/Untitled.md",
+    "25f/운영체제/Chapter 7/[Lec07] Synchronization example.pdf",
+    "25f/운영체제/Chapter 6/[Lec06] Synchronization tool.pdf",
+    "25f/운영체제/Chapter 7",
+    "Chapter 7",
+    "Chapter 6",
+    "25f/운영체제/Chapter 6",
+    "무제 폴더",
+    "[Lec06] Synchronization tool.pdf",
+    "[Lec07] Synchronization example.pdf",
     "25f/게임그래픽프로그래밍/6주차/resources/5. The Rendering Pipeline-3.pdf",
-    "25f/게임그래픽프로그래밍/6주차/resources/6. Drawing in Direct3D - I.pdf",
-    "25f/게임그래픽프로그래밍/6주차/resources/6. Drawing in Direct3D - II-1.pdf",
-    "25f/게임그래픽프로그래밍/6주차/resources/6. Drawing in Direct3D - II.pdf",
-    "25f/게임그래픽프로그래밍/6주차/notes/Color.md",
-    "25f/게임그래픽프로그래밍/7주차",
+    "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250409133119.png",
+    "25f/게임그래픽프로그래밍/6주차/workspace/실습 4.md",
+    "25f/게임그래픽프로그래밍/7주차/Untitled.md",
     "25f/운영체제/Chapter 5/Chapter 5.md",
-    "25f/운영체제/Chapter 5/resources/[Lec05] CPU scheduling.pdf",
+    "25f/게임그래픽프로그래밍/7주차",
     "25f/lib/Optimal.md",
     "25f/lib/The Best.md",
-    "25f/lib",
     "25f/게임그래픽프로그래밍/4주차/notes/Fence & Barrier.md",
-    "25f/금융실무특강/resources/금융제도_3월21강의자료.pdf",
     "conflict-files-obsidian-git.md",
-    "25f/게임그래픽프로그래밍/6주차/workspace/실습 4.md",
-    "25f/게임그래픽프로그래밍/6주차/workspace",
-    "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250409133119.png",
     "25f/게임그래픽프로그래밍/6주차/notes/WVP.md",
     "25f/게임그래픽프로그래밍/6주차/notes/Vertices.md",
     "25f/게임그래픽프로그래밍/6주차/notes/Triangle mesh.md",
     "25f/게임그래픽프로그래밍/6주차/notes/Tessellation.md",
     "25f/게임그래픽프로그래밍/6주차/notes/Rasterization.md",
+    "25f/게임그래픽프로그래밍/6주차/notes/Color.md",
     "25f/금융실무특강/4장.md",
     "25f/운영체제/Chapter 4/Chapter 4.md",
     "25f/운영체제/Chapter 3/Chapter 3.md",
