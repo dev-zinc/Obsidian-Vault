@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "320f7cd336e06527",
+        "id": "49b955436004bdf0",
         "type": "tabs",
         "children": [
           {
-            "id": "b3d914811db71d5b",
+            "id": "d1c140d2ec1ea71c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -171,23 +171,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b3d914811db71d5b",
+  "active": "d1c140d2ec1ea71c",
   "lastOpenFiles": [
-    "25f/운영체제/Chapter 7/[Lec07] Synchronization example.pdf",
-    "25f/운영체제/Chapter 6/[Lec06] Synchronization tool.pdf",
+    "25f/운영체제/Chapter 6/Chapter 6.md",
+    "25f/운영체제/Chapter 7/Chapter 7.md",
+    "25f/운영체제/Chapter 7/resources",
+    "25f/운영체제/Chapter 5/Chapter 5.md",
+    "25f/운영체제/Chapter 6/resources",
+    "25f/운영체제/Chapter 5/resources/[Lec05] CPU scheduling.pdf",
+    "25f/운영체제/Chapter 7/resources/[Lec07] Synchronization example.pdf",
+    "25f/운영체제/Chapter 6/resources/[Lec06] Synchronization tool.pdf",
     "25f/운영체제/Chapter 7",
     "Chapter 7",
     "Chapter 6",
     "25f/운영체제/Chapter 6",
     "무제 폴더",
-    "[Lec06] Synchronization tool.pdf",
-    "[Lec07] Synchronization example.pdf",
-    "25f/게임그래픽프로그래밍/6주차/resources/5. The Rendering Pipeline-3.pdf",
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250409133119.png",
     "25f/게임그래픽프로그래밍/6주차/workspace/실습 4.md",
     "25f/게임그래픽프로그래밍/7주차/Untitled.md",
-    "25f/운영체제/Chapter 5/Chapter 5.md",
-    "25f/게임그래픽프로그래밍/7주차",
     "25f/lib/Optimal.md",
     "25f/lib/The Best.md",
     "25f/게임그래픽프로그래밍/4주차/notes/Fence & Barrier.md",
@@ -215,7 +216,6 @@
     "25f/게임그래픽프로그래밍/6주차/Rasterization.md",
     "25f/게임그래픽프로그래밍/6주차/Color.md",
     "25f/게임그래픽프로그래밍/5주차/workspace/실습 3.md",
-    "25f/운영체제/Chapter 1/Chapter 1.md",
     "25f/운영체제/Chapter 4/resources/Pasted image 20250407111127.png",
     "25f/운영체제/Chapter 3/resources/Pasted image 20250331111429.png",
     "25f/운영체제/Chapter 3/resources/Pasted image 20250331111109.png",
