@@ -4,21 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "b5ff65aa18622b62",
+        "id": "cfa1c0aab1d587f5",
         "type": "tabs",
+        "dimension": 40.34974093264248,
         "children": [
           {
-            "id": "13f9c251bf9ce5c7",
+            "id": "c9ad69f55fb475d8",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/types.json",
-                "bFile": ".obsidian/types.json",
-                "aRef": ""
+                "file": "25f/게임그래픽프로그래밍/7주차/Root Signiture.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: types.json"
+              "icon": "lucide-file",
+              "title": "Root Signiture"
+            }
+          },
+          {
+            "id": "45e54d1af6e52673",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "25f/게임그래픽프로그래밍/7주차/Constatnt Buffer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Constatnt Buffer"
+            }
+          }
+        ]
+      },
+      {
+        "id": "32862daf2b5d87f9",
+        "type": "tabs",
+        "dimension": 59.65025906735752,
+        "children": [
+          {
+            "id": "cfc76ab3bcea49a9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "25f/게임그래픽프로그래밍/6주차/resources/6. Drawing in Direct3D - II-1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "6. Drawing in Direct3D - II-1"
             }
           }
         ]
@@ -175,8 +209,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "13f9c251bf9ce5c7",
+  "active": "c9ad69f55fb475d8",
   "lastOpenFiles": [
+    "25f/게임그래픽프로그래밍/6주차/resources/6. Drawing in Direct3D - II-1.pdf",
+    "25f/게임그래픽프로그래밍/7주차/Root Signiture.md",
+    "25f/게임그래픽프로그래밍/7주차/Constatnt Buffer.md",
+    "25f/게임그래픽프로그래밍/7주차/Compiling Shader.md",
+    "25f/게임그래픽프로그래밍/7주차/resources/Pasted image 20250416122745.png",
+    "25f/게임그래픽프로그래밍/7주차/resources",
+    "Untitled.canvas",
+    "25f/게임그래픽프로그래밍/6주차/notes/Rasterization.md",
     "25f/운영체제/Chapter 6/Chapter 6.md",
     "25f/운영체제/Chapter 7/Chapter 7.md",
     "25f/운영체제/Chapter 7/resources",
@@ -188,11 +230,8 @@
     "25f/운영체제/Chapter 7",
     "Chapter 7",
     "Chapter 6",
-    "25f/운영체제/Chapter 6",
-    "무제 폴더",
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250409133119.png",
     "25f/게임그래픽프로그래밍/6주차/workspace/실습 4.md",
-    "25f/게임그래픽프로그래밍/7주차/Untitled.md",
     "25f/lib/Optimal.md",
     "25f/lib/The Best.md",
     "25f/게임그래픽프로그래밍/4주차/notes/Fence & Barrier.md",
@@ -201,7 +240,6 @@
     "25f/게임그래픽프로그래밍/6주차/notes/Vertices.md",
     "25f/게임그래픽프로그래밍/6주차/notes/Triangle mesh.md",
     "25f/게임그래픽프로그래밍/6주차/notes/Tessellation.md",
-    "25f/게임그래픽프로그래밍/6주차/notes/Rasterization.md",
     "25f/게임그래픽프로그래밍/6주차/notes/Color.md",
     "25f/금융실무특강/4장.md",
     "25f/운영체제/Chapter 4/Chapter 4.md",
@@ -217,15 +255,10 @@
     "25f/게임그래픽프로그래밍/6주차/Vertices.md",
     "25f/게임그래픽프로그래밍/6주차/Triangle mesh.md",
     "25f/게임그래픽프로그래밍/6주차/Tessellation.md",
-    "25f/게임그래픽프로그래밍/6주차/Rasterization.md",
-    "25f/게임그래픽프로그래밍/6주차/Color.md",
-    "25f/게임그래픽프로그래밍/5주차/workspace/실습 3.md",
     "25f/운영체제/Chapter 4/resources/Pasted image 20250407111127.png",
     "25f/운영체제/Chapter 3/resources/Pasted image 20250331111429.png",
-    "25f/운영체제/Chapter 3/resources/Pasted image 20250331111109.png",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Untitled.canvas",
     "AnimalFarm2/Quest.canvas",
-    "Untitled.canvas",
     "컴퓨터네트워크/Untitled.canvas"
   ]
 }
