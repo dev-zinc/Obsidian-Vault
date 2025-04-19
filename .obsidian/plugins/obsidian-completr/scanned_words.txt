@@ -254,6 +254,7 @@ Dy
 DO
 Dc
 Dynamic
+DNS
 <<<<<<< HEAD
 =======
 >>>>>>> origin/main
@@ -1190,6 +1191,7 @@ Spoofing
 Syntax
 Semantics
 Sequence
+System
 or
 ov
 oc
@@ -2265,6 +2267,7 @@ HTr
 HGy
 Header
 Hash
+Hosts
 image
 ip
 iCCPICC
@@ -3595,6 +3598,7 @@ QPAEQQh
 Qqx
 QLLY
 QPL
+Qualified
 show
 sn
 sP
@@ -3773,6 +3777,7 @@ sAHh
 suIq
 sVQ
 startxref
+solid
 route
 rlp
 rl
@@ -4388,6 +4393,9 @@ Financial
 FCA
 Frank
 Full
+FIle
+FQDN
+Fully
 hop
 hS
 hbJ
@@ -4542,6 +4550,7 @@ hgv
 heZ
 hvx
 hwE
+hosts
 Metric
 MTU
 MD
