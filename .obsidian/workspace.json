@@ -4,41 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "51100ec7627c2251",
+        "id": "dc8a0eda7a754bc4",
         "type": "tabs",
-        "dimension": 41.374474053295934,
+        "dimension": 42.14586255259467,
         "children": [
           {
-            "id": "86804304b096ec6f",
+            "id": "b5289fa2096cd4b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "25f/금융실무특강/재무재표.md",
+                "file": "25f/운영체제/Chapter 6/Chapter 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "재무재표"
+              "title": "Chapter 6"
             }
           }
         ]
       },
       {
-        "id": "cc145741f76a67bb",
+        "id": "21af127f2af42117",
         "type": "tabs",
-        "dimension": 58.62552594670407,
+        "dimension": 57.85413744740533,
         "children": [
           {
-            "id": "16b17c8ea044ba42",
+            "id": "1f6b8fd891b8f8e9",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "25f/금융실무특강/resources/대학생을 위한 실용금융_제4판_250217.pdf"
+                "file": "25f/운영체제/Chapter 6/resources/[Lec06] Synchronization tool.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "대학생을 위한 실용금융_제4판_250217"
+              "title": "[Lec06] Synchronization tool"
             }
           }
         ]
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5
+    "width": 227.5,
+    "collapsed": true
   },
   "right": {
     "id": "26d95bc1bd661cbb",
@@ -195,31 +196,33 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a97f0ab96a65aefe",
+  "active": "b5289fa2096cd4b9",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Untitled.canvas",
-    "2025-03-28.md",
+    "25f/운영체제/Chapter 6/resources/[Lec06] Synchronization tool.pdf",
+    "25f/운영체제/Chapter 6/Chapter 6.md",
+    "25f/운영체제/Chapter 6/resources/Pasted image 20250421112605.png",
+    "25f/운영체제/Chapter 7/Chapter 7.md",
+    "25f/금융실무특강/resources/대학생을 위한 실용금융_제4판_250217.pdf",
     "25f/금융실무특강/재무재표.md",
-    "25f/게임그래픽프로그래밍/7주차/resources/Pasted image 20250416122745.png",
-    "25f/게임그래픽프로그래밍/7주차/resources",
+    "25f/금융실무특강/resources/적기시정조치_3월25강의자료.pdf",
+    "25f/게임그래픽프로그래밍/6주차/resources/5. The Rendering Pipeline-3.pdf",
     "25f/게임그래픽프로그래밍/7주차/Root Signiture.md",
     "25f/게임그래픽프로그래밍/7주차/Constatnt Buffer.md",
     "25f/게임그래픽프로그래밍/7주차/Compiling Shader.md",
-    "25f/금융실무특강/resources/대학생을 위한 실용금융_제4판_250217.pdf",
+    "25f/게임그래픽프로그래밍/4주차/notes/Command Queue & Command List.md",
+    "Untitled.canvas",
+    "conflict-files-obsidian-git.md",
+    "2025-03-28.md",
+    "25f/게임그래픽프로그래밍/7주차/resources/Pasted image 20250416122745.png",
+    "25f/게임그래픽프로그래밍/7주차/resources",
     "25f/금융실무특강/주식 가치 평가 모형.md",
     "25f/금융실무특강/채권.md",
     "25f/금융실무특강/resources/4월11일_회사채및단기사채.pdf",
-    "25f/운영체제/Chapter 6/Chapter 6.md",
-    "25f/운영체제/Chapter 7/Chapter 7.md",
     "25f/운영체제/Chapter 7/resources",
     "25f/운영체제/Chapter 5/Chapter 5.md",
     "25f/운영체제/Chapter 6/resources",
     "25f/운영체제/Chapter 5/resources/[Lec05] CPU scheduling.pdf",
     "25f/운영체제/Chapter 7/resources/[Lec07] Synchronization example.pdf",
-    "25f/운영체제/Chapter 6/resources/[Lec06] Synchronization tool.pdf",
-    "25f/운영체제/Chapter 7",
-    "Chapter 7",
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250409133119.png",
     "25f/게임그래픽프로그래밍/6주차/workspace/실습 4.md",
     "25f/게임그래픽프로그래밍/7주차/Untitled.md",
@@ -234,7 +237,6 @@
     "25f/게임그래픽프로그래밍/6주차/notes/Color.md",
     "25f/운영체제/Chapter 4/Chapter 4.md",
     "25f/운영체제/Chapter 3/Chapter 3.md",
-    "25f/정보보호/6주차/6주차.md",
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250407122847.png",
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250407122153.png",
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250407122113.png",
@@ -242,7 +244,6 @@
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250407122137.png",
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250407122101.png",
     "25f/운영체제/Chapter 4/resources/Pasted image 20250407111127.png",
-    "25f/운영체제/Chapter 3/resources/Pasted image 20250331111429.png",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Untitled.canvas",
     "AnimalFarm2/Quest.canvas",
     "컴퓨터네트워크/Untitled.canvas"
