@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5,
-    "collapsed": true
+    "width": 227.5
   },
   "right": {
     "id": "26d95bc1bd661cbb",
@@ -196,10 +195,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b5289fa2096cd4b9",
+  "active": "bd32b31f93cd6666",
   "lastOpenFiles": [
-    "25f/운영체제/Chapter 6/resources/[Lec06] Synchronization tool.pdf",
     "25f/운영체제/Chapter 6/Chapter 6.md",
+    "conflict-files-obsidian-git.md",
+    "25f/운영체제/Chapter 6/resources/[Lec06] Synchronization tool.pdf",
     "25f/운영체제/Chapter 6/resources/Pasted image 20250421112605.png",
     "25f/운영체제/Chapter 7/Chapter 7.md",
     "25f/금융실무특강/resources/대학생을 위한 실용금융_제4판_250217.pdf",
@@ -211,7 +211,6 @@
     "25f/게임그래픽프로그래밍/7주차/Compiling Shader.md",
     "25f/게임그래픽프로그래밍/4주차/notes/Command Queue & Command List.md",
     "Untitled.canvas",
-    "conflict-files-obsidian-git.md",
     "2025-03-28.md",
     "25f/게임그래픽프로그래밍/7주차/resources/Pasted image 20250416122745.png",
     "25f/게임그래픽프로그래밍/7주차/resources",
