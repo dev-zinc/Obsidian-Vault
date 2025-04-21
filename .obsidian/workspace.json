@@ -11,12 +11,14 @@
             "id": "1f6b8fd891b8f8e9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "25f/게임그래픽프로그래밍/6주차/resources/6. Drawing in Direct3D - II-1.pdf"
+                "file": "25f/게임그래픽프로그래밍/BoxApp.cpp.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "6. Drawing in Direct3D - II-1"
+              "icon": "lucide-file",
+              "title": "BoxApp.cpp"
             }
           },
           {
@@ -187,14 +189,15 @@
   },
   "active": "1f6b8fd891b8f8e9",
   "lastOpenFiles": [
+    "25f/게임그래픽프로그래밍/중간.md",
+    "25f/게임그래픽프로그래밍/BoxApp.cpp.md",
+    "25f/게임그래픽프로그래밍/6주차/resources/6. Drawing in Direct3D - II-1.pdf",
     "25f/게임그래픽프로그래밍/7주차/~$실습 5.docx",
     "25f/게임그래픽프로그래밍/7주차/~WRL0325.tmp",
     "25f/게임그래픽프로그래밍/7주차/~WRD0325.tmp",
     "25f/게임그래픽프로그래밍/7주차/실습 5.docx",
     "25f/게임그래픽프로그래밍/6주차/resources/5. The Rendering Pipeline-3.pdf",
-    "25f/게임그래픽프로그래밍/6주차/resources/6. Drawing in Direct3D - II-1.pdf",
     "25f/게임그래픽프로그래밍/6주차/resources/6. Drawing in Direct3D - I.pdf",
-    "25f/게임그래픽프로그래밍/중간.md",
     "25f/게임그래픽프로그래밍/7주차/Root Signiture.md",
     "25f/게임그래픽프로그래밍/7주차/Compiling Shader.md",
     "25f/운영체제/Chapter 6/Chapter 6.md",
@@ -210,7 +213,6 @@
     "25f/게임그래픽프로그래밍/4주차/notes/Command Queue & Command List.md",
     "Untitled.canvas",
     "2025-03-28.md",
-    "25f/게임그래픽프로그래밍/7주차/resources",
     "25f/금융실무특강/주식 가치 평가 모형.md",
     "25f/금융실무특강/채권.md",
     "25f/운영체제/Chapter 5/Chapter 5.md",
