@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c82f6c9b48958fe3",
+        "id": "0363e30e4e18cf49",
         "type": "tabs",
         "children": [
           {
-            "id": "048acd2920709afd",
+            "id": "50fa9c5891c7b0be",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -176,8 +171,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "048acd2920709afd",
+  "active": "bd32b31f93cd6666",
   "lastOpenFiles": [
+    "25f/게임그래픽프로그래밍/7주차/~$실습 5.docx",
+    "25f/게임그래픽프로그래밍/7주차/resources/7. Drawing in Direct3D Part II - I-1.pdf",
     "P.md",
     "25f/운영체제/Chapter 1/Chapter 1.md",
     "25f/운영체제/Chapter 7/Chapter 7.md",
@@ -199,7 +196,6 @@
     "25f/게임그래픽프로그래밍/중간.md",
     "25f/게임그래픽프로그래밍/BoxApp.cpp.md",
     "25f/게임그래픽프로그래밍/7주차/실습 5.docx",
-    "25f/게임그래픽프로그래밍/7주차/~$실습 5.docx",
     "25f/운영체제/Chapter 6/resources/Pasted image 20250421112605.png",
     "25f/금융실무특강/resources/대학생을 위한 실용금융_제4판_250217.pdf",
     "25f/금융실무특강/재무재표.md",
@@ -218,7 +214,6 @@
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250409133119.png",
     "25f/게임그래픽프로그래밍/6주차/workspace/실습 4.md",
     "25f/게임그래픽프로그래밍/7주차/Untitled.md",
-    "25f/lib/Optimal.md",
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250407122847.png",
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250407122153.png",
     "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250407122113.png",
