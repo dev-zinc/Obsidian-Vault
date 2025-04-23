@@ -1,20 +1,16 @@
 ### 수업정보
 - 담당 교수: 김범석 (전자정보대학관 348호, 031-201-2723, [passion0822@khu.ac.kr](mailto:passion0822@khu.ac.kr))
 - CSE301-02: 월/수 10:30-11:45 전자정보대학관 B09 (대면강의)
-
 ### 수업목표
 - 운영체제의 구조 및 프로세스 관리, 메모리 관리, I/O 시스템, 파일 시스템 등의 기본 개념을 학습하고, Linux 및 Windows 등의 사례를 검토
 - Linux, uC/OS-II, FreeRTOS 등의 open source 운영체제를 다룰 수 있는 능력을 배양
 - 영어 교재를 충실히 읽음으로써 기술영어 능력을 배양
-
 ### 수업교재
 - Abraham Silberschatz, Peter B. Galvin, and Greg Gagne, "Operating System Concepts (10th edition)", John Wiley & Sons
-
 #### 선수 과목 또는 지식
 - Programming
 - Data structure
 - Computer structure
-
 ### 평가
 - 참여도 10%, 중간고사 30%, 기말고사 30%, 과제 20%, 출석 10%
 - 6회 이상 부득이한 사유 없이 결석하는 경우 낙제(F) 처리
@@ -33,7 +29,6 @@
 	- 게시판에 게재된 문의에 대해 적절한 답변을 하는 경우
 - 수업시간에 답변 및 질문을 한 경우, 교수자에게 문자를 보내야 점수 부여가 됨
 - 상세 기준은 별도의 공지로 안내할 예정
-
 ### 수업진행
 - 강의자료는 영어, 강의는 한국어로 진행
 	- 한국어에 익숙하지 않은 학생은 본 수업을 추천하지 않음
