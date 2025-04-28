@@ -37,20 +37,18 @@ N 브릿지에서는 대역폭이 큰 그래픽, 메모리 통신을, S 브릿�
 - CPU
 - 메모리
 - I/O 디바이스 등
-
 #### CPU
-- Process Unit
-	- ALU(Arithmetic Logical Unit): 계산 유닛 (사칙연산, 논리 연산 등)
-	- CU(Control Unit): 프로그램의 제어 처리(Control Flow)를 담당
-	- MMU(Memory Management Unit): 메모리 관리, 요새는 없음 -> MPU(Protection): 임베디드 
-- Register
-	- PC(Program Counter): 프로그램 실행에서 다음번 실행할 라인(명령줄)의 메모리 주소
-	- IR(Instruction Register): 현재 실행할 라인(명령줄)의 메모리 주소
-	- PSW(Program Status Word):  현재 실행 중인 프로세스의 상태(정상, 대기, 예외 등)를 저장
-		- Stack Base Pointer: 실행하는 영역(전역/지역 등)에 할당된 메모리의 첫 값 주소
-	- General Purpose Registers: 기본적인 연산(사칙연산 등)에 대한 정보를 저장하는 범용 레지스터
-
-##### CPU Architecture
+###### Process Unit
+- ALU(Arithmetic Logical Unit): 계산 유닛 (사칙연산, 논리 연산 등)
+- CU(Control Unit): 프로그램의 제어 처리(Control Flow)를 담당
+- MMU(Memory Management Unit): 메모리 관리, 요새는 없음 -> MPU(Protection): 임베디드 
+###### Register
+- PC(Program Counter): 프로그램 실행에서 다음번 실행할 라인(명령줄)의 메모리 주소
+- IR(Instruction Register): 현재 실행할 라인(명령줄)의 메모리 주소
+- PSW(Program Status Word):  현재 실행 중인 프로세스의 상태(정상, 대기, 예외 등)를 저장
+	- Stack Base Pointer: 실행하는 영역(전역/지역 등)에 할당된 메모리의 첫 값 주소
+- General Purpose Registers: 기본적인 연산(사칙연산 등)에 대한 정보를 저장하는 범용 레지스터
+#### CPU Architecture
 - 폰 노이만 아키텍처
 	- CPU - Memory 간 병목 발생
 	- Instructions
@@ -83,54 +81,57 @@ N 브릿지에서는 대역폭이 큰 그래픽, 메모리 통신을, S 브릿�
 	[0x00000000]
 ```
 ---
-### 컴퓨터 부팅 절차 [?]
-1. CPU의 상태 확인, 비정상인 경우 부팅 불가능
-2. 이후 고정된 위치로 포인터를 옮겨(Program Counter 이동) 바이오스(현 UEFI)를 실행
-	- 0xfffffff0, 바이오스 코드의 첫 라인의 주소
-3. 컴퓨터의 동작을 위해 필수적인 인터페이스와 메모리의 상태를 확인
+### 컴퓨터 부팅 절차
+1. CPU가 스스로 초기화하고 이상이 없는지 확인
+2.  Program Counter를 움직여 `0xfffffff0` 위치의 instruction 실행
+3. instruction이 BIOS코드의 첫 주소로 이동
+4. 컴퓨터의 동작을 위해 필수적인 인터페이스와 메모리의 상태를 확인
 	- POST(Power On Self-Test)
-	- 이 테스트를 통해 하드웨어와 이외 장비의 검증 종료
-4. 디스크에서 (멀티OS의 경우, 선택된) 운영체제의 시작 포인터 위치를 읽어오기 위해 부트 디바이스 (MBR)실행, 이후 부트로더(LILO, GRUB) 실행, 이후 부트로더는 메모리에 OS를 올림
-	- MBR - BIOS
-	- ESP - UEFI
-		- LILO의 경우, 리눅스 부트로더로서 운영체제의 설치 위치가 바뀌면 항상 위치를 업데이트해줘야 하는 반면, GRUB은 논리적으로 실행되므로 편하다.
-	- MBR에서 미리 설정된 OS를 실행한다. 미리 설정된 것이 없는 경우, 사용자에게 어떤 OS를 실행할지 묻는다. 이후 부트로더에 압축된 OS 이미지의 첫 주소를 전달하고, 부트로더는 압축풀고 OS를 메모리에 올려 실행한다.
+		- CPU, 메모리, 기타 IO 디바이스의 검사 및 초기화 진행
+5. 디스크에서 boot device 검색
+6. 해당 boot device의 MBR 또는 ESP를 메모리에 로드 후 실행
+	- 여기에는 부트로더(LILO 또는 GRUP)의 첫 코드가 존재
+7. 이후 바이오스는 부트로더에 제어권 이전
+8. 실행된 부트 디바이스가 부트로더를 메모리에 로드 및 실행
+9. 부트로더가 압축된 커널을 메모리에 로드
+10. 커널은 스스로 압축을 풀고 압축해제된 커널에게 제어권 이전
 
-### CPU 
-- __Instruction Set Architecture__ (ISA)
-	- 명령어의 집합
-	- 여러 기본 명령을 조합하여 n번에 처리할 것을 1번에 처리 가능하게 만든(HW적으로) 명령어와 기본 명령어의 집합
-	- 그러다 보니 복잡해진 ISA를 CISC(Complex)라 한다.
-	- 이를 다시 필요한 명령만 가지고 구성한 것이 RSIC(Reduced)이다.
-		- RSIC: ARM
-		- CISC: Inter, AMD
-- __Pipelining__
-	- 기본적인 RSIC의 연산과정(사이클)은 다음과 같다.
-		- Fetch: 프로그램 카운터의 다음 실행될 명령을 IR에 등록하는 과정
-		- Decode: IR에 저장된 명령을 전기적 명령으로 변환하는 과정
-		- Execute: CPU 실행
-		- Write Back: 계산 결과 반환
-	- 각 연산 사이클끼리 서로 의존관계가 없는 경우, 동시에 이루어질 수 있다.
-	```
-	1 F D E W
-	2   F D E W
-	3     F D E W
-	4       F D E W
-	--------------> t
-	```
-	- 분기 처리 등, 의존관계가 있는 경우 효율적이지 않을 수 있다.
-	- 또한, 각 절차의 수행 시간이 오래 걸리는 경우에도 비효율적일 수 있다.
-	- 따라서 RISC는 CISC의 4배가 아닌 약 2.1배의 성능 향상을 가진다.
-- __Instruction-Level Parallelism__(ILP)
-	- 독립적인 명령의 경우, HW레벨에서 명령을 병렬처리
-		- Superscalar - 인텔, 두 연산이 의존관계가 없으면 HW레벨에서 병렬수행
-		- VLIW: - [??]
-	- __Multicore Architecture:__ n-Core
-	- __Symmetric Multiprocessing Architecture__: 한 Memory가 CPU 여러 개 사용, Bus가 1개 => 병목이 생기긴함
-		- __NUMA__: CPU 1개당 메모리 1개
-	- __Clustered System Architecture__: 컴퓨터를 묶어 사용
-		- __Distributed System__
-		- Storage Area Network (SAN)
+### CPU Instruction
+##### __Instruction Set Architecture__ (ISA)
+- 명령어의 집합
+- 여러 기본 명령을 조합하여 n번에 처리할 것을 1번에 처리 가능하게 만든(HW적으로) 명령어와 기본 명령어의 집합
+- 그러다 보니 복잡해진 ISA를 CISC(Complex)라 한다.
+- 이를 다시 필요한 명령만 가지고 구성한 것이 RSIC(Reduced)이다.
+	- RSIC: ARM
+	- CISC: Inter, AMD
+##### __Pipelining__
+- 기본적인 RSIC의 연산과정(사이클)은 다음과 같다.
+	- Fetch: 프로그램 카운터의 다음 실행될 명령을 IR에 등록하는 과정
+	- Decode: IR에 저장된 명령을 전기적 명령으로 변환하는 과정
+	- Execute: CPU 실행
+	- Write Back: 계산 결과 반환
+- 각 연산 사이클끼리 서로 의존관계가 없는 경우, 동시에 이루어질 수 있다.
+```
+1 F D E W
+2   F D E W
+3     F D E W
+4       F D E W
+--------------> t
+```
+- 분기 처리 등, 의존관계가 있는 경우 효율적이지 않을 수 있다.
+- 또한, 각 절차의 수행 시간이 오래 걸리는 경우에도 비효율적일 수 있다.
+- 따라서 RISC는 CISC의 4배가 아닌 약 2.1배의 성능 향상을 가진다.
+##### __Instruction-Level Parallelism__(ILP)
+- 독립적인 명령의 경우, HW레벨에서 명령을 병렬처리
+	- Superscalar - 인텔, 두 연산이 의존관계가 없으면 HW레벨에서 병렬수행
+	- VLIW: - Very Long Instruction Word
+		- 컴파일러가 독립적인 명령을 찾아 하나의 VLIW로 묶음
+- __Multicore Architecture:__ n-Core
+- __Symmetric Multiprocessing Architecture__: 한 Memory가 CPU 여러 개 사용, Bus가 1개 => 병목이 생기긴함
+	- __NUMA__: CPU 1개당 메모리 1개
+- __Clustered System Architecture__: 컴퓨터를 묶어 사용
+	- __Distributed System__
+	- Storage Area Network (SAN)
 ### I/O Operation
 - 기본적으로 IO장치는 느리다. 따라서 CPU가 외부장치를 처리하는 경우 병목현상이 발생하기 매우 쉽다. 
 - 따라서, IO장치에는 그를 위한 IO Controller가 필요하다.
@@ -151,6 +152,8 @@ N 브릿지에서는 대역폭이 큰 그래픽, 메모리 통신을, S 브릿�
 ##### Synchronous/Blocking
 ##### Asynchronous/Non-Blocking
 
+## I/O State
+
 #### Interrupt
 - async
 - HW device에 의하여 생김
@@ -163,6 +166,8 @@ N 브릿지에서는 대역폭이 큰 그래픽, 메모리 통신을, S 브릿�
 - 커널 코드의 메모리 주소에 Write를 거는 경우 등 (App 레벨)
 
 **어플리케이션 레벨인지 하드웨어 레벨인지를 구분하는 것이 중요하다.**
+
+---
 ### ROM
 - read-only Memory
 - 휘발성이 없음
@@ -175,6 +180,7 @@ N 브릿지에서는 대역폭이 큰 그래픽, 메모리 통신을, S 브릿�
 - Static RAM
 - 재료가 좋아 데이터의 변형이 일어나지 않는다
 - 따라서 Register와 Cache는 SRAM을 사용한다.
+## Cache
 
 > [!quote] Temporal Locality
 > *가장 최근에 사용된 데이터는 다시 사용될 확률이 가장 높다.*
@@ -186,25 +192,25 @@ N 브릿지에서는 대역폭이 큰 그래픽, 메모리 통신을, S 브릿�
 - Cache Cold: 없어서 메모리에 액세스해야하는 경우
 이렇게 아래 레이어(더 느리고 더 비싼!)에 대한 접근을 최소화하는 것이 캐싱의 의의이다.
 #### Cache Coherency의 관리
-##### Write-Through
+###### Write-Through
 - 캐싱된 데이터가 변하는 경우 아래 레이어에 데이터를 전파하는 것
 - 느리지만 정합성을 지킬 수 있다.
-##### Write-Back
+###### Write-Back
 - 메모리가 한산할 때마다 Sync를 맞추는 방법
 - 빠르지만 정합성이 망가질 가능성이 있다.
-#### DRAM
+## DRAM
 - Dynamic RAM
 - 소자가 상대적으로 저렴하여 전기신호가 약해져 왜곡이 생긴다.
 - 이를 해결하기 위하여 일정 시간이 지나면 전기신호를 증폭시켜준다.
 - 해당 시간 동안에는 메모리 접근이 불가능하여 DRAM이 더 저렴하다.
 - Main Memory에서는 DRAM을 사용한다.
-### HDD
+## HDD
 - 여러 장의 platter로 구성되며 platter 끝의 head 부분에 arm이 움직여 접촉하여 데이터를 읽는다.
 - 여러 장의 platter를 cylinder라고 한다.
 - 읽을 수 있는 데이터의 최소 단위 sector, 섹터가 한 장의 platter를 채우면 track, 플래터 묶음이 실린더
 
 *※20p 그림 참고!*
-### SSD
+## SSD
 - solid state disk
 - 고장이 잘 안남
 #### NAND Flash Memory
@@ -237,17 +243,15 @@ N 브릿지에서는 대역폭이 큰 그래픽, 메모리 통신을, S 브릿�
 #### Memory Protection
 - 한계 이상의 메모리를 할당하는 것 방지
 - 다른 프로세스가 점유하는 영역을 침범하는 것 방지
-	- Segment Violation in Li
+	- Segment Violation in Linux
 #### I/O Protection
  - Dual mode
 	 - 오직 Kernal에서만 HW 접근이 가능
-	 - 권한을 가지고 접근, 
-
-OS가 Kernal로 작동하는 경우:
-- Bootstrapping
-- System Call
-- Interrupt
-
+	 - 권한 필요
+- OS가 Kernal로 작동하는 경우:
+	- Bootstrapping
+	- System Call
+	- Interrupt
 ## 컴퓨터의 역사
 
 ### 1세대

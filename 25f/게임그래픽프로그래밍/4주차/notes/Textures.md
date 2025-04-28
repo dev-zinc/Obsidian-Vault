@@ -21,6 +21,7 @@
 - NORM: normalized
 ### Swap Chain & Page Fliping
 - 화면 깜빡임 방지를 위해 버퍼를 여럿 사용하는 것
+- '미리' 그려놓기
 - Front Buffer
 	- 현재 화면의 버퍼
 - Back Buffer
