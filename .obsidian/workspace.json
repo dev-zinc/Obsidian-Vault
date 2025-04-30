@@ -6,7 +6,6 @@
       {
         "id": "272dbd6802271061",
         "type": "tabs",
-        "dimension": 40.2027027027027,
         "children": [
           {
             "id": "7cea39c84deba7f2",
@@ -20,25 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Untitled"
-            }
-          }
-        ]
-      },
-      {
-        "id": "2def44d5e7a0b530",
-        "type": "tabs",
-        "dimension": 59.797297297297305,
-        "children": [
-          {
-            "id": "e7d8cd99f49417ae",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "25f/게임그래픽프로그래밍/9주차/resources/7. Drawing in Direct3D Part II - II-1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "7. Drawing in Direct3D Part II - II-1"
             }
           }
         ]
@@ -195,10 +175,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e7d8cd99f49417ae",
+  "active": "7cea39c84deba7f2",
   "lastOpenFiles": [
-    "25f/게임그래픽프로그래밍/8주차/resources/7. Drawing in Direct3D Part II - I-1.pdf",
+    "25f/게임그래픽프로그래밍/7주차/~WRL0001.tmp",
+    "25f/게임그래픽프로그래밍/7주차/~WRD0000.tmp",
+    "25f/게임그래픽프로그래밍/7주차/~$실습 5.docx",
     "25f/게임그래픽프로그래밍/9주차/resources/7. Drawing in Direct3D Part II - II-1.pdf",
+    "25f/게임그래픽프로그래밍/8주차/resources/7. Drawing in Direct3D Part II - I-1.pdf",
     "25f/게임그래픽프로그래밍/9주차/resources/MeshGeometry.pdf",
     "25f/게임그래픽프로그래밍/9주차/Untitled.md",
     "25f/게임그래픽프로그래밍/9주차/resources",
@@ -208,9 +191,6 @@
     "25f/운영체제/Chapter 9/resources/[Lec09] Main memory.pdf",
     "25f/운영체제/Chapter 8/Chapter 8.md",
     "25f/운영체제/Chapter 8/resources/[Lec08] Deadlock.pdf",
-    "25f/운영체제/Chapter 9/resources",
-    "25f/운영체제/Chapter 9",
-    "25f/운영체제/Chapter 8/resources",
     "25f/lib/Non-deterministic.md",
     "25f/운영체제/Chapter 5/Chapter 5.md",
     "25f/운영체제/midterm/Compress.First.md",
