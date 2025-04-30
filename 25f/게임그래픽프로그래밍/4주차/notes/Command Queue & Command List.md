@@ -4,6 +4,7 @@
 - GPU
 ## Command List
 - DirectX API를 통해 리스트에 저장된 명령을 Queue에 push
+- 명령을 담고 배치처리하기 위한 버퍼처럼 작동 (init->add->flush)
 ## Command Allocator
 - 실제 명령이 저장되는 공간
 - 리스트는 여기에 있는 명령에 대한 record를 가진다.

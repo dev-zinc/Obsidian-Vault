@@ -2,6 +2,7 @@
 - GPU와 CPU간 동시성을 지키기 위한 개념
 - CPU는 GPU의 현재 Queue 연산 종료시까지 대기
 - `UINT_64` 타입 
+- 일종의 뮤텍스.
 
 예제에서는 `FlushCommandQueue`함수에서 CommandQueue에서 펜스에 대한 Signal 이후 `SetEventOnCompletion`를 통해 완료 시 작업을 등록하여 사용하고 있다.
 ## Barrier

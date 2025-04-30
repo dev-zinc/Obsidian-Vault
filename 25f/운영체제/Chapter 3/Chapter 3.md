@@ -40,9 +40,10 @@
 		- 다음 실행될 프로세스를 위한 추가 레지스터 사용
 ## Scheduler
 #### Long-term scheduler
+- ready queue 관리
 #### Short-term scheduler
 - 어떤 프로세스가 다음으로 실행될지 선택
-- ctx sw 발생
+- ctx swt 발생
 #### Medium-term scheduler (Swapper)
 - 메모리 할당 시 부족한 경우, 다른 중단된 프로세스의 남는 자원을 빌려오는 것
 ### Ready Queue
@@ -121,25 +122,18 @@
 	- 이때 부모 프로세스가 종료되면 자식 프로세스는 orphan이 된다.
 		- 이를 보완하기 위하여 `pid=1`인 `init`프로세스가 대리부모 역할을 한다.
 		- 모든 zombie, orphan 프로세스에 대한 wait을 수행한다.
-#### Cooperating processes
-- Inter-Process Communication (IPC)
+#### Inter-Process Communication (IPC)
 - 프로세스 간 정보 공유
-##### Message Queue
+###### Message Queue
 - 커널이 관리
 - System Call 형태로 사용 가능
 - 오버헤드
-##### Shared Memory
+###### Shared Memory
 - 자유도 높지만 개발해야 함
 - Notice가 어려움
-
-- Circular Queue를 이용한 Producer-Consumer 구조
-	- sync issue 존재
-
-[ ? ]둘이 같이 쓰면 ?
-
+	- 예) Circular Queue를 이용한 Producer-Consumer 구조
+		- sync issue 존재
 ##### Socket
 - TCP/IP를 이용한 메세징
-
 ##### RPC
 - Remote Procedure Call
-

@@ -1,4 +1,4 @@
-### Burst 
+## Burst 
 - CPU burst
 	- CPU 연산에 대한 waiting
 - I/O burst
@@ -23,27 +23,27 @@
 ## Scheduling Criteria
 #### CPU utilization
 - 최대화
-- keep the CPU as busy as possible
-- CPU는 항상 최고 부하로 돌아가야 함
+- CPU는 항상 최고 부하(최적 효율에서)로 돌아가야 함
 #### Throughput
 - 최대화
-- \# of processes that complete their execution per time unit
+- 단위시간 동안 처리 가능한 프로세스의 수
 #### Turnaround time
 - 최소화
-- amount of time to execute a particular process
+- 특정 프로세스를 실행하는 데 걸리는 시간
 #### Waiting time 
 - 최소화
-- amount of time a process has been waiting in the ready queue
+- 프로세스가 Ready Queue에서 기다린 시간
 #### Response time 
 - 최소화
-- amount of time it takes from when a request was submitted until the first response is produced, not output (for time-sharing environment)
+- (시분할 시스템에서) 요청 시 첫 응답까지 걸리는 시간
 ## Scheduling Goals
 #### Interactive systems 
-- **Response time:** minimize average time spent on ready queue 
-- **Waiting time**: minimize average time spent on wait queue ü **Proportionality**: meet users’ expectations
+- Response time: minimize
+- Waiting time: minimize
+- Proportionality: UX 향상
 #### Real-time systems 
-- **Meeting deadlines**: avoid losing data 
-- **Predictability**: avoid quality degradation in multimedia systems
+- 데이터 유실 예방
+- 예측가능한 시스템
 ## Scheduling Non-goals
 #### Starvation
 - 프로세스가 자원을 스케줄링받지 못하고 계속(영원히!) Ready Queue에 남는 것
@@ -107,7 +107,7 @@
 	- 연산이 몰린 코어가 다른 코어로 작업을 주는 것
 	- 부하가 있는 코어가 로드밸런싱까지 담당하므로 오버헤드 존재
 - Pull migration
-	- 연산이 없는 코어다 다른 코어의 작업을 가져오는 것
+	- 연산이 없는 코어나 다른 코어의 작업을 가져오는 것
 	- 다른 코어의 상황을 알지 못해 발생하는 오버헤드 존재
 - 두 가지 모두 장단점이 존재하며 효율성을 위해서는 H/W지원이 필요
 #### Core Ready Queue
@@ -117,10 +117,10 @@
 	- 각 코어당 할당된 캐시 등의 자원 효율을 극대화
 #### Processor Affinity
 - Common Ready Queue 사용 시, 위의 캐싱 효율 등을 고려하기 위하여 사용되고 있던 코어에 프로세스를 할당하는 것
-- Soft Affinity
-	- 최선의 할당 시행
 - Hard Affinity
-	- 
+	- 무조건 원래 Core에서 실행
+- Soft Affinity
+	- 최선의 할당 시도
 ## Real-Time Scheduling
 - 주기
 - Bursting TIme
@@ -145,7 +145,11 @@
 ### Algorithm Evaluation
 - Modeling
 	- Deterministic modeling
+		- 이미 있는 모델을 가지고 예측하는 방법
 	- Queueing models
+		- 수학적으로 시스템의 매개변수를 예측하는 방법
 - Simulation
+	- 통계적인 데이터를 가지고 테스트하는 방법
 	- Cf) Emulation (Enviornment + Simulation)
 - Implementation
+	- 실제로 적용시켜보는 것

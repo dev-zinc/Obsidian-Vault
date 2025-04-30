@@ -10,9 +10,9 @@
 	- 파일
 	- 언어
 ### 컴파일 과정
-	.c -> Compiler { Pre-Processor -> Translator }
-		-> .obj -> Linker { 라이브러리, 코드 파일 통합 }
-		-> .out (.exe)
+- .c -> Compiler { Pre-Processor -> Translator }
+	-> .obj -> Linker { 라이브러리, 코드 파일 통합 }
+	-> .out (.exe)
 - Linking
 	- Static
 		- 실행 파일 내에 라이브러리를 내포함. 
