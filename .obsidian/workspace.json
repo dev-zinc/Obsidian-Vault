@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "45e8c0553a116c7b",
+        "id": "532b8715767cd4c8",
         "type": "tabs",
         "children": [
           {
-            "id": "cec64302b5aaafd9",
+            "id": "3f30f725938aafac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "25f/정보보호/4주차/DNS.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "DNS"
+              "title": "New tab"
             }
           }
         ]
@@ -165,6 +161,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
@@ -174,10 +171,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd32b31f93cd6666",
+  "active": "3f30f725938aafac",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "Untitled.canvas",
+    "25f/게임그래픽프로그래밍/6주차/resources/6. Drawing in Direct3D - I.pdf",
+    "25f/게임그래픽프로그래밍/6주차/resources/5. The Rendering Pipeline-3.pdf",
+    "25f/게임그래픽프로그래밍/6주차/resources/6. Drawing in Direct3D - II-1.pdf",
     "25f/정보보호/4주차/DNS.md",
+    "conflict-files-obsidian-git.md",
     "25f/정보보호/6주차/resources/정보보호-4. 정보보호와 암호.pdf",
     "25f/정보보호/6주차/resources",
     "25f/정보보호/6주차/6주차.md",
@@ -188,10 +189,7 @@
     "25f/정보보호/4주차/{0F5105F1-D557-4146-93E7-02A3824AF16E}.png",
     "25f/정보보호/1주차/정보보호-1. Introduction.pdf",
     "25f/정보보호/1주차",
-    "25f/운영체제/Chapter 7/resources/[Lec07] Synchronization example.pdf",
-    "25f/운영체제/Chapter 7/resources",
     "25f/운영체제/Chapter 7/Chapter 7.md",
-    "25f/운영체제/Chapter 7",
     "25f/운영체제/Chapter 6/Chapter 6.md",
     "25f/운영체제/Chapter 5/Chapter 5.md",
     "25f/운영체제/Chapter 4/resources/Pasted image 20250407111127.png",
@@ -221,9 +219,7 @@
     "25f/게임그래픽프로그래밍/6주차/notes/Tessellation.md",
     "25f/게임그래픽프로그래밍/6주차/notes/Color.md",
     "25f/게임그래픽프로그래밍/6주차/notes/Rasterization.md",
-    "25f/게임그래픽프로그래밍/5주차/workspace/실습 3.md",
     "KoreanPoker/Untitled.canvas",
-    "Untitled.canvas",
     "컴퓨터네트워크/Untitled.canvas"
   ]
 }
