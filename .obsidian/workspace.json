@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "25f/금융실무특강/9주차/9주차.md",
+                "file": "25f/금융실무특강/금융실무특강.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9주차"
+              "title": "금융실무특강"
+            }
+          },
+          {
+            "id": "d22b5e90bf46e441",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "25f/금융실무특강/resources/대학생을 위한 실용금융_제4판_250217.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "대학생을 위한 실용금융_제4판_250217"
             }
           }
         ]
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "25f/금융실무특강/9주차/9주차.md",
+                "file": "25f/금융실무특강/금융실무특강.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +116,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 9주차"
+              "title": "Backlinks for 금융실무특강"
             }
           },
           {
@@ -113,12 +125,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "25f/금융실무특강/9주차/9주차.md",
+                "file": "25f/금융실무특강/금융실무특강.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 9주차"
+              "title": "Outgoing links from 금융실무특강"
             }
           },
           {
@@ -142,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "25f/금융실무특강/9주차/9주차.md",
+                "file": "25f/금융실무특강/금융실무특강.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 9주차"
+              "title": "Outline of 금융실무특강"
             }
           },
           {
@@ -183,10 +195,19 @@
   },
   "active": "b1b9104bbc16492a",
   "lastOpenFiles": [
+    "25f/금융실무특강/9주차/resources/Pasted image 20250502165321.png",
+    "25f/금융실무특강/9주차/resources",
+    "25f/금융실무특강/9주차/9주차.md",
+    "25f/금융실무특강/resources/대학생을 위한 실용금융_제4판_250217.pdf",
+    "25f/금융실무특강/9주차/resources/Pasted image 20250502172850.png",
+    "25f/금융실무특강/9주차/resources/Pasted image 20250502172554.png",
+    "신용리스크.md",
+    "25f/금융실무특강/9주차/resources/Pasted image 20250502172129.png",
+    "25f/금융실무특강/9주차/resources/Pasted image 20250502171135.png",
+    "25f/금융실무특강/9주차/resources/Pasted image 20250502171043.png",
     "25f/금융실무특강/midterm/금융유관기관.md",
     "25f/금융실무특강/midterm/금융상품.md",
     "25f/금융실무특강/midterm/금융.md",
-    "25f/금융실무특강/9주차/9주차.md",
     "24s/컴퓨터네트워크/Routing Protocol/Algorithm/다익스트라 알고리즘.md",
     "25f/경제학사/2025-03-28.md",
     "IDEA",
@@ -202,8 +223,6 @@
     "25f/게임그래픽프로그래밍/9주차/resources/7. Drawing in Direct3D Part II - II-1.pdf",
     "25f/게임그래픽프로그래밍/9주차/resources",
     "25f/게임그래픽프로그래밍/9주차/Untitled.md",
-    "25f/게임그래픽프로그래밍/9주차",
-    "25f/게임그래픽프로그래밍/7주차/~$실습 5.docx",
     "25f/운영체제/Chapter 1/Chapter 1.md",
     "25f/경제학사/Drawing 2025-05-02 11.42.37.excalidraw.md",
     "IDEA/Software Engineers.md",
@@ -218,18 +237,10 @@
     "25f/게임그래픽프로그래밍/quick.md",
     "25f/게임그래픽프로그래밍/BoxApp.cpp.md",
     "25f/게임그래픽프로그래밍/중간.md",
-    "25f/게임그래픽프로그래밍/7주차/Root Signiture.md",
-    "25f/게임그래픽프로그래밍/7주차/Constatnt Buffer.md",
     "25f/게임그래픽프로그래밍/7주차/resources/Pasted image 20250416122745.png",
     "25f/게임그래픽프로그래밍/4주차/resources/Aliasing.png",
     "25f/운영체제/Chapter 7/resources/Pasted image 20250423110932.png",
     "25f/금융실무특강/resources/Pasted image 20250328151230.png",
-    "25f/운영체제/Chapter 6/resources/Pasted image 20250421112605.png",
-    "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250409133119.png",
-    "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250407122847.png",
-    "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250407122153.png",
-    "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250407122113.png",
-    "25f/게임그래픽프로그래밍/6주차/resources/Pasted image 20250407122146.png",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Untitled.canvas",
     "AnimalFarm2/Quest.canvas",
     "컴퓨터네트워크/Untitled.canvas"
