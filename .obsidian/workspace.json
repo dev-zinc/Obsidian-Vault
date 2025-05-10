@@ -11,10 +11,12 @@
             "id": "3f30f725938aafac",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "25f/게임그래픽프로그래밍/6주차/resources/6. Drawing in Direct3D - II-1.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "6. Drawing in Direct3D - II-1"
             }
           }
         ]
@@ -171,7 +173,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a97f0ab96a65aefe",
+  "active": "3f30f725938aafac",
   "lastOpenFiles": [
     "25f/게임그래픽프로그래밍/7주차/~WRL0004.tmp",
     "25f/게임그래픽프로그래밍/7주차/~WRD0003.tmp",
