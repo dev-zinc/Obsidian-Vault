@@ -166,7 +166,7 @@ $EAT = (1+\epsilon)\alpha+(2+\epsilon)(1-\alpha)$
 #### Hierarchical paging 
 - 무손실 압축
 - Two-level paging
-[ ? ] Page Table이 왜 무조건 4MB를 고정으로 가지는지
+	- invalid로 표기된 페이지로 낭비되던 공간을 없앰으로서 massive한 공간확보가 가능
 #### Hashed page table
 - 손실이 발생 가능한 압축
 - 해싱한 페이지 넘버를 링크드리스트 형태로 관리

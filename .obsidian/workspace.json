@@ -6,7 +6,7 @@
       {
         "id": "3a4efaa2483114d3",
         "type": "tabs",
-        "dimension": 43.338008415147264,
+        "dimension": 43.33800841514726,
         "children": [
           {
             "id": "b1fe63db566b4060",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "25f/운영체제/Chapter 9/Chapter 9.md",
+                "file": "25f/게임그래픽프로그래밍/10주차/실습 7.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 9"
+              "title": "실습 7"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "cdb23ec52da24841",
         "type": "tabs",
-        "dimension": 56.661991584852736,
+        "dimension": 56.66199158485274,
         "children": [
           {
             "id": "5a47af7a3998d892",
@@ -35,10 +35,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "25f/운영체제/Chapter 9/resources/[Lec09] Main memory.pdf"
+                "file": "25f/게임그래픽프로그래밍/10주차/resources/9. Texturing.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "[Lec09] Main memory"
+              "title": "9. Texturing"
             }
           }
         ]
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5,
-    "collapsed": true
+    "width": 251.5
   },
   "right": {
     "id": "26d95bc1bd661cbb",
@@ -201,10 +200,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b1fe63db566b4060",
+  "active": "5a47af7a3998d892",
   "lastOpenFiles": [
-    "25f/운영체제/Chapter 9/resources/[Lec09] Main memory.pdf",
+    "25f/게임그래픽프로그래밍/10주차/resources/8. Lighting.pdf",
+    "25f/게임그래픽프로그래밍/10주차/실습 7.md",
+    "25f/게임그래픽프로그래밍/10주차/resources/9. Texturing.pdf",
+    "25f/게임그래픽프로그래밍/10주차/10주차.md",
+    "25f/게임그래픽프로그래밍/10주차/resources/8. Lighting-supplements.pdf",
     "25f/운영체제/Chapter 9/Chapter 9.md",
+    "25f/운영체제/Chapter 9/resources/[Lec09] Main memory.pdf",
     "Pasted image 20250512112907.png",
     "IDEA/Drawing 2025-05-12 09.40.39.excalidraw.md",
     "IDEA/enchanted.md",
@@ -226,10 +230,7 @@
     "25f/경제학사/daily notes/2025-03-28.md",
     "25f/경제학사/daily notes",
     "25f/경제학사/resources/20250502_설명.pdf",
-    "25f/경제학사/resources/20250502_1.pdf",
     "25f/경제학사/drawings/Drawing 2025-05-02 11.17.11.excalidraw.md",
-    "25f/경제학사/resources",
-    "25f/경제학사/drawings",
     "25f/정보보호/10주차/10주차.md",
     "25f/게임그래픽프로그래밍/9주차/실습 6.md",
     "25f/운영체제/Chapter 9/resources/Pasted image 20250507104829.png",
@@ -237,7 +238,6 @@
     "25f/금융실무특강/resources/Pasted image 20250502215421.png",
     "25f/게임그래픽프로그래밍/10주차/resources/Pasted image 20250507121455.png",
     "25f/게임그래픽프로그래밍/10주차/resources/Pasted image 20250507121217.png",
-    "25f/게임그래픽프로그래밍/10주차/10주차.md",
     "Pasted image 20250507104829.png",
     "25f/게임그래픽프로그래밍/7주차/resources/Pasted image 20250416122745.png",
     "Pasted image 20250502215421.png",
@@ -247,7 +247,6 @@
     "25f/금융실무특강/midterm/금융.md",
     "24s/컴퓨터네트워크/Routing Protocol/Algorithm/다익스트라 알고리즘.md",
     "25f/게임그래픽프로그래밍/midterm/중간.md",
-    "25f/게임그래픽프로그래밍/midterm/quick.md",
     "Untitled.canvas",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Untitled.canvas",
     "AnimalFarm2/Quest.canvas",
