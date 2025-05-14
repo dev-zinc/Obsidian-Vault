@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "3a4efaa2483114d3",
+        "id": "51d4a1792be0f3f2",
         "type": "tabs",
-        "dimension": 43.338008415147264,
+        "dimension": 42.215988779803645,
         "children": [
           {
-            "id": "b1fe63db566b4060",
+            "id": "3100dcfa62acab7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -25,12 +25,12 @@
         ]
       },
       {
-        "id": "cdb23ec52da24841",
+        "id": "b5907c31c9851d44",
         "type": "tabs",
-        "dimension": 56.661991584852736,
+        "dimension": 57.784011220196355,
         "children": [
           {
-            "id": "5a47af7a3998d892",
+            "id": "9b0b3f3d3638940d",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -98,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5,
+    "width": 311.5,
     "collapsed": true
   },
   "right": {
@@ -201,10 +201,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b1fe63db566b4060",
+  "active": "3100dcfa62acab7c",
   "lastOpenFiles": [
+    "Pasted image 20250514113014.png",
+    "Pasted image 20250514112757.png",
     "25f/운영체제/Chapter 9/resources/[Lec09] Main memory.pdf",
     "25f/운영체제/Chapter 9/Chapter 9.md",
+    "25f/운영체제/Chapter 8/Chapter 8.md",
+    "25f/운영체제/Chapter 8/resources/[Lec08] Deadlock.pdf",
+    "25f/운영체제/Chapter 7/Chapter 7.md",
+    "25f/운영체제/Chapter 6/Chapter 6.md",
+    "25f/운영체제/Syllabus.md",
     "Pasted image 20250512112907.png",
     "IDEA/Drawing 2025-05-12 09.40.39.excalidraw.md",
     "IDEA/enchanted.md",
@@ -229,7 +236,6 @@
     "25f/경제학사/resources/20250502_1.pdf",
     "25f/경제학사/drawings/Drawing 2025-05-02 11.17.11.excalidraw.md",
     "25f/경제학사/resources",
-    "25f/경제학사/drawings",
     "25f/정보보호/10주차/10주차.md",
     "25f/게임그래픽프로그래밍/9주차/실습 6.md",
     "25f/운영체제/Chapter 9/resources/Pasted image 20250507104829.png",
@@ -240,14 +246,9 @@
     "25f/게임그래픽프로그래밍/10주차/10주차.md",
     "Pasted image 20250507104829.png",
     "25f/게임그래픽프로그래밍/7주차/resources/Pasted image 20250416122745.png",
-    "Pasted image 20250502215421.png",
     "신용리스크.md",
     "25f/금융실무특강/midterm/금융유관기관.md",
     "25f/금융실무특강/midterm/금융상품.md",
-    "25f/금융실무특강/midterm/금융.md",
-    "24s/컴퓨터네트워크/Routing Protocol/Algorithm/다익스트라 알고리즘.md",
-    "25f/게임그래픽프로그래밍/midterm/중간.md",
-    "25f/게임그래픽프로그래밍/midterm/quick.md",
     "Untitled.canvas",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Untitled.canvas",
     "AnimalFarm2/Quest.canvas",

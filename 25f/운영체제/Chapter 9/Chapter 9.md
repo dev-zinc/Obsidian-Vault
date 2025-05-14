@@ -120,28 +120,44 @@ Page Table: [
 - 빈 Frame을 관리하는 리스트
 ## Page Table의 구현
 - Page Table은 메인 메모리에 저장됨
+	- HDD 등에 저장하기에는 접근 빈도가 너무 높음
 - 이 경우, 어떤 데이터 or 명령 접근 시에도 2번의 메모리 접근이 일어나고 이는 오버헤드로 이어짐
 #### Associative Memory
 - 기존 메모리는 병렬 탐색이 불가능하나, AM은 병렬적으로 찾는 것이 가능
 	- 따라서 캐싱된 데이터에 한해 O(1)에 수렴하는 탐색시간을 가짐
+- cf) CAM (Content Addressable Memory, O(1))
 #### TLB
 - Translation Look-aside Buffer 
+- Associative Memory
 - MMU가 관리하는 Page Table 캐시
 - HW로 구현되어 있음
 - 99% 이상의 Cache hit율을 보임
-	- TLB miss 시, 캐시 업데이트만 진행하고 다시 캐시에서 찾게 함
+	- Frame 1개만 캐싱해도 4KB
+	- TLB miss 시, 페이지 Entry를 캐시에 업데이트만 하고 다시 캐시에서 찾게 함
 	- 회로적 복잡도를 낮추기 위함
-- 
+
 #cold_cache #hot_cache
 #### TLB miss 핸들링
+- 99%가 캐시에서 주소변환
+- 1%의 미스를 핸들링 하는 방법
+	- HW
+		- MMU
+			- 
+	- SW
+		- OS
+			- 
 #### TLB 관리
+- Context Switching시 테이블 entry의 [[Chapter 9#Valid-Invalid Bit|valid-invaild bit]]를 모두 0으로 초기화하여 캐시를 비움
 - TLB가 꽉 찬 경우
 	- Temporal Locality의 역인 LRU를 사용하여 캐시를 덮어씌움
 	- Least Recently Used
 #### Effective Access Time
 $EAT = (1+\epsilon)\alpha+(2+\epsilon)(1-\alpha)$
  $= 2+\epsilon-\alpha$
-
+ - Associative Lookup: $\epsilon$ time unit
+ - Hit ratio: $\alpha$
+ - Consider realistic values: $\alpha$ = 99%, $\epsilon$ = 20ns, 100ns for memory access 
+	 - EAT = (100+20)x0.99 + (200+20)x0.01 = 121ns
 ## Valid-Invalid Bit
 - Main Memory Protection을 위해 Page table에서 사용
 ## Page Table Entries
@@ -163,12 +179,64 @@ $EAT = (1+\epsilon)\alpha+(2+\epsilon)(1-\alpha)$
 ## Page Table 구조
 #### Page Table 관리
 - 프로세스가 요구하는 데 비해 과도하게 큰 Page Table 크기
+- invalid entry를 모두 표기할 필요가 있는가?
 #### Hierarchical paging 
 - 무손실 압축
-- Two-level paging
-[ ? ] Page Table이 왜 무조건 4MB를 고정으로 가지는지
+- Outer Page Table로부터 시작하는 트리 구조의 테이블을 선언
+- invalid한 부분을 할당하지 않음
+##### Two-level Paging 예제
+- 모든 페이지를 사용하는 경우 (최악의 경우 가정)
+	- Outer Page Table: 4KB
+	- Page Table: 4MB
+	- => 4KB만큼 오버헤드 발생
+	- 그러나 항상 4MB를 가지게 되는 단일 레벨 페이징보다 압도적
 #### Hashed page table
-- 손실이 발생 가능한 압축
-- 해싱한 페이지 넘버를 링크드리스트 형태로 관리
-- 그렇다보니 읽기성능이 현저히 줄어듬
+- 손실 압축
+- 페이지 넘버를 해싱 (예: 10으로 나눈 나머지를 저장)
+- 겹치는 주소는 링크드리스트 형태로 관리
+	- 그렇다보니 읽기성능이 현저히 줄어듬
 #### Inverted page table
+- 페이지 테이블 상의 오버헤드를 최적으로 줄임
+- 근데 다른게 느림
+#### Hierarchical Paging의 장점 예시
+- Shared Page at fork()
+#### Paging의 장점
+- Physical Memory 할당이 쉬움
+- External Fragmentation이 없음
+- 비정상적인 접근에 대한 보호가 쉬움
+- 불필요한 중복할당을 막고 페이지를 공유하여 사용 가능
+#### Paging의 단점
+- 여전히 IF 발생 가능
+- 메모리 레퍼런싱에서의 오버헤드
+	- TLB의 압도적 99% 핫함으로 해결
+- Page Table 자체를 유지하기 위해 메모리가 필요하며 큰 영역이 필요
+	- 계층적 테이블을 통해 해결
+## Segmantation
+- 도메인 관점의 메모리 데이터 구조
+- 각각의 Segment는 연속적으로 할당된다
+#### Segmantation Table
+- base
+	- segment의 시작 주소
+- limit
+	- 사용가능한 공간
+#### Segmantation의 장점
+- 
+#### Segmantation의 단점
+- ㄴ
+## 복합 사용
+### Hybrid
+#### Paged segments
+- Segmentation with Paging 
+- Segments are a multiple of a page size
+#### Multiple page sizes
+- 4KB, 2MB, 4MB의 page size (IA32)
+- 8KB, 16KB, 32KB, 64KB의 페이지 사이즈 (Alpha AXP)
+### Combine segmentation and paging
+#### Use segments to manage logically related units
+- Code, data, heap, etc. ➢ Segments vary in size, but usually large (multiple pages) ✓ Use pages to partition segments into fixed size chunks ➢ Makes segments easier to manage with in physical memory ➢ Segments become “pageable” – rather than moving segments into and out of memory, just move page portions of segments ➢ Need to allocate page table entries only for those pieces of the segments that have themselves been allocated ➢ No external fragmentation ✓ The IA32 supports segments and paging
+#### 펜티엄에서의 Segmentation, Paging
+![[Pasted image 20250514112757.png]]
+#### IA-32 Paging
+![[Pasted image 20250514113014.png]]
+- CR3 Register
+	- d
