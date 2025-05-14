@@ -4,41 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "51d4a1792be0f3f2",
+        "id": "1fe926d4b64ea9e2",
         "type": "tabs",
-        "dimension": 42.215988779803645,
         "children": [
           {
-            "id": "3100dcfa62acab7c",
+            "id": "aa64cc6d3d735276",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "25f/운영체제/Chapter 9/Chapter 9.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Chapter 9"
-            }
-          }
-        ]
-      },
-      {
-        "id": "b5907c31c9851d44",
-        "type": "tabs",
-        "dimension": 57.784011220196355,
-        "children": [
-          {
-            "id": "9b0b3f3d3638940d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "25f/운영체제/Chapter 9/resources/[Lec09] Main memory.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "[Lec09] Main memory"
+              "title": "New tab"
             }
           }
         ]
@@ -98,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5,
-    "collapsed": true
+    "width": 311.5
   },
   "right": {
     "id": "26d95bc1bd661cbb",
@@ -201,22 +176,25 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3100dcfa62acab7c",
+  "active": "a97f0ab96a65aefe",
   "lastOpenFiles": [
-    "Pasted image 20250514113014.png",
-    "Pasted image 20250514112757.png",
-    "25f/운영체제/Chapter 9/resources/[Lec09] Main memory.pdf",
+    "conflict-files-obsidian-git.md",
+    "25f/운영체제/Chapter 9/resources/Pasted image 20250514112757.png",
     "25f/운영체제/Chapter 9/Chapter 9.md",
+    "25f/게임그래픽프로그래밍/10주차/실습 7.md",
+    "25f/게임그래픽프로그래밍/10주차/resources/9. Texturing.pdf",
+    "25f/게임그래픽프로그래밍/10주차/resources/8. Lighting-supplements.pdf",
+    "25f/운영체제/Chapter 9/resources/Pasted image 20250514113014.png",
+    "25f/운영체제/Chapter 9/resources/[Lec09] Main memory.pdf",
     "25f/운영체제/Chapter 8/Chapter 8.md",
     "25f/운영체제/Chapter 8/resources/[Lec08] Deadlock.pdf",
     "25f/운영체제/Chapter 7/Chapter 7.md",
     "25f/운영체제/Chapter 6/Chapter 6.md",
     "25f/운영체제/Syllabus.md",
-    "Pasted image 20250512112907.png",
+    "25f/운영체제/Chapter 9/resources/Pasted image 20250512112907.png",
     "IDEA/Drawing 2025-05-12 09.40.39.excalidraw.md",
     "IDEA/enchanted.md",
     "IDEA/Untitled.md",
-    "conflict-files-obsidian-git.md",
     "25f/금융실무특강/10주차/10주차.md",
     "25f/금융실무특강/10주차/resources/Pasted image 20250509172040.png",
     "25f/금융실무특강/10주차/resources",
@@ -233,9 +211,7 @@
     "25f/경제학사/daily notes/2025-03-28.md",
     "25f/경제학사/daily notes",
     "25f/경제학사/resources/20250502_설명.pdf",
-    "25f/경제학사/resources/20250502_1.pdf",
     "25f/경제학사/drawings/Drawing 2025-05-02 11.17.11.excalidraw.md",
-    "25f/경제학사/resources",
     "25f/정보보호/10주차/10주차.md",
     "25f/게임그래픽프로그래밍/9주차/실습 6.md",
     "25f/운영체제/Chapter 9/resources/Pasted image 20250507104829.png",
@@ -245,10 +221,8 @@
     "25f/게임그래픽프로그래밍/10주차/resources/Pasted image 20250507121217.png",
     "25f/게임그래픽프로그래밍/10주차/10주차.md",
     "Pasted image 20250507104829.png",
-    "25f/게임그래픽프로그래밍/7주차/resources/Pasted image 20250416122745.png",
     "신용리스크.md",
     "25f/금융실무특강/midterm/금융유관기관.md",
-    "25f/금융실무특강/midterm/금융상품.md",
     "Untitled.canvas",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Untitled.canvas",
     "AnimalFarm2/Quest.canvas",
