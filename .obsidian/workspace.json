@@ -11,10 +11,12 @@
             "id": "aa64cc6d3d735276",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "pdf",
+              "state": {
+                "file": "25f/경제학사/resources/국부론(상) 1-128.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "국부론(상) 1-128"
             }
           }
         ]
@@ -176,8 +178,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bd32b31f93cd6666",
+  "active": "aa64cc6d3d735276",
   "lastOpenFiles": [
+    "25f/운영체제/Chapter 8/resources/[Lec08] Deadlock.pdf",
+    "25f/경제학사/resources/국부론(상) 1-128.pdf",
+    "25f/운영체제/Chapter 8/Chapter 8.md",
+    "25f/운영체제/Chapter 7/resources/[Lec07] Synchronization example.pdf",
+    "25f/운영체제/Chapter 6/resources/[Lec06] Synchronization tool.pdf",
+    "25f/운영체제/Chapter 6/Chapter 6.md",
+    "25f/운영체제/Chapter 7/Chapter 7.md",
+    "25f/정보보호/1주차/정보보호-1. Introduction.pdf",
     "25f/운영체제/Chapter 9/resources/Pasted image 20250512112907.png",
     "conflict-files-obsidian-git.md",
     "25f/운영체제/Chapter 9/resources/Pasted image 20250514112757.png",
@@ -187,10 +197,6 @@
     "25f/게임그래픽프로그래밍/10주차/resources/8. Lighting-supplements.pdf",
     "25f/운영체제/Chapter 9/resources/Pasted image 20250514113014.png",
     "25f/운영체제/Chapter 9/resources/[Lec09] Main memory.pdf",
-    "25f/운영체제/Chapter 8/Chapter 8.md",
-    "25f/운영체제/Chapter 8/resources/[Lec08] Deadlock.pdf",
-    "25f/운영체제/Chapter 7/Chapter 7.md",
-    "25f/운영체제/Chapter 6/Chapter 6.md",
     "25f/운영체제/Syllabus.md",
     "IDEA/Drawing 2025-05-12 09.40.39.excalidraw.md",
     "IDEA/enchanted.md",
@@ -203,14 +209,11 @@
     "25f/금융실무특강/9주차/9주차.md",
     "25f/금융실무특강/금융실무특강.md",
     "25f/금융실무특강/10주차",
-    "25f/경제학사/resources/20250509_1.pdf",
     "25f/경제학사/drawings/Drawing 2025-05-09 11.35.29.excalidraw.md",
     "25f/경제학사/David Ricardo.md",
     "25f/경제학사/daily notes/2025-05-09.md",
     "25f/경제학사/Adam Smith.md",
     "25f/경제학사/daily notes/2025-03-28.md",
-    "25f/경제학사/daily notes",
-    "25f/경제학사/resources/20250502_설명.pdf",
     "25f/경제학사/drawings/Drawing 2025-05-02 11.17.11.excalidraw.md",
     "25f/정보보호/10주차/10주차.md",
     "25f/게임그래픽프로그래밍/9주차/실습 6.md",
