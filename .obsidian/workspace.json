@@ -6,15 +6,39 @@
       {
         "id": "722435456effca27",
         "type": "tabs",
+        "dimension": 29.53091684434968,
         "children": [
           {
             "id": "f6134072675c3541",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "25f/경제학사/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Untitled"
+            }
+          }
+        ]
+      },
+      {
+        "id": "414207e1db1b939c",
+        "type": "tabs",
+        "dimension": 70.46908315565032,
+        "children": [
+          {
+            "id": "418c2734ebe3a58b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "25f/경제학사/resources/국부론(상) 1-128.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "국부론(상) 1-128"
             }
           }
         ]
@@ -74,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 279.5,
+    "collapsed": true
   },
   "right": {
     "id": "26d95bc1bd661cbb",
@@ -171,8 +196,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd32b31f93cd6666",
+  "active": "f6134072675c3541",
   "lastOpenFiles": [
+    "25f/경제학사/resources/국부론(상) 1-128.pdf",
+    "25f/경제학사/Untitled.md",
     "25f/게임그래픽프로그래밍/11주차/resources/Pasted image 20250514125215.png",
     "conflict-files-obsidian-git.md",
     "IDEA/enchanted.md",
@@ -214,11 +241,9 @@
     "25f/금융실무특강/midterm/금융시장.md",
     "25f/금융실무특강/midterm/금융상품.md",
     "25f/금융실무특강/midterm/금융.md",
-    "25f/금융실무특강/midterm",
     "25f/금융실무특강/9주차/9주차.md",
     "25f/금융실무특강/10주차/10주차.md",
     "25f/경제학사/drawings/Drawing 2025-05-09 11.35.29.excalidraw.md",
-    "25f/경제학사/drawings/Drawing 2025-05-02 11.17.11.excalidraw.md",
     "Untitled.canvas",
     "KoreanPoker/Untitled.canvas",
     "컴퓨터네트워크/Untitled.canvas"
