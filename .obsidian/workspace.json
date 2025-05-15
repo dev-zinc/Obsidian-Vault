@@ -11,10 +11,12 @@
             "id": "fed7fd764aecb876",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20250514125215.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250514125215"
             }
           }
         ]
@@ -171,7 +173,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd32b31f93cd6666",
+  "active": "fed7fd764aecb876",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Pasted image 20250514125215.png",
