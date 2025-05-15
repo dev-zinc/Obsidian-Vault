@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0a84d0d784a4300e",
+        "id": "722435456effca27",
         "type": "tabs",
         "children": [
           {
-            "id": "fed7fd764aecb876",
+            "id": "f6134072675c3541",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20250514125215.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250514125215"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -173,10 +171,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fed7fd764aecb876",
+  "active": "bd32b31f93cd6666",
   "lastOpenFiles": [
+    "25f/게임그래픽프로그래밍/11주차/resources/Pasted image 20250514125215.png",
     "conflict-files-obsidian-git.md",
-    "Pasted image 20250514125215.png",
     "IDEA/enchanted.md",
     "IDEA/Drawing 2025-05-12 09.40.39.excalidraw.md",
     "25f/운영체제/Chapter 9/resources/Pasted image 20250514113014.png",
