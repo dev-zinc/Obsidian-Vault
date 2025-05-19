@@ -39,3 +39,6 @@
 
 이러한 리소스 데이터는 Sampler의 형식으로 DX에 전달된다.
 
+---
+
+normal mapping은 19장 내용.

@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "25f/운영체제/Chapter 10/Chapter 10.md",
+                "file": "25f/게임그래픽프로그래밍/11주차/Texturing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 10"
+              "title": "Texturing"
             }
           }
         ]
@@ -35,10 +35,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "25f/운영체제/Chapter 10/resources/[Lec10] Virtual memory.pdf"
+                "file": "25f/게임그래픽프로그래밍/11주차/resources/9. Texturing.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "[Lec10] Virtual memory"
+              "title": "9. Texturing"
             }
           }
         ]
@@ -203,8 +203,10 @@
   },
   "active": "48399a1719483e6f",
   "lastOpenFiles": [
-    "25f/운영체제/Chapter 10/resources/[Lec10] Virtual memory.pdf",
+    "25f/게임그래픽프로그래밍/11주차/resources/9. Texturing.pdf",
+    "25f/게임그래픽프로그래밍/11주차/Texturing.md",
     "25f/운영체제/Chapter 10/Chapter 10.md",
+    "25f/운영체제/Chapter 10/resources/[Lec10] Virtual memory.pdf",
     "25f/운영체제/Chapter 9/Chapter 9.md",
     "25f/운영체제/Chapter 10/resources",
     "25f/운영체제/Chapter 10",
@@ -215,9 +217,7 @@
     "25f/경제학사/resources/국부론(상) 1-128.pdf",
     "25f/경제학사/Untitled.md",
     "25f/게임그래픽프로그래밍/11주차/resources/Pasted image 20250514125215.png",
-    "25f/게임그래픽프로그래밍/11주차/resources/9. Texturing.pdf",
     "25f/게임그래픽프로그래밍/11주차/resources",
-    "25f/게임그래픽프로그래밍/11주차/Texturing.md",
     "25f/게임그래픽프로그래밍/11주차",
     "25f/게임그래픽프로그래밍/10주차/resources/Pasted image 20250514121718.png",
     "25f/운영체제/Chapter 8/resources/[Lec08] Deadlock.pdf",
