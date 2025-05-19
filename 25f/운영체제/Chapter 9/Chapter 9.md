@@ -159,7 +159,7 @@ $EAT = (1+\epsilon)\alpha+(2+\epsilon)(1-\alpha)$
  - Consider realistic values: $\alpha$ = 99%, $\epsilon$ = 20ns, 100ns for memory access 
 	 - EAT = (100+20)x0.99 + (200+20)x0.01 = 121ns
 ## Valid-Invalid Bit
-- Main Memory Protection을 위해 Page table에서 사용
+- __Main Memory Protection__을 위해 Page table에서 사용
 ## Page Table Entries
 - PTEs![[Pasted image 20250512112907.png]]
 - V
