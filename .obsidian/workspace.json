@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "25f/금융실무특강/12주차/보험.md",
+                "file": "25f/금융실무특강/금융실무특강.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "보험"
+              "title": "금융실무특강"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5,
-    "collapsed": true
+    "width": 311.5
   },
   "right": {
     "id": "26d95bc1bd661cbb",
