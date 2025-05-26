@@ -4,19 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "1c63bfa5eff87bda",
+        "id": "9c84ec05af91900e",
         "type": "tabs",
         "children": [
           {
-            "id": "d85f8d06bbf186fb",
+            "id": "80570f2c9e823cab",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "25f/금융실무특강/resources/Pasted image 20250523160641.png"
+                "file": "25f/게임그래픽프로그래밍/13주차/Stenciling.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250523160641"
+              "icon": "lucide-file",
+              "title": "Stenciling"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b6a75dcf593a8e92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "00bc13b6606ffe81",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "25f/게임그래픽프로그래밍/13주차/resources/11. Stenciling.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "11. Stenciling"
             }
           }
         ]
@@ -178,33 +198,36 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a97f0ab96a65aefe",
+  "active": "bd32b31f93cd6666",
   "lastOpenFiles": [
+    "25f/게임그래픽프로그래밍/13주차/resources/11. Stenciling.pdf",
+    "25f/게임그래픽프로그래밍/13주차/Stenciling.md",
+    "25f/게임그래픽프로그래밍/12주차/Blending.md",
+    "25f/게임그래픽프로그래밍/12주차/resources/10. Blending.pdf",
+    "25f/게임그래픽프로그래밍/13주차/resources",
+    "25f/게임그래픽프로그래밍/13주차/무제 폴더",
+    "25f/게임그래픽프로그래밍/13주차/11. Stenciling.pdf",
+    "25f/게임그래픽프로그래밍/13주차",
+    "25f/운영체제/Chapter 10/Chapter 10.md",
+    "25f/운영체제/Chapter 10/resources/[Lec10] Virtual memory.pdf",
+    "Pasted image 20250526110035.png",
+    "Pasted image 20250526105413.png",
+    "25f/금융실무특강/resources/Pasted image 20250523160641.png",
     "25f/운영체제/Chapter 10/resources/Pasted image 20250521113048.png",
     "25f/금융실무특강/12주차/보험.md",
     "Pasted image 20250523172157.png",
     "25f/금융실무특강/resources/Pasted image 20250523172156.png",
-    "25f/금융실무특강/resources/Pasted image 20250523160641.png",
     "25f/금융실무특강/금융실무특강.md",
     "25f/금융실무특강/resources/대학생을 위한 실용금융_제4판_250217.pdf",
     "25f/금융실무특강/12주차",
-    "25f/게임그래픽프로그래밍/12주차/Blending.md",
-    "25f/게임그래픽프로그래밍/12주차/resources/10. Blending.pdf",
     "25f/게임그래픽프로그래밍/12주차/resources",
-    "25f/게임그래픽프로그래밍/12주차",
-    "25f/운영체제/Chapter 10/Chapter 10.md",
     "25f/게임그래픽프로그래밍/11주차/실습 8.md",
-    "25f/게임그래픽프로그래밍/11주차/resources/9. Texturing.pdf",
-    "25f/운영체제/Chapter 10/resources/[Lec10] Virtual memory.pdf",
     "25f/게임그래픽프로그래밍/11주차/resources/earth.bmp",
     "25f/게임그래픽프로그래밍/11주차/Texturing.md",
     "conflict-files-obsidian-git.md",
     "25f/운영체제/Chapter 9/Chapter 9.md",
-    "25f/운영체제/Chapter 10/resources",
-    "25f/운영체제/Chapter 10",
     "25f/게임그래픽프로그래밍/10주차/실습 7.md",
     "25f/금융실무특강/11주차/부채.md",
-    "25f/금융실무특강/11주차",
     "25f/경제학사/Untitled.md",
     "25f/게임그래픽프로그래밍/11주차/resources/Pasted image 20250514125215.png",
     "25f/게임그래픽프로그래밍/10주차/resources/Pasted image 20250514121718.png",
@@ -212,8 +235,6 @@
     "25f/운영체제/Chapter 6/Chapter 6.md",
     "25f/운영체제/Chapter 7/Chapter 7.md",
     "25f/운영체제/Chapter 9/resources/Pasted image 20250512112907.png",
-    "25f/운영체제/Chapter 9/resources/Pasted image 20250514112757.png",
-    "25f/운영체제/Chapter 9/resources/Pasted image 20250514113014.png",
     "25f/운영체제/Syllabus.md",
     "IDEA/Drawing 2025-05-12 09.40.39.excalidraw.md",
     "IDEA/enchanted.md",
@@ -224,7 +245,6 @@
     "25f/경제학사/David Ricardo.md",
     "25f/경제학사/daily notes/2025-05-09.md",
     "25f/경제학사/Adam Smith.md",
-    "25f/경제학사/daily notes/2025-03-28.md",
     "Untitled.canvas",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Untitled.canvas",
     "AnimalFarm2/Quest.canvas",

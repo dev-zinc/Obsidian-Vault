@@ -53,3 +53,77 @@
 #### Least Frequently Used
 - LFU
 - Approx하면 LRU와 같아짐
+#### Frame 할당
+- Equal Allocation
+	- 모든 프로세스에 동일한 양을 할당
+- Proportional Allocation
+	- 프로세스의 크기에 따라 할당
+	- OS가 기본적으로 사용
+		- 실제로는 특별한 경우를 위한 우선순위와 함께 사용
+- Priority-based Allocation
+	- 특정 우선순위 기반 할당
+#### Page Replacement
+- Local Replacement
+	- 프로세스 내에서 교체가 이루어지는 것
+- Global Replacement
+	- 프로세스 외부와 교체하는 것
+#### Frame 수 동적 조정
+- page-fault 빈도와 frame 수는 음의 관계
+- frame 수 초기 할당 후, page-fault가 일어나지 않으면 프레임을 줄임
+- page-fault가 빈번하면 프레임을 늘림
+- physical memory의 한계를 고려하여 upper bound와 lower bound를 설정하고 그 사이에서 조정![[Pasted image 20250526105413.png]]
+
+따라서 Page Replacement는 프레임을 모두 사용할 때, Upper Bound에 도달한 경우 일어난다.
+#### Thrashing
+- 페이지 교체로 인해 프로세스가 과포화되는 것
+- 모든 프로세스의 Locality 총합 $>$ Physical Memory 용량![[Pasted image 20250526110035.png]]
+#### Working-Set Model
+- 시스템 전체 Locality 합
+- 프로세스의 Working Set Size $WSS_i=$최근 $\delta$동안 참조된 페이지 수
+- $\delta$의 적절한 크기가 주요
+## 고려사항
+#### Page Size
+- Fragmentation
+	- Page Size가 작을수록 감소
+- Page Table Size
+	- Page Size가 작을수록 커짐
+- I/O Overhead
+	- Page Size가 작을수록 디스크 접근이 많아짐
+	-  Page Size가 작을수록 Page Fault 시 디스크 로드 시간이 단축
+- Locality
+	- Page Size가 커질수록 Locality 활용도는 커짐
+	- 그러나 한 번 쓰고 마는 데이터에 대해서는 비효율 발생
+	- 적절한 size가 필요
+#### TLB Reach
+- TLB가 접근 가능한 메모리 용량
+- (TLB Size) X (Page Size) 
+- Multiple Page Size를 통해 TLB Size 챙길 수 있음
+#### Program Structure
+- #1 - Spacial Locality 박살
+- 1024 * 1024 page faults
+	```c
+	int A[1024][1024];
+	
+	for (j = 0; j < 1024; j++) 
+	{
+		for (i = 0; i < 1024; i++)
+		{
+			A[i][j] = 0;
+		}
+	}
+	```
+- #2 - Spacial Locality 효율적
+- 1024 page faults
+	```c
+	int A[1024][1024];
+	
+	for (i = 0; i < 1024; j++) 
+	{
+		for (j = 0; j < 1024; i++)
+		{
+			A[i][j] = 0;
+		}
+	}
+	```
+#### I/O Interlock
+- DMA 등이 큰 데이터를 로드하기 위해 할당받은 버퍼가 Page Fault로 인해 Victim으로 선정되는 경우를 방지하기 위해 메모리가 거는 락
