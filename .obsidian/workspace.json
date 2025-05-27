@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3fac0c3665fb762d",
+        "id": "04324e98bed4587b",
         "type": "tabs",
         "children": [
           {
-            "id": "db1939406a48f27c",
+            "id": "830461cf2a93c40d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "25f/운영체제/Chapter 9/Chapter 9.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Chapter 9"
             }
           }
         ]
@@ -171,11 +175,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "db1939406a48f27c",
+  "active": "830461cf2a93c40d",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Pasted image 20250526110035.png",
     "Pasted image 20250526105413.png",
+    "conflict-files-obsidian-git.md",
     "25f/게임그래픽프로그래밍/13주차/resources/11. Stenciling.pdf",
     "25f/게임그래픽프로그래밍/13주차/Stenciling.md",
     "25f/게임그래픽프로그래밍/13주차/resources",
