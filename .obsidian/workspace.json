@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fe5c78cdfd8a1f57",
+        "id": "3fac0c3665fb762d",
         "type": "tabs",
         "children": [
           {
-            "id": "0c3a5d3c0b9e9b33",
+            "id": "db1939406a48f27c",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "25f/게임그래픽프로그래밍/11주차/실습 8.md",
-                "bFile": "25f/게임그래픽프로그래밍/11주차/실습 8.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 실습 8"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -175,8 +171,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c3a5d3c0b9e9b33",
+  "active": "db1939406a48f27c",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Pasted image 20250526110035.png",
+    "Pasted image 20250526105413.png",
+    "25f/게임그래픽프로그래밍/13주차/resources/11. Stenciling.pdf",
+    "25f/게임그래픽프로그래밍/13주차/Stenciling.md",
+    "25f/게임그래픽프로그래밍/13주차/resources",
+    "25f/게임그래픽프로그래밍/13주차",
     "25f/게임그래픽프로그래밍/11주차/resources/9. Texturing.pdf",
     "25f/게임그래픽프로그래밍/11주차/실습 8.md",
     "25f/운영체제/Chapter 10/resources/Pasted image 20250521113048.png",
@@ -189,16 +192,11 @@
     "25f/게임그래픽프로그래밍/12주차/resources",
     "25f/게임그래픽프로그래밍/12주차",
     "25f/게임그래픽프로그래밍/11주차/resources/earth.bmp",
-    "conflict-files-obsidian-git.md",
     "25f/운영체제/Chapter 10/resources/[Lec10] Virtual memory.pdf",
     "25f/운영체제/Chapter 10/resources",
     "25f/운영체제/Chapter 10/Chapter 10.md",
-    "25f/운영체제/Chapter 10",
     "25f/게임그래픽프로그래밍/10주차/실습 7.md",
-    "25f/게임그래픽프로그래밍/10주차/resources/8. Lighting.pdf",
     "25f/금융실무특강/11주차/부채.md",
-    "25f/금융실무특강/11주차",
-    "25f/게임그래픽프로그래밍/10주차/resources/8. Lighting-supplements.pdf",
     "25f/경제학사/Untitled.md",
     "25f/게임그래픽프로그래밍/11주차/resources/Pasted image 20250514125215.png",
     "IDEA/enchanted.md",
@@ -206,8 +204,6 @@
     "25f/운영체제/Chapter 9/resources/Pasted image 20250514113014.png",
     "25f/운영체제/Chapter 9/resources/Pasted image 20250514112757.png",
     "25f/운영체제/Chapter 9/resources/Pasted image 20250512112907.png",
-    "25f/금융실무특강/10주차/resources/Pasted image 20250509172040.png",
-    "25f/금융실무특강/10주차/resources/Pasted image 20250509154050.png",
     "25f/게임그래픽프로그래밍/11주차/Texturing.md",
     "IDEA/Drawing 2025-05-10 23.54.15.excalidraw.md",
     "IDEA/Untitled.md",
@@ -223,7 +219,6 @@
     "25f/금융실무특강/midterm/금융회사.md",
     "25f/금융실무특강/midterm/금융제도.md",
     "25f/금융실무특강/midterm/금융유관기관.md",
-    "25f/금융실무특강/midterm/금융시장.md",
     "Untitled.canvas",
     "KoreanPoker/Untitled.canvas",
     "컴퓨터네트워크/Untitled.canvas"
