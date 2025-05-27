@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1c63bfa5eff87bda",
+        "id": "fe5c78cdfd8a1f57",
         "type": "tabs",
         "children": [
           {
-            "id": "d85f8d06bbf186fb",
+            "id": "0c3a5d3c0b9e9b33",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "split-diff-view",
               "state": {
-                "file": "25f/금융실무특강/resources/Pasted image 20250523160641.png"
+                "aFile": "25f/게임그래픽프로그래밍/11주차/실습 8.md",
+                "bFile": "25f/게임그래픽프로그래밍/11주차/실습 8.md",
+                "aRef": ""
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250523160641"
+              "icon": "diff",
+              "title": "Diff: 실습 8"
             }
           }
         ]
@@ -76,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 244.5
   },
   "right": {
     "id": "26d95bc1bd661cbb",
@@ -92,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "25f/금융실무특강/금융실무특강.md",
+                "file": "컴퓨터네트워크/Routing Protocol/Enhanced Interior Gateway Routing Protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 금융실무특강"
+              "title": "Backlinks for Enhanced Interior Gateway Routing Protocol"
             }
           },
           {
@@ -111,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "25f/금융실무특강/금융실무특강.md",
+                "file": "컴퓨터네트워크/Routing Protocol/Enhanced Interior Gateway Routing Protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 금융실무특강"
+              "title": "Outgoing links from Enhanced Interior Gateway Routing Protocol"
             }
           },
           {
@@ -126,9 +128,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -140,13 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "25f/금융실무특강/금융실무특강.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "anif_item_manager/개요.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 금융실무특강"
+              "title": "Outline of 개요"
             }
           },
           {
@@ -168,66 +165,67 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
       "canvas:Create new canvas": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a97f0ab96a65aefe",
+  "active": "0c3a5d3c0b9e9b33",
   "lastOpenFiles": [
+    "25f/게임그래픽프로그래밍/11주차/resources/9. Texturing.pdf",
+    "25f/게임그래픽프로그래밍/11주차/실습 8.md",
     "25f/운영체제/Chapter 10/resources/Pasted image 20250521113048.png",
-    "25f/금융실무특강/12주차/보험.md",
-    "Pasted image 20250523172157.png",
     "25f/금융실무특강/resources/Pasted image 20250523172156.png",
     "25f/금융실무특강/resources/Pasted image 20250523160641.png",
-    "25f/금융실무특강/금융실무특강.md",
-    "25f/금융실무특강/resources/대학생을 위한 실용금융_제4판_250217.pdf",
+    "25f/금융실무특강/12주차/보험.md",
     "25f/금융실무특강/12주차",
-    "25f/게임그래픽프로그래밍/12주차/Blending.md",
     "25f/게임그래픽프로그래밍/12주차/resources/10. Blending.pdf",
+    "25f/게임그래픽프로그래밍/12주차/Blending.md",
     "25f/게임그래픽프로그래밍/12주차/resources",
     "25f/게임그래픽프로그래밍/12주차",
-    "25f/운영체제/Chapter 10/Chapter 10.md",
-    "25f/게임그래픽프로그래밍/11주차/실습 8.md",
-    "25f/게임그래픽프로그래밍/11주차/resources/9. Texturing.pdf",
-    "25f/운영체제/Chapter 10/resources/[Lec10] Virtual memory.pdf",
     "25f/게임그래픽프로그래밍/11주차/resources/earth.bmp",
-    "25f/게임그래픽프로그래밍/11주차/Texturing.md",
     "conflict-files-obsidian-git.md",
-    "25f/운영체제/Chapter 9/Chapter 9.md",
+    "25f/운영체제/Chapter 10/resources/[Lec10] Virtual memory.pdf",
     "25f/운영체제/Chapter 10/resources",
+    "25f/운영체제/Chapter 10/Chapter 10.md",
     "25f/운영체제/Chapter 10",
     "25f/게임그래픽프로그래밍/10주차/실습 7.md",
+    "25f/게임그래픽프로그래밍/10주차/resources/8. Lighting.pdf",
     "25f/금융실무특강/11주차/부채.md",
     "25f/금융실무특강/11주차",
+    "25f/게임그래픽프로그래밍/10주차/resources/8. Lighting-supplements.pdf",
     "25f/경제학사/Untitled.md",
     "25f/게임그래픽프로그래밍/11주차/resources/Pasted image 20250514125215.png",
-    "25f/게임그래픽프로그래밍/10주차/resources/Pasted image 20250514121718.png",
-    "25f/운영체제/Chapter 8/Chapter 8.md",
-    "25f/운영체제/Chapter 6/Chapter 6.md",
-    "25f/운영체제/Chapter 7/Chapter 7.md",
-    "25f/운영체제/Chapter 9/resources/Pasted image 20250512112907.png",
-    "25f/운영체제/Chapter 9/resources/Pasted image 20250514112757.png",
-    "25f/운영체제/Chapter 9/resources/Pasted image 20250514113014.png",
-    "25f/운영체제/Syllabus.md",
-    "IDEA/Drawing 2025-05-12 09.40.39.excalidraw.md",
     "IDEA/enchanted.md",
+    "IDEA/Drawing 2025-05-12 09.40.39.excalidraw.md",
+    "25f/운영체제/Chapter 9/resources/Pasted image 20250514113014.png",
+    "25f/운영체제/Chapter 9/resources/Pasted image 20250514112757.png",
+    "25f/운영체제/Chapter 9/resources/Pasted image 20250512112907.png",
+    "25f/금융실무특강/10주차/resources/Pasted image 20250509172040.png",
+    "25f/금융실무특강/10주차/resources/Pasted image 20250509154050.png",
+    "25f/게임그래픽프로그래밍/11주차/Texturing.md",
+    "IDEA/Drawing 2025-05-10 23.54.15.excalidraw.md",
     "IDEA/Untitled.md",
-    "25f/금융실무특강/10주차/10주차.md",
-    "25f/금융실무특강/9주차/9주차.md",
-    "25f/경제학사/drawings/Drawing 2025-05-09 11.35.29.excalidraw.md",
-    "25f/경제학사/David Ricardo.md",
-    "25f/경제학사/daily notes/2025-05-09.md",
-    "25f/경제학사/Adam Smith.md",
-    "25f/경제학사/daily notes/2025-03-28.md",
+    "IDEA/Untitled.canvas",
+    "IDEA/Software Engineers.md",
+    "25f/정보보호/10주차/10주차.md",
+    "25f/금융실무특강/resources/신용리스크.md",
+    "25f/금융실무특강/midterm/채권.md",
+    "25f/금융실무특강/midterm/환율.md",
+    "25f/금융실무특강/midterm/지수.md",
+    "25f/금융실무특강/midterm/주식 가치 평가 모형.md",
+    "25f/금융실무특강/midterm/재무재표.md",
+    "25f/금융실무특강/midterm/금융회사.md",
+    "25f/금융실무특강/midterm/금융제도.md",
+    "25f/금융실무특강/midterm/금융유관기관.md",
+    "25f/금융실무특강/midterm/금융시장.md",
     "Untitled.canvas",
-    "AnimalFarm2/KoreanPoker/Sequence Diagrams/Untitled.canvas",
-    "AnimalFarm2/Quest.canvas",
+    "KoreanPoker/Untitled.canvas",
     "컴퓨터네트워크/Untitled.canvas"
   ]
 }
