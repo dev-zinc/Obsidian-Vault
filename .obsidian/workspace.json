@@ -6,6 +6,7 @@
       {
         "id": "9c84ec05af91900e",
         "type": "tabs",
+        "dimension": 39.90182328190743,
         "children": [
           {
             "id": "80570f2c9e823cab",
@@ -26,6 +27,7 @@
       {
         "id": "b6a75dcf593a8e92",
         "type": "tabs",
+        "dimension": 60.09817671809257,
         "children": [
           {
             "id": "00bc13b6606ffe81",
@@ -201,22 +203,24 @@
   },
   "active": "80570f2c9e823cab",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "25f/운영체제/Chapter 11/resources/[Lec11] Mass-storage structure.pdf",
+    "25f/운영체제/[Lec12] IO systems.pdf",
+    "25f/운영체제/[Lec13] File system interface.pdf",
+    "25f/운영체제/[Lec14-15] File system implementation and internals.pdf",
+    "25f/운영체제/Chapter 10/resources/[Lec10] Virtual memory.pdf",
     "25f/운영체제/Chapter 11/Chapter 11.md",
+    "conflict-files-obsidian-git.md",
     "25f/운영체제/Chapter 10/Chapter 10.md",
     "25f/운영체제/Chapter 11/resources",
     "25f/운영체제/Untitled.canvas",
     "25f/운영체제/Chapter 11",
     "25f/운영체제/Chapter 10/resources/Pasted image 20250521113048.png",
     "25f/게임그래픽프로그래밍/13주차/Stenciling.md",
-    "25f/운영체제/Chapter 10/resources/[Lec10] Virtual memory.pdf",
     "25f/게임그래픽프로그래밍/13주차/resources/11. Stenciling.pdf",
     "25f/게임그래픽프로그래밍/12주차/Blending.md",
     "25f/게임그래픽프로그래밍/12주차/resources/10. Blending.pdf",
     "25f/게임그래픽프로그래밍/13주차/resources",
     "25f/게임그래픽프로그래밍/13주차/무제 폴더",
-    "25f/게임그래픽프로그래밍/13주차/11. Stenciling.pdf",
-    "25f/게임그래픽프로그래밍/13주차",
     "Pasted image 20250526110035.png",
     "Pasted image 20250526105413.png",
     "25f/금융실무특강/resources/Pasted image 20250523160641.png",
@@ -224,7 +228,6 @@
     "Pasted image 20250523172157.png",
     "25f/금융실무특강/resources/Pasted image 20250523172156.png",
     "25f/금융실무특강/금융실무특강.md",
-    "25f/금융실무특강/resources/대학생을 위한 실용금융_제4판_250217.pdf",
     "25f/게임그래픽프로그래밍/11주차/실습 8.md",
     "25f/게임그래픽프로그래밍/11주차/resources/earth.bmp",
     "25f/게임그래픽프로그래밍/11주차/Texturing.md",
@@ -247,7 +250,6 @@
     "25f/경제학사/drawings/Drawing 2025-05-09 11.35.29.excalidraw.md",
     "25f/경제학사/David Ricardo.md",
     "25f/경제학사/daily notes/2025-05-09.md",
-    "25f/경제학사/Adam Smith.md",
     "Untitled.canvas",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Untitled.canvas",
     "AnimalFarm2/Quest.canvas",
