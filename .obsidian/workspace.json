@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 311.5,
+    "collapsed": true
   },
   "right": {
     "id": "26d95bc1bd661cbb",
@@ -200,8 +201,9 @@
   },
   "active": "80570f2c9e823cab",
   "lastOpenFiles": [
-    "25f/운영체제/Chapter 10/Chapter 10.md",
+    "conflict-files-obsidian-git.md",
     "25f/운영체제/Chapter 11/Chapter 11.md",
+    "25f/운영체제/Chapter 10/Chapter 10.md",
     "25f/운영체제/Chapter 11/resources",
     "25f/운영체제/Untitled.canvas",
     "25f/운영체제/Chapter 11",
@@ -226,7 +228,6 @@
     "25f/게임그래픽프로그래밍/11주차/실습 8.md",
     "25f/게임그래픽프로그래밍/11주차/resources/earth.bmp",
     "25f/게임그래픽프로그래밍/11주차/Texturing.md",
-    "conflict-files-obsidian-git.md",
     "25f/운영체제/Chapter 9/Chapter 9.md",
     "25f/게임그래픽프로그래밍/10주차/실습 7.md",
     "25f/금융실무특강/11주차/부채.md",

@@ -182,7 +182,6 @@ $EAT = (1+\epsilon)\alpha+(2+\epsilon)(1-\alpha)$
 - invalid entry를 모두 표기할 필요가 있는가?
 #### Hierarchical paging 
 - 무손실 압축
-<<<<<<< HEAD
 - Outer Page Table로부터 시작하는 트리 구조의 테이블을 선언
 - invalid한 부분을 할당하지 않음
 ##### Two-level Paging 예제
@@ -191,10 +190,6 @@ $EAT = (1+\epsilon)\alpha+(2+\epsilon)(1-\alpha)$
 	- Page Table: 4MB
 	- => 4KB만큼 오버헤드 발생
 	- 그러나 항상 4MB를 가지게 되는 단일 레벨 페이징보다 압도적
-=======
-- Two-level paging
-	- invalid로 표기된 페이지로 낭비되던 공간을 없앰으로서 massive한 공간확보가 가능
->>>>>>> origin/main
 #### Hashed page table
 - 손실 압축
 - 페이지 넘버를 해싱 (예: 10으로 나눈 나머지를 저장)
