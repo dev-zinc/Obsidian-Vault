@@ -1,0 +1,55 @@
+#### File Control Block
+
+#### Directory 구현
+- 통째로 구현
+	- 너무 커져 불편함
+- 테이블 형식, 파일 이름 - 파일 포인터 테이블
+	- 테이블 형식의 디렉토리는 ls -al 등으로 읽기 시 모든 파일을 참조해와야 하는 등의 비효율 존재
+- 하이브리드
+	- 필수적 정보는 반정규화하여 빠르게 참조할 수 있도록 함
+	- 메타데이터
+#### File Allocation
+- 디스크에 파일을 실제로 저장하기 위한 방법
+- Contiguous allocation![[Pasted image 20250609104245.png]]
+	- 장점
+		- Seek Time이 짧음
+		- 
+	- 단점
+		- Fragmentation
+	- R/W이 빈번하게 일어나는 매체에는 적절하지 않음
+	- Read만 일어나고 읽는 순서가 정적인 DVD, CD-ROM 등의 매체에 적합 
+- Linked allocation 
+	- 각각의 block에 다음 노드 포인터 저장
+	- 메타 데이터에는 시작 노드와 끝 노드만 저장
+	- 장점
+		- Fragmentation 없음
+	- 단점
+		- Seek Time이 매우 김
+		- 읽는 순서가 제한적(Queue 형태)
+		- Spacial Locality가 낮음
+		- 노드 하나가 날아가면 파일 전체를 찾을 수 없어 신뢰성이 낮음
+	- FAT
+		- 위를 보완키 위해 포인터 정보를 모아둘 block을 지정하고 이를 백업해두고 사용
+		- 신뢰성이 위보단 높으나 여전히 낮음
+		- 가볍게 사용 시 쓸만함
+- Indexed allocation
+	- 단점
+		- 하나의 block을 index block을 잡고 그곳에 index를 모두 저장
+		- 메타 데이터에는 index block에 대한 위치만 저장
+		- 한 block이 4KB이면 한 entry가 4bytes일 때 1KB의 위치정보 저장 가능, 한 block은 최대 4MB의 데이터 저장 가능
+		- 여전히 신뢰성 문제 존재
+	- UFS에서의 Combined scheme
+		- Tree 구조의 FCB 사용![[Pasted image 20250609110043.png]]
+		- direct block
+			- 12개의 block을 두고 사용
+			- 위와 같음
+		- single indirect
+			- index block을 한 번 더 두어 한 블록의 Capacity를 1K배 (총 4GB)
+		- double indirect
+			- 4TB
+		- triple indirect
+			- 최근에 사용되고 있음
+#### Buffer Cache
+- write-through는 디스크의 속도가 느려 사용 어려움
+- write-back 사용
+- 
