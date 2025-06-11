@@ -35,10 +35,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "25f/운영체제/Chapter 16/[Lec16] Security.pdf"
+                "file": "25f/게임그래픽프로그래밍/14. The Tessellation Stages.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "[Lec16] Security"
+              "title": "14. The Tessellation Stages"
             }
           }
         ]
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "26d95bc1bd661cbb",
@@ -201,10 +200,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bd32b31f93cd6666",
+  "active": "8eaf0ab4c7d2acb5",
   "lastOpenFiles": [
-    "25f/운영체제/Chapter 16/Chapter 16.md",
+    "25f/게임그래픽프로그래밍/16. Character Animation.pdf",
+    "25f/게임그래픽프로그래밍/15. Quaternions.pdf",
+    "25f/게임그래픽프로그래밍/14. The Tessellation Stages.pdf",
     "25f/운영체제/Chapter 16/[Lec16] Security.pdf",
+    "25f/운영체제/Chapter 16/Chapter 16.md",
     "25f/정보보호/웹해킹실습_설명_250516.pdf",
     "25f/정보보호/정보보호-5. RF신호해킹 및 보안.pdf",
     "25f/정보보호/final.md",
@@ -212,10 +214,7 @@
     "25f/정보보호/10주차/10주차.md",
     "25f/정보보호/6주차/resources/정보보호-4. 정보보호와 암호.pdf",
     "25f/정보보호/RF 통신 해킹 및 SDR.md",
-    "25f/게임그래픽프로그래밍/14. The Tessellation Stages.pdf",
     "25f/게임그래픽프로그래밍/15주차.md",
-    "25f/게임그래픽프로그래밍/15. Quaternions-2.pdf",
-    "25f/게임그래픽프로그래밍/16. Character Animation.pdf",
     "25f/운영체제/Chapter 16.md",
     "25f/운영체제/Chapter 14/Pasted image 20250609110043.png",
     "25f/운영체제/Chapter 14/Pasted image 20250609104245.png",
