@@ -1,8 +1,17 @@
-#### Virtual Memory가 매우 커질 때
-- HDD를 사용하여 이론상 무한대 크기의 VM 확보
 ## Demand Paging
+- Page 레벨의 swapping
+#### Virtual Memory가 매우 커질 때
+- 프로세스의 Virtual Address Space가 Physical Memory의 최대 크기보다 큰 경우
+- 사용하지 않는 페이지를 디스크에 보관, 이론상 매우 큰 Virtual Address Space 확보 
+#### Demand Paging의 작동
+- 초기에는 Physical Memory에 로드되는 Frame은 없고, 디스크에 모든 Frame을 저장 
+- '요청'이 있을 때만 Frame을 Physical Memory로 서빙
+	- 메모리 - 디스크 간의 일종의 캐싱
+
+Demand Paging은 따라서, Locality가 높은 구조이므로 효율적으로 작동한다고 볼 수 있다.
+
 - Lazy-Load Time 주소 바인딩
-- Page 레벨에서의 swapping
+- 
 - 이전까지는 모든 필요한 메모리 주소공간을 할당했으나, 이제는 필요할 때 할당
 - 실행 시 Execution Time에 필요한 페이지만 업데이트
 - Physical Memory 절약

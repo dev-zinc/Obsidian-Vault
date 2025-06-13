@@ -4,41 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7180c10a812386e1",
+        "id": "b819b5339176ed15",
         "type": "tabs",
-        "dimension": 35.34361851332398,
         "children": [
           {
-            "id": "6dcb97a915d71590",
+            "id": "f07d58964aca485d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "25f/운영체제/Chapter 16/Chapter 16.md",
+                "file": "25f/경제학사/daily notes/2025-06-13.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapter 16"
-            }
-          }
-        ]
-      },
-      {
-        "id": "cdcc412baaf3c350",
-        "type": "tabs",
-        "dimension": 64.65638148667601,
-        "children": [
-          {
-            "id": "8eaf0ab4c7d2acb5",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "25f/운영체제/Chapter 16/[Lec16] Security.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "[Lec16] Security"
+              "title": "2025-06-13"
             }
           }
         ]
@@ -98,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "26d95bc1bd661cbb",
@@ -201,26 +180,33 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "bd32b31f93cd6666",
+  "active": "f07d58964aca485d",
   "lastOpenFiles": [
-    "25f/운영체제/Chapter 16/Chapter 16.md",
-    "25f/운영체제/Chapter 16/[Lec16] Security.pdf",
-    "25f/정보보호/웹해킹실습_설명_250516.pdf",
+    "25f/경제학사/resources/20250613_1.pdf",
+    "25f/경제학사/resources/20250530_1.pdf",
+    "25f/경제학사/resources/20250530_2.pdf",
+    "25f/경제학사/resources/20250530_설명.pdf",
+    "25f/경제학사/resources/20250509_설명.pdf",
+    "25f/경제학사/daily notes/2025-05-30.md",
+    "25f/경제학사/daily notes/2025-06-13.md",
+    "25f/운영체제/Chapter 10/Chapter 10.md",
+    "25f/운영체제/Chapter 10/resources/[Lec10] Virtual memory.pdf",
+    "25f/운영체제/Chapter 10/Studio.md",
+    "25f/운영체제/Chapter 9/Chapter 9.md",
+    "25f/운영체제/Chapter 8/Chapter 8.md",
+    "25f/정보보호/RF 통신 해킹 및 SDR.md",
     "25f/정보보호/정보보호-5. RF신호해킹 및 보안.pdf",
+    "25f/운영체제/Chapter 16/[Lec16] Security.pdf",
     "25f/정보보호/final.md",
+    "25f/운영체제/Chapter 16/Chapter 16.md",
+    "25f/정보보호/웹해킹실습_설명_250516.pdf",
     "25f/정보보호/10주차/정보보호-6. 악성코드와 해킹.pdf",
     "25f/정보보호/10주차/10주차.md",
     "25f/정보보호/6주차/resources/정보보호-4. 정보보호와 암호.pdf",
-    "25f/정보보호/RF 통신 해킹 및 SDR.md",
-    "25f/게임그래픽프로그래밍/14. The Tessellation Stages.pdf",
     "25f/게임그래픽프로그래밍/15주차.md",
-    "25f/게임그래픽프로그래밍/15. Quaternions-2.pdf",
-    "25f/게임그래픽프로그래밍/16. Character Animation.pdf",
     "25f/운영체제/Chapter 16.md",
     "25f/운영체제/Chapter 14/Pasted image 20250609110043.png",
     "25f/운영체제/Chapter 14/Pasted image 20250609104245.png",
-    "25f/운영체제/Chapter 13/[Lec13] File system interface.pdf",
-    "25f/운영체제/Chapter 14/[Lec14-15] File system implementation and internals.pdf",
     "25f/운영체제/Chapter 14/Chapter 14.md",
     "25f/운영체제/Chapter 13/Chapter 13.md",
     "25f/운영체제/Chapter 12/Chapter 12.md",
@@ -233,22 +219,16 @@
     "25f/운영체제/Chapter 11/Chapter 11.md",
     "25f/게임그래픽프로그래밍/Geometry Shader.md",
     "25f/경제학사/drawings/Drawing 2025-05-30 11.16.00.excalidraw.md",
-    "25f/경제학사/daily notes/2025-05-30.md",
     "conflict-files-obsidian-git.md",
     "25f/게임그래픽프로그래밍/14주차/실습 9.md",
     "25f/운영체제/Chapter 10/resources/Pasted image 20250526105413.png",
     "25f/운영체제/Chapter 10/resources/Pasted image 20250526110035.png",
-    "25f/운영체제/Chapter 10/Chapter 10.md",
     "25f/운영체제/Untitled.canvas",
     "25f/운영체제/Chapter 10/resources/Pasted image 20250521113048.png",
     "25f/게임그래픽프로그래밍/13주차/Stenciling.md",
     "25f/게임그래픽프로그래밍/12주차/Blending.md",
     "25f/금융실무특강/resources/Pasted image 20250523160641.png",
-    "25f/금융실무특강/12주차/보험.md",
     "Pasted image 20250523172157.png",
-    "25f/금융실무특강/금융실무특강.md",
-    "25f/게임그래픽프로그래밍/11주차/실습 8.md",
-    "25f/게임그래픽프로그래밍/11주차/Texturing.md",
     "Untitled.canvas",
     "AnimalFarm2/KoreanPoker/Sequence Diagrams/Untitled.canvas",
     "AnimalFarm2/Quest.canvas",
